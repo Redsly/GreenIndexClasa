@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Green Index
+{% endblock %}
+
+{% block headadd %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}"/>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/map.css') }}" />
+{{header|safe}}
+{% endblock %}
+
+{% block content %}
+<body style = "background-image: linear-gradient( rgb(0, 150, 153), darkblue); height: 100%; margin: 0; background-repeat: no-repeat; background-attachment: fixed;">
+    <div id="SideNav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn prevent-select" onclick="closeNav()">&times;</a>
+      <a href="/species" class="prevent-select"; style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Species</a>
+      <a href="/nature_reserve" class="prevent-select"; style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Nature Reserves</a>
+      <a href="/about_us" class="prevent-select"; style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">About Us</a>
+    </div>
+    <button class="openbtn prevent-select" onclick="openNav()" style="cursor:pointer;">&#9776;</button>
+    <h1><p align="center">GREEN INDEX</p></h1>
+    <div id="main">
+      <div align = center class="wrapper" id="wrapper">
+        <div class="no_class" id="map_div">
+          <h4 style = "text-align: center; color: white">
+            <img style="width: 5%; height: 5%;" src = "/static/images/pawprint.png"> Specii de animale 
+            <img style="width: 5%; height: 5%;" src = "/static/images/frunza.png">  Specii de plante  
+            <img style="width: 5%; height: 5%;" src = "/static/images/acvatic.png"> Specii de pesti 
+          </h4>
+            {{body_html | safe}}
+        </div>
+      </div>
+      <script src="/static/js/slide_show.js"></script>
+    </div>
+    <script src="/static/js/index.js"></script>
+</body>
+{% endblock %}
+
+{% block scripts %}
+{{script | safe}}
+
+function update_page(response){
+  var prev = document.getElementById("info");
+  if(prev != null){
+      prev.parentNode.removeChild(prev);
+  }
+  
+  var el = document.getElementById('wrapper');
+  var tmp = document.getElementsByClassName('no_class')[0];
+
+  if (!tmp.classList.contains('item_first') ){
+      tmp.classList.add('item_first');
+  }
+  var aux = document.createElement('template');
+  response = response.trim();
+  aux.innerHTML = response;
+  el.appendChild(aux.content.firstChild);
+}
+{% endblock %}
