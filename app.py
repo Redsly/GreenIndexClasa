@@ -18,7 +18,7 @@ app = Flask(__name__)
 
 marker_list = []
 area_list = []
-#raduloveshyrax
+
 rules = []
 
 
