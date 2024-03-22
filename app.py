@@ -195,34 +195,34 @@ if __name__ == '__main__':
     animal_group = folium.FeatureGroup(name="Animal Species", color='brown')
     plant_group = folium.FeatureGroup(name="Plant Species", color='plant')
     fish_group = folium.FeatureGroup(name="Fish Species", color='blue')
+    battles_group = folium.FeatureGroup(name="Historic Battles", color='red')
+    monuments_group = folium.FeatureGroup(name="Historic Monuments", color='brown')
     reservs_group = folium.FeatureGroup(name="Natural Reserves", color='gray')
     
     
-    #Read biology data
-    data_manip.read_biology_data(marker_list, animal_group, fish_group, plant_group)
-            
+    #Read biology data + rezervations
+    data_manip.read_biology_data(marker_list, animal_group, fish_group, plant_group, area_list, reservs_group)
+    
+    #Read history data
+    data_manip.read_history_data(marker_list, monuments_group, battles_group)
+    
+    #Order groups in list
     animal_group.add_to(map)
     plant_group.add_to(map)
     fish_group.add_to(map)
+    reservs_group.add_to(map)
+    
+    monuments_group.add_to(map)
+    battles_group.add_to(map)
+    
     
     animal_group.add_to(search_group)
     plant_group.add_to(search_group)
     fish_group.add_to(search_group)
     
-    for j_file in glob.glob("data/biology/reservations/*.json"):
-        if j_file.rfind('template') == -1:
-            f = open(j_file, encoding="utf8")
-            js = json.load(f)
-            
-            poly = folium.Polygon(locations= js['area'], color='green', weight=1, fill_color="light_blue", fill_opacity=0.3, fill=True, tooltip=js['name'], name=js['name']).add_to(reservs_group)
-            
-            area_list.append(js)
-            
-            f.close()
+    monuments_group.add_to(search_group)
+    battles_group.add_to(search_group)
     
-    
-    
-    reservs_group.add_to(map)
     
     folium.map.LayerControl('topright', collapsed = True,).add_to(map)
     
