@@ -186,8 +186,6 @@ if __name__ == '__main__':
                           {% endmacro %}"""
     
     folium.Polygon._template = Template(click_template_p)
-    
-    rules = json.load(open("data/recommendations/recomendations.json", encoding="utf8"))
 
     
     search_group = folium.FeatureGroup(
@@ -199,33 +197,10 @@ if __name__ == '__main__':
     fish_group = folium.FeatureGroup(name="Fish Species", color='blue')
     reservs_group = folium.FeatureGroup(name="Natural Reserves", color='gray')
     
-    for j_file in glob.glob("data/protected_species/*.json"):
-        if j_file.rfind('template') == -1:
-            f = open(j_file, encoding = "utf8")
-            js = json.load(f)
-            i = 0
-            
-            spec = None
-            
-            while i < len(js['location']):
-                if js['type'] == 'Animal':
-                    spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/pawprint.png',icon_size=(45 , 48)))
-                    animal_group.add_child(spec)
-                elif js['type'] == 'Fish':
-                    spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/acvatic.png',icon_size=(45 , 48)))
-                    fish_group.add_child(spec)
-                elif js['type'] == 'Plants':
-                    spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/frunza.png',icon_size=(45 , 48)))
-                    plant_group.add_child(spec)
-                i+=1
-            
-            
-            marker_list.append(js)
-            
-            f.close()
-            
     
-    
+    #Read biology data
+    data_manip.read_biology_data(marker_list, animal_group, fish_group, plant_group)
+            
     animal_group.add_to(map)
     plant_group.add_to(map)
     fish_group.add_to(map)
@@ -234,7 +209,7 @@ if __name__ == '__main__':
     plant_group.add_to(search_group)
     fish_group.add_to(search_group)
     
-    for j_file in glob.glob("data/reservations/*.json"):
+    for j_file in glob.glob("data/biology/reservations/*.json"):
         if j_file.rfind('template') == -1:
             f = open(j_file, encoding="utf8")
             js = json.load(f)

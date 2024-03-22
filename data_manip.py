@@ -1,7 +1,8 @@
 
 import json
+import folium, glob
 
-rules = json.load(open("data/recommendations/recomendations.json", encoding="utf8"))
+rules = json.load(open("data/biology/recommendations/recomendations.json", encoding="utf8"))
 
 
 def format_data(data):
@@ -112,6 +113,59 @@ def format_data(data):
 #
 #
 #
+
+def read_biology_data(marker_list, animal_group, fish_group, plant_group):
+    for j_file in glob.glob("data/biology/protected_species/*.json"):
+        if j_file.rfind('template') == -1:
+            f = open(j_file, encoding = "utf8")
+            js = json.load(f)
+            i = 0
+            
+            spec = None
+            
+            while i < len(js['location']):
+                if js['type'] == 'Animal':
+                    spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/pawprint.png',icon_size=(45 , 48)))
+                    animal_group.add_child(spec)
+                elif js['type'] == 'Fish':
+                    spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/acvatic.png',icon_size=(45 , 48)))
+                    fish_group.add_child(spec)
+                elif js['type'] == 'Plants':
+                    spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/frunza.png',icon_size=(45 , 48)))
+                    plant_group.add_child(spec)
+                i+=1
+            
+            
+            marker_list.append(js)
+            
+            f.close()
+            
+def read_history_data(marker_list, animal_group, fish_group, plant_group):
+    for j_file in glob.glob("data/protected_species/*.json"):
+        if j_file.rfind('template') == -1:
+            f = open(j_file, encoding = "utf8")
+            js = json.load(f)
+            i = 0
+            
+            spec = None
+            
+            while i < len(js['location']):
+                if js['type'] == 'Animal':
+                    spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/pawprint.png',icon_size=(45 , 48)))
+                    animal_group.add_child(spec)
+                elif js['type'] == 'Fish':
+                    spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/acvatic.png',icon_size=(45 , 48)))
+                    fish_group.add_child(spec)
+                elif js['type'] == 'Plants':
+                    spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/frunza.png',icon_size=(45 , 48)))
+                    plant_group.add_child(spec)
+                i+=1
+            
+            
+            marker_list.append(js)
+            
+            f.close()
+
 
 def format_data_gallery(data):
     
