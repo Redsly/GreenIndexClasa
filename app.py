@@ -198,6 +198,7 @@ if __name__ == '__main__':
     battles_group = folium.FeatureGroup(name="Historic Battles", color='red')
     monuments_group = folium.FeatureGroup(name="Historic Monuments", color='brown')
     reservs_group = folium.FeatureGroup(name="Natural Reserves", color='gray')
+    religion_group = folium.FeatureGroup(name="Religious Points", color='purple')
     
     
     #Read biology data + rezervations
@@ -205,6 +206,9 @@ if __name__ == '__main__':
     
     #Read history data
     data_manip.read_history_data(marker_list, monuments_group, battles_group)
+    
+    #Read religion data
+    data_manip.read_religion_data(marker_list, religion_group)
     
     #Order groups in list
     animal_group.add_to(map)
@@ -215,6 +219,8 @@ if __name__ == '__main__':
     monuments_group.add_to(map)
     battles_group.add_to(map)
     
+    religion_group.add_to(map)
+    
     
     animal_group.add_to(search_group)
     plant_group.add_to(search_group)
@@ -222,6 +228,8 @@ if __name__ == '__main__':
     
     monuments_group.add_to(search_group)
     battles_group.add_to(search_group)
+    
+    religion_group.add_to(search_group)
     
     
     folium.map.LayerControl('topright', collapsed = True,).add_to(map)

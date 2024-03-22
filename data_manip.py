@@ -190,6 +190,26 @@ def read_history_data(marker_list, monument_group, battles_group):
             
             f.close()
 
+# RELIGION
+def read_religion_data(marker_list, religion_group):
+    for j_file in glob.glob("data/religion/*.json"):
+        if j_file.rfind('template') == -1:
+            f = open(j_file, encoding = "utf8")
+            js = json.load(f)
+            i = 0
+            
+            spec = None
+            
+            while i < len(js['location']):
+                spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/pawprint.png',icon_size=(45 , 48)))
+                religion_group.add_child(spec)
+                i+=1
+            
+            
+            marker_list.append(js)
+            
+            f.close()
+            
 
 def format_data_gallery(data):
     
