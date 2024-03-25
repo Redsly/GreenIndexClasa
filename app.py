@@ -204,7 +204,7 @@ if __name__ == '__main__':
     
     
     #Read biology data + rezervations
-    data_manip.read_biology_data(marker_list, animal_group, fish_group, plant_group, area_list, reservs_group)
+    data_manip.read_biology_data(marker_list, animal_group, fish_group, plant_group, reservs_group)
     
     #Read geography data
     data_manip.read_geography_data(marker_list, geography_group)

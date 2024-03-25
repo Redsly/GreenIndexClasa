@@ -115,7 +115,7 @@ def format_data(data):
 #
 
 # BIOLOGY
-def read_biology_data(marker_list, animal_group, fish_group, plant_group, area_list, reservs_group):
+def read_biology_data(marker_list, animal_group, fish_group, plant_group, reservs_group):
     for j_file in glob.glob("data/biology/protected_species/*.json"):
         if j_file.rfind('template') == -1:
             f = open(j_file, encoding = "utf8")
@@ -146,9 +146,9 @@ def read_biology_data(marker_list, animal_group, fish_group, plant_group, area_l
             f = open(j_file, encoding="utf8")
             js = json.load(f)
             
-            poly = folium.Polygon(locations= js['area'], color='green', weight=1, fill_color="light_blue", fill_opacity=0.3, fill=True, tooltip=js['name'], name=js['name']).add_to(reservs_group)
-            
-            area_list.append(js)
+            poly = folium.Marker(location= js['location'], tooltip=js['name'], name=js['name'],icon = folium.CustomIcon('static/images/frunza.png',icon_size=(45 , 48)))
+            reservs_group.add_child(poly)
+            marker_list.append(js)
             
             f.close()
 
