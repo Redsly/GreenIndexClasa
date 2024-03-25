@@ -131,7 +131,7 @@ def read_biology_data(marker_list, animal_group, fish_group, plant_group, area_l
                 elif js['type'] == 'Fish':
                     spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/acvatic.png',icon_size=(45 , 48)))
                     fish_group.add_child(spec)
-                elif js['type'] == 'Plants':
+                elif js['type'] == 'Plant':
                     spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/frunza.png',icon_size=(45 , 48)))
                     plant_group.add_child(spec)
                 i+=1
@@ -224,6 +224,26 @@ def read_philosophy_data(marker_list, philosophy_group):
             while i < len(js['location']):
                 spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/pawprint.png',icon_size=(45 , 48)))
                 philosophy_group.add_child(spec)
+                i+=1
+            
+            
+            marker_list.append(js)
+            
+            f.close()
+
+# GEOGRAPHY
+def read_geography_data(marker_list, geography_group):
+    for j_file in glob.glob("data/geography/*.json"):
+        if j_file.rfind('template') == -1:
+            f = open(j_file, encoding = "utf8")
+            js = json.load(f)
+            i = 0
+            
+            spec = None
+            
+            while i < len(js['location']):
+                spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/pawprint.png',icon_size=(45 , 48)))
+                geography_group.add_child(spec)
                 i+=1
             
             
