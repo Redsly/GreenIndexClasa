@@ -23,22 +23,7 @@ def format_data(data):
         else:
             suggestions = rules['animals']
 
-    risc = ""
-    if data.get('status') is not None:
-        if data['status'] == "Risc Scazut":
-            risc = "/static/images/Lc.jpg"
-        elif data['status'] == "Aproape de pericol":
-            risc = "/static/images/Nt.jpg"
-        elif data['status'] == "Vulnerabil":
-            risc = "/static/images/Vu.jpg"
-        elif data['status'] == "In pericol":
-            risc = "/static/images/En.jpg"
-        elif data['status'] == "Critic":
-            risc = "/static/images/Cr.jpg"
-        elif data['status'] == "Extinct in salbaticie":
-            risc = "/static/images/Ew.jpg"
-        elif data['status'] == "Extint":
-            risc = "/static/images/Ex.jpg"
+    risc = get_status(data)
     
     if len(risc) > 0:
         risc = f"<img style = \"width:100px; height:100px; \" src = \"{risc}\">" 
@@ -81,25 +66,10 @@ def format_data(data):
         <div class="slideshow-container">
     
             <div class="mapSlides" width = 50%>
-                <img src="{data['images']}/1.jpg" class = "resize">
-            </div>
-            <div class="mapSlides" width = 50%>
-                <img src="{data['images']}/2.jpg" class = "resize">
-            </div>
-            <div class="mapSlides" width = 50%>
-                <img src="{data['images']}/3.jpg" class = "resize">
+                <img src="{data['images']}" class = "resize">
             </div>
         </div>
-        <br>
-        
-            <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-        
-        
-        </div>
-        
+        <br>    
     </div>
     </div>
     </div>
@@ -256,22 +226,8 @@ def format_data_gallery(data):
     title = f"<h1>{data['name']}</h1>"
 
 
-    risc = ""
-    if data.get('status') is not None:
-        if data['status'] == "Risc Scazut":
-            risc = "/static/images/Lc.jpg"
-        elif data['status'] == "Aproape de pericol":
-            risc = "/static/images/Nt.jpg"
-        elif data['status'] == "Vulnerabil":
-            risc = "/static/images/Vu.jpg"
-        elif data['status'] == "In pericol":
-            risc = "/static/images/En.jpg"
-        elif data['status'] == "Critic":
-            risc = "/static/images/Cr.jpg"
-        elif data['status'] == "Extinct in salbaticie":
-            risc = "/static/images/Ew.jpg"
-        elif data['status'] == "Extint":
-            risc = "/static/images/Ex.jpg"
+    risc = get_status(data)
+   
     
     if len(risc) > 0:
         risc = f"<img style = \"width:100px; height:100px; \" src = \"{risc}\">" 
@@ -295,21 +251,14 @@ def format_data_gallery(data):
         
         </p>
         
-        <div class="grid-container">
-    
-            <div class="card" style=" width: 85%">
-                <img src="{data['images']}/1.jpg" style="width:100%; height:300px;">
-            </div>
-            <div class="card" style="width: 85%">
-                <img src="{data['images']}/2.jpg" style="width:100%; height:300px;">
-            </div>
-            <div class="card" style=" width: 85%">
-                <img src="{data['images']}/3.jpg" style="width:100%; height:300px;">
-            </div>
+        <div align=center style = "width: 35%">
+
+            <img src="{data['images']}" style="width:100%; height:300px;">
+            
         </div>
         <br>
         
-        </div>
+    </div>
         
     </div>
     </div>
@@ -317,3 +266,22 @@ def format_data_gallery(data):
 
     '''
     return html
+
+
+def get_status(data):
+    if data.get('status') is not None:
+        if data['status'] == "Risc Scazut":
+            return "/static/images/Lc.jpg"
+        elif data['status'] == "Aproape de pericol":
+            return "/static/images/Nt.jpg"
+        elif data['status'] == "Vulnerabil":
+            return "/static/images/Vu.jpg"
+        elif data['status'] == "In pericol":
+            return "/static/images/En.jpg"
+        elif data['status'] == "Critic":
+            return "/static/images/Cr.jpg"
+        elif data['status'] == "Extinct in salbaticie":
+            return "/static/images/Ew.jpg"
+        elif data['status'] == "Extint":
+            return "/static/images/Ex.jpg"
+    return ""
