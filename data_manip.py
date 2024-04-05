@@ -124,7 +124,7 @@ def read_biology_data(marker_list, animal_group, fish_group, plant_group, reserv
 
 # HISTORY   
 def read_history_data(marker_list, monument_group, battles_group):
-    for j_file in glob.glob("data/history/battles/*.json"):
+    for j_file in glob.glob("data/history/events/*.json"):
         if j_file.rfind('template') == -1:
             f = open(j_file, encoding = "utf8")
             js = json.load(f)

@@ -192,15 +192,15 @@ if __name__ == '__main__':
         control=False
     ).add_to(map)
     
-    geography_group = folium.FeatureGroup(name="Geographical Points", color='green')
-    animal_group = folium.FeatureGroup(name="Animal Species", color='brown')
-    plant_group = folium.FeatureGroup(name="Plant Species", color='plant')
-    fish_group = folium.FeatureGroup(name="Fish Species", color='blue')
-    battles_group = folium.FeatureGroup(name="Historic Battles", color='red')
-    monuments_group = folium.FeatureGroup(name="Historic Monuments", color='brown')
-    reservs_group = folium.FeatureGroup(name="Natural Reserves", color='gray')
-    religion_group = folium.FeatureGroup(name="Religious Points", color='yellow')
-    philosophy_group = folium.FeatureGroup(name="Philosophycal Points", color='purple')
+    geography_group = folium.FeatureGroup(name="Puncte Geografice", color='green')
+    animal_group = folium.FeatureGroup(name="Specii de Animale", color='brown')
+    plant_group = folium.FeatureGroup(name="Specii de Plante", color='plant')
+    fish_group = folium.FeatureGroup(name="Specii de Pesti", color='blue')
+    battles_group = folium.FeatureGroup(name="Evenimente Istorice", color='red')
+    monuments_group = folium.FeatureGroup(name="Monumente Istorice", color='brown')
+    reservs_group = folium.FeatureGroup(name="Rezervatii Naturale", color='gray')
+    religion_group = folium.FeatureGroup(name="Puncte Religioase", color='yellow')
+    philosophy_group = folium.FeatureGroup(name="Puncte Filozofice", color='purple')
     
     
     #Read biology data + rezervations
