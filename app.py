@@ -192,18 +192,22 @@ if __name__ == '__main__':
         control=False
     ).add_to(map)
     
-    animal_group = folium.FeatureGroup(name="Animal Species", color='brown')
-    plant_group = folium.FeatureGroup(name="Plant Species", color='plant')
-    fish_group = folium.FeatureGroup(name="Fish Species", color='blue')
-    battles_group = folium.FeatureGroup(name="Historic Battles", color='red')
-    monuments_group = folium.FeatureGroup(name="Historic Monuments", color='brown')
-    reservs_group = folium.FeatureGroup(name="Natural Reserves", color='gray')
-    religion_group = folium.FeatureGroup(name="Religious Points", color='yellow')
-    philosophy_group = folium.FeatureGroup(name="Philosophycal Points", color='purple')
+    geography_group = folium.FeatureGroup(name="Puncte Geografice", color='green')
+    animal_group = folium.FeatureGroup(name="Specii de Animale", color='brown')
+    plant_group = folium.FeatureGroup(name="Specii de Plante", color='plant')
+    fish_group = folium.FeatureGroup(name="Specii de Pesti", color='blue')
+    battles_group = folium.FeatureGroup(name="Evenimente Istorice", color='red')
+    monuments_group = folium.FeatureGroup(name="Monumente Istorice", color='brown')
+    reservs_group = folium.FeatureGroup(name="Rezervatii Naturale", color='gray')
+    religion_group = folium.FeatureGroup(name="Puncte Religioase", color='yellow')
+    philosophy_group = folium.FeatureGroup(name="Puncte Filozofice", color='purple')
     
     
     #Read biology data + rezervations
-    data_manip.read_biology_data(marker_list, animal_group, fish_group, plant_group, area_list, reservs_group)
+    data_manip.read_biology_data(marker_list, animal_group, fish_group, plant_group, reservs_group)
+    
+    #Read geography data
+    data_manip.read_geography_data(marker_list, geography_group)
     
     #Read history data
     data_manip.read_history_data(marker_list, monuments_group, battles_group)
@@ -220,6 +224,8 @@ if __name__ == '__main__':
     fish_group.add_to(map)
     reservs_group.add_to(map)
     
+    geography_group.add_to(map)
+    
     monuments_group.add_to(map)
     battles_group.add_to(map)
     
@@ -231,6 +237,8 @@ if __name__ == '__main__':
     animal_group.add_to(search_group)
     plant_group.add_to(search_group)
     fish_group.add_to(search_group)
+    
+    geography_group.add_to(search_group)
     
     monuments_group.add_to(search_group)
     battles_group.add_to(search_group)
@@ -252,4 +260,4 @@ if __name__ == '__main__':
     ).add_to(map)
 
     
-    app.run(debug=True)
+    app.run(host='0.0.0.0')
