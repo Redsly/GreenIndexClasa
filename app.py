@@ -30,6 +30,10 @@ def index():
 def index_german():
     return iframe(lang = "german")
 
+@app.route('/fr')
+def index_french():
+    return iframe(lang = "french")
+
 @app.route('/about_us')
 def about_us():
     return render_template('about_us.html')
