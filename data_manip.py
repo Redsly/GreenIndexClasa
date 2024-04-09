@@ -116,7 +116,7 @@ def read_biology_data(marker_list, animal_group, fish_group, plant_group, reserv
             f = open(j_file, encoding="utf8")
             js = json.load(f)
             
-            poly = folium.Marker(location= js['location'], tooltip=js['name'], name=js['name'],icon = folium.CustomIcon('static/images/frunza.png',icon_size=(45 , 48)))
+            poly = folium.Marker(location= js['location'][0], tooltip=js['name'], name=js['name'],icon = folium.CustomIcon('static/images/plantation.png',icon_size=(45 , 48)))
             reservs_group.add_child(poly)
             marker_list.append(js)
             
@@ -171,7 +171,7 @@ def read_religion_data(marker_list, religion_group):
             spec = None
             
             while i < len(js['location']):
-                spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/pawprint.png',icon_size=(45 , 48)))
+                spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/religion.png',icon_size=(45 , 48)))
                 religion_group.add_child(spec)
                 i+=1
             
