@@ -24,7 +24,11 @@ rules = []
 
 @app.route('/')
 def index():
-   return iframe()
+   return iframe(lang = "romanian")
+#Make german version
+@app.route('/ger')
+def index_german():
+    return iframe(lang = "german")
 
 @app.route('/about_us')
 def about_us():
@@ -46,8 +50,8 @@ def species_page():
 def nature_reserves_page():
     return area_entry()
     
-
-def iframe():
+# Define LANG continuation
+def iframe(lang):
     map.get_root().render()
     header = map.get_root().header.render()
     body_html = map.get_root().html.render()
@@ -86,7 +90,7 @@ def iframe():
         click_lon = float(args.get('click_lon'))
 
         
-        intrest_data =load_marker_info(click_lat, click_lon)
+        intrest_data = load_marker_info(click_lat, click_lon)
         
         if intrest_data is None:
             intrest_data = load_reser_info(click_lat,click_lon)
