@@ -201,10 +201,6 @@ if __name__ == '__main__':
     folium.Polygon._template = Template(click_template_p)
 
     
-    search_group = folium.FeatureGroup(
-        control=False
-    ).add_to(map)
-    
     geography_group = folium.FeatureGroup(name="Puncte Geografice", color='green')
     animal_group = folium.FeatureGroup(name="Specii de Animale", color='brown')
     plant_group = folium.FeatureGroup(name="Specii de Plante", color='plant')
@@ -246,25 +242,8 @@ if __name__ == '__main__':
     
     philosophy_group.add_to(map)
     
-    
-    animal_group.add_to(search_group)
-    plant_group.add_to(search_group)
-    fish_group.add_to(search_group)
-    
-    geography_group.add_to(search_group)
-    
-    monuments_group.add_to(search_group)
-    battles_group.add_to(search_group)
-    
-    religion_group.add_to(search_group)
-    
-    philosophy_group.add_to(search_group)
-    
-    
-    folium.map.LayerControl('topright', collapsed = True,).add_to(map)
-    
     searchnav = Search(
-        layer=search_group,
+        layer=marker_cluster,
         placeholder="Search a species or location",
         geom_type="Point",
         collapsed=True,

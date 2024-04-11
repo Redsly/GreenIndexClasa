@@ -176,7 +176,7 @@ def read_history_data(marker_list, cluster, monument_group, battles_group):
             spec = None
             
             while i < len(js['location']):
-                spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/pawprint.png',icon_size=(45 , 48)))
+                spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/history.png',icon_size=(45 , 48)))
                 battles_group.add_child(spec)
                 spec.add_to(cluster)
                 i+=1
@@ -195,7 +195,7 @@ def read_history_data(marker_list, cluster, monument_group, battles_group):
             spec = None
             
             while i < len(js['location']):
-                spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/pawprint.png',icon_size=(45 , 48)))
+                spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/history.png',icon_size=(45 , 48)))
                 monument_group.add_child(spec)
                 spec.add_to(cluster)
                 i+=1
