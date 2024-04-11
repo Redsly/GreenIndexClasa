@@ -201,10 +201,6 @@ if __name__ == '__main__':
     folium.Polygon._template = Template(click_template_p)
 
     
-    search_group = folium.FeatureGroup(
-        control=False
-    ).add_to(map)
-    
     geography_group = folium.FeatureGroup(name="Puncte Geografice", color='green')
     animal_group = folium.FeatureGroup(name="Specii de Animale", color='brown')
     plant_group = folium.FeatureGroup(name="Specii de Plante", color='plant')
