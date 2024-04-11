@@ -246,25 +246,8 @@ if __name__ == '__main__':
     
     philosophy_group.add_to(map)
     
-    
-    animal_group.add_to(search_group)
-    plant_group.add_to(search_group)
-    fish_group.add_to(search_group)
-    
-    geography_group.add_to(search_group)
-    
-    monuments_group.add_to(search_group)
-    battles_group.add_to(search_group)
-    
-    religion_group.add_to(search_group)
-    
-    philosophy_group.add_to(search_group)
-    
-    
-    folium.map.LayerControl('topright', collapsed = True,).add_to(map)
-    
     searchnav = Search(
-        layer=search_group,
+        layer=marker_cluster,
         placeholder="Search a species or location",
         geom_type="Point",
         collapsed=True,
