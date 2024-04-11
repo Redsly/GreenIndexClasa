@@ -5,9 +5,20 @@ import folium, glob
 rules = json.load(open("data/biology/recommendations/recomendations.json", encoding="utf8"))
 
 
-def format_data(data):
+def format_data(data, lang):
     
-    title = f"<h1>{data['name']}</h1>"
+    name = data['name']
+    description = data['description']
+    
+    if lang == "fr":
+        name = data['french_name']
+        description = data['french_description']
+        
+    if lang == "ger":
+        name = data['german_name']
+        description = data['german_description']
+    
+    title = f"<h1>{name}</h1>"
   #  if data.get('status') is None or len(data['status']) == 0  or data['status'].find("default") != -1:
   #      title = f"<h1>{data['name']}</h1>"
   #   else:
@@ -23,22 +34,7 @@ def format_data(data):
         else:
             suggestions = rules['animals']
 
-    risc = ""
-    if data.get('status') is not None:
-        if data['status'] == "Risc Scazut":
-            risc = "/static/images/Lc.jpg"
-        elif data['status'] == "Aproape de pericol":
-            risc = "/static/images/Nt.jpg"
-        elif data['status'] == "Vulnerabil":
-            risc = "/static/images/Vu.jpg"
-        elif data['status'] == "In pericol":
-            risc = "/static/images/En.jpg"
-        elif data['status'] == "Critic":
-            risc = "/static/images/Cr.jpg"
-        elif data['status'] == "Extinct in salbaticie":
-            risc = "/static/images/Ew.jpg"
-        elif data['status'] == "Extint":
-            risc = "/static/images/Ex.jpg"
+    risc = get_status(data)
     
     if len(risc) > 0:
         risc = f"<img style = \"width:100px; height:100px; \" src = \"{risc}\">" 
@@ -71,7 +67,7 @@ def format_data(data):
         </div>
 
         <p align = left style = "width: 70%">
-        {data['description']}
+        {description}
         
         </p>
         
@@ -81,25 +77,10 @@ def format_data(data):
         <div class="slideshow-container">
     
             <div class="mapSlides" width = 50%>
-                <img src="{data['images']}/1.jpg" class = "resize">
-            </div>
-            <div class="mapSlides" width = 50%>
-                <img src="{data['images']}/2.jpg" class = "resize">
-            </div>
-            <div class="mapSlides" width = 50%>
-                <img src="{data['images']}/3.jpg" class = "resize">
+                <img src="{data['images']}" class = "resize">
             </div>
         </div>
-        <br>
-        
-            <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-        
-        
-        </div>
-        
+        <br>    
     </div>
     </div>
     </div>
@@ -115,11 +96,27 @@ def format_data(data):
 #
 
 # BIOLOGY
-def read_biology_data(marker_list, animal_group, fish_group, plant_group, reservs_group):
+def read_biology_data(marker_list, cluster, animal_group, fish_group, plant_group, reservs_group):
     for j_file in glob.glob("data/biology/protected_species/*.json"):
         if j_file.rfind('template') == -1:
             f = open(j_file, encoding = "utf8")
             js = json.load(f)
+          #  f.close()
+            
+            #f = open(j_file.replace("data/", "data/lang/french/"), encoding="utf8")
+            
+           # jst = json.load(f)
+            
+           # js['french_name'] = jst["name"] 
+           # js['french_description'] = jst["description"]
+           # f.close()
+            
+          #  f = open(j_file.replace("data/", "data/lang/german/"), encoding="utf8")
+          #  jst = json.load(f)
+            
+         #   js['german_name'] = jst["name"]
+           # js['german_description'] = jst["description"]
+            
             i = 0
             
             spec = None
@@ -136,8 +133,9 @@ def read_biology_data(marker_list, animal_group, fish_group, plant_group, reserv
                     plant_group.add_child(spec)
                 i+=1
             
-            
+            spec.add_to(cluster)
             marker_list.append(js)
+            
             
             f.close()
             
@@ -145,16 +143,31 @@ def read_biology_data(marker_list, animal_group, fish_group, plant_group, reserv
         if j_file.rfind('template') == -1:
             f = open(j_file, encoding="utf8")
             js = json.load(f)
+            f.close()
             
-            poly = folium.Marker(location= js['location'], tooltip=js['name'], name=js['name'],icon = folium.CustomIcon('static/images/frunza.png',icon_size=(45 , 48)))
+          #  f = open(j_file.replace("data/", "data/lang/french/"), encoding="utf8")
+          #  jst = json.load(f)
+            
+         #   js['french_name'] = jst["name"] 
+         #   js['french_description'] = jst["description"]
+         #   f.close()
+            
+         #   f = open(j_file.replace("data/", "data/lang/german/"), encoding="utf8")
+        #    jst = json.load(f)
+            
+          #  js['german_name'] = jst["name"]
+          #  js['german_description'] = jst["description"]
+            
+            poly = folium.Marker(location= js['location'][0], tooltip=js['name'], name=js['name'],icon = folium.CustomIcon('static/images/plantation.png',icon_size=(45 , 48)))
             reservs_group.add_child(poly)
             marker_list.append(js)
+            spec.add_to(cluster)
             
             f.close()
 
 # HISTORY   
-def read_history_data(marker_list, monument_group, battles_group):
-    for j_file in glob.glob("data/history/battles/*.json"):
+def read_history_data(marker_list, cluster, monument_group, battles_group):
+    for j_file in glob.glob("data/history/events/*.json"):
         if j_file.rfind('template') == -1:
             f = open(j_file, encoding = "utf8")
             js = json.load(f)
@@ -165,6 +178,7 @@ def read_history_data(marker_list, monument_group, battles_group):
             while i < len(js['location']):
                 spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/pawprint.png',icon_size=(45 , 48)))
                 battles_group.add_child(spec)
+                spec.add_to(cluster)
                 i+=1
             
             
@@ -183,6 +197,7 @@ def read_history_data(marker_list, monument_group, battles_group):
             while i < len(js['location']):
                 spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/pawprint.png',icon_size=(45 , 48)))
                 monument_group.add_child(spec)
+                spec.add_to(cluster)
                 i+=1
             
             
@@ -191,7 +206,7 @@ def read_history_data(marker_list, monument_group, battles_group):
             f.close()
 
 # RELIGION
-def read_religion_data(marker_list, religion_group):
+def read_religion_data(marker_list, cluster, religion_group):
     for j_file in glob.glob("data/religion/*.json"):
         if j_file.rfind('template') == -1:
             f = open(j_file, encoding = "utf8")
@@ -201,8 +216,9 @@ def read_religion_data(marker_list, religion_group):
             spec = None
             
             while i < len(js['location']):
-                spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/pawprint.png',icon_size=(45 , 48)))
+                spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/religion.png',icon_size=(45 , 48)))
                 religion_group.add_child(spec)
+                spec.add_to(cluster)
                 i+=1
             
             
@@ -212,7 +228,7 @@ def read_religion_data(marker_list, religion_group):
 
 
 # PHILOSOPHY
-def read_philosophy_data(marker_list, philosophy_group):
+def read_philosophy_data(marker_list, cluster, philosophy_group):
     for j_file in glob.glob("data/philosophy/*.json"):
         if j_file.rfind('template') == -1:
             f = open(j_file, encoding = "utf8")
@@ -224,6 +240,7 @@ def read_philosophy_data(marker_list, philosophy_group):
             while i < len(js['location']):
                 spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/pawprint.png',icon_size=(45 , 48)))
                 philosophy_group.add_child(spec)
+                spec.add_to(cluster)
                 i+=1
             
             
@@ -232,7 +249,7 @@ def read_philosophy_data(marker_list, philosophy_group):
             f.close()
 
 # GEOGRAPHY
-def read_geography_data(marker_list, geography_group):
+def read_geography_data(marker_list, cluster, geography_group):
     for j_file in glob.glob("data/geography/*.json"):
         if j_file.rfind('template') == -1:
             f = open(j_file, encoding = "utf8")
@@ -244,6 +261,7 @@ def read_geography_data(marker_list, geography_group):
             while i < len(js['location']):
                 spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/pawprint.png',icon_size=(45 , 48)))
                 geography_group.add_child(spec)
+                spec.add_to(cluster)
                 i+=1
             
             
@@ -256,22 +274,8 @@ def format_data_gallery(data):
     title = f"<h1>{data['name']}</h1>"
 
 
-    risc = ""
-    if data.get('status') is not None:
-        if data['status'] == "Risc Scazut":
-            risc = "/static/images/Lc.jpg"
-        elif data['status'] == "Aproape de pericol":
-            risc = "/static/images/Nt.jpg"
-        elif data['status'] == "Vulnerabil":
-            risc = "/static/images/Vu.jpg"
-        elif data['status'] == "In pericol":
-            risc = "/static/images/En.jpg"
-        elif data['status'] == "Critic":
-            risc = "/static/images/Cr.jpg"
-        elif data['status'] == "Extinct in salbaticie":
-            risc = "/static/images/Ew.jpg"
-        elif data['status'] == "Extint":
-            risc = "/static/images/Ex.jpg"
+    risc = get_status(data)
+   
     
     if len(risc) > 0:
         risc = f"<img style = \"width:100px; height:100px; \" src = \"{risc}\">" 
@@ -295,21 +299,14 @@ def format_data_gallery(data):
         
         </p>
         
-        <div class="grid-container">
-    
-            <div class="card" style=" width: 85%">
-                <img src="{data['images']}/1.jpg" style="width:100%; height:300px;">
-            </div>
-            <div class="card" style="width: 85%">
-                <img src="{data['images']}/2.jpg" style="width:100%; height:300px;">
-            </div>
-            <div class="card" style=" width: 85%">
-                <img src="{data['images']}/3.jpg" style="width:100%; height:300px;">
-            </div>
+        <div align=center style = "width: 35%">
+
+            <img src="{data['images']}" style="width:100%; height:300px;">
+            
         </div>
         <br>
         
-        </div>
+    </div>
         
     </div>
     </div>
@@ -317,3 +314,22 @@ def format_data_gallery(data):
 
     '''
     return html
+
+
+def get_status(data):
+    if data.get('status') is not None:
+        if data['status'] == "Risc Scazut":
+            return "/static/images/Lc.jpg"
+        elif data['status'] == "Aproape de pericol":
+            return "/static/images/Nt.jpg"
+        elif data['status'] == "Vulnerabil":
+            return "/static/images/Vu.jpg"
+        elif data['status'] == "In pericol":
+            return "/static/images/En.jpg"
+        elif data['status'] == "Critic":
+            return "/static/images/Cr.jpg"
+        elif data['status'] == "Extinct in salbaticie":
+            return "/static/images/Ew.jpg"
+        elif data['status'] == "Extint":
+            return "/static/images/Ex.jpg"
+    return ""
