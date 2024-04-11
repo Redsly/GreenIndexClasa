@@ -5,9 +5,20 @@ import folium, glob
 rules = json.load(open("data/biology/recommendations/recomendations.json", encoding="utf8"))
 
 
-def format_data(data):
+def format_data(data, lang):
     
-    title = f"<h1>{data['name']}</h1>"
+    name = data['name']
+    description = data['description']
+    
+    if lang == "fr":
+        name = data['french_name']
+        description = data['french_description']
+        
+    if lang == "ger":
+        name = data['german_name']
+        description = data['german_description']
+    
+    title = f"<h1>{name}</h1>"
   #  if data.get('status') is None or len(data['status']) == 0  or data['status'].find("default") != -1:
   #      title = f"<h1>{data['name']}</h1>"
   #   else:
@@ -56,7 +67,7 @@ def format_data(data):
         </div>
 
         <p align = left style = "width: 70%">
-        {data['description']}
+        {description}
         
         </p>
         
@@ -85,11 +96,27 @@ def format_data(data):
 #
 
 # BIOLOGY
-def read_biology_data(marker_list, animal_group, fish_group, plant_group, reservs_group):
+def read_biology_data(marker_list, cluster, animal_group, fish_group, plant_group, reservs_group):
     for j_file in glob.glob("data/biology/protected_species/*.json"):
         if j_file.rfind('template') == -1:
             f = open(j_file, encoding = "utf8")
             js = json.load(f)
+          #  f.close()
+            
+            #f = open(j_file.replace("data/", "data/lang/french/"), encoding="utf8")
+            
+           # jst = json.load(f)
+            
+           # js['french_name'] = jst["name"] 
+           # js['french_description'] = jst["description"]
+           # f.close()
+            
+          #  f = open(j_file.replace("data/", "data/lang/german/"), encoding="utf8")
+          #  jst = json.load(f)
+            
+         #   js['german_name'] = jst["name"]
+           # js['german_description'] = jst["description"]
+            
             i = 0
             
             spec = None
@@ -106,8 +133,9 @@ def read_biology_data(marker_list, animal_group, fish_group, plant_group, reserv
                     plant_group.add_child(spec)
                 i+=1
             
-            
+            spec.add_to(cluster)
             marker_list.append(js)
+            
             
             f.close()
             
@@ -115,15 +143,30 @@ def read_biology_data(marker_list, animal_group, fish_group, plant_group, reserv
         if j_file.rfind('template') == -1:
             f = open(j_file, encoding="utf8")
             js = json.load(f)
+            f.close()
+            
+          #  f = open(j_file.replace("data/", "data/lang/french/"), encoding="utf8")
+          #  jst = json.load(f)
+            
+         #   js['french_name'] = jst["name"] 
+         #   js['french_description'] = jst["description"]
+         #   f.close()
+            
+         #   f = open(j_file.replace("data/", "data/lang/german/"), encoding="utf8")
+        #    jst = json.load(f)
+            
+          #  js['german_name'] = jst["name"]
+          #  js['german_description'] = jst["description"]
             
             poly = folium.Marker(location= js['location'][0], tooltip=js['name'], name=js['name'],icon = folium.CustomIcon('static/images/plantation.png',icon_size=(45 , 48)))
             reservs_group.add_child(poly)
             marker_list.append(js)
+            spec.add_to(cluster)
             
             f.close()
 
 # HISTORY   
-def read_history_data(marker_list, monument_group, battles_group):
+def read_history_data(marker_list, cluster, monument_group, battles_group):
     for j_file in glob.glob("data/history/events/*.json"):
         if j_file.rfind('template') == -1:
             f = open(j_file, encoding = "utf8")
@@ -135,6 +178,7 @@ def read_history_data(marker_list, monument_group, battles_group):
             while i < len(js['location']):
                 spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/pawprint.png',icon_size=(45 , 48)))
                 battles_group.add_child(spec)
+                spec.add_to(cluster)
                 i+=1
             
             
@@ -153,6 +197,7 @@ def read_history_data(marker_list, monument_group, battles_group):
             while i < len(js['location']):
                 spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/pawprint.png',icon_size=(45 , 48)))
                 monument_group.add_child(spec)
+                spec.add_to(cluster)
                 i+=1
             
             
@@ -161,7 +206,7 @@ def read_history_data(marker_list, monument_group, battles_group):
             f.close()
 
 # RELIGION
-def read_religion_data(marker_list, religion_group):
+def read_religion_data(marker_list, cluster, religion_group):
     for j_file in glob.glob("data/religion/*.json"):
         if j_file.rfind('template') == -1:
             f = open(j_file, encoding = "utf8")
@@ -173,6 +218,7 @@ def read_religion_data(marker_list, religion_group):
             while i < len(js['location']):
                 spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/religion.png',icon_size=(45 , 48)))
                 religion_group.add_child(spec)
+                spec.add_to(cluster)
                 i+=1
             
             
@@ -182,7 +228,7 @@ def read_religion_data(marker_list, religion_group):
 
 
 # PHILOSOPHY
-def read_philosophy_data(marker_list, philosophy_group):
+def read_philosophy_data(marker_list, cluster, philosophy_group):
     for j_file in glob.glob("data/philosophy/*.json"):
         if j_file.rfind('template') == -1:
             f = open(j_file, encoding = "utf8")
@@ -194,6 +240,7 @@ def read_philosophy_data(marker_list, philosophy_group):
             while i < len(js['location']):
                 spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/pawprint.png',icon_size=(45 , 48)))
                 philosophy_group.add_child(spec)
+                spec.add_to(cluster)
                 i+=1
             
             
@@ -202,7 +249,7 @@ def read_philosophy_data(marker_list, philosophy_group):
             f.close()
 
 # GEOGRAPHY
-def read_geography_data(marker_list, geography_group):
+def read_geography_data(marker_list, cluster, geography_group):
     for j_file in glob.glob("data/geography/*.json"):
         if j_file.rfind('template') == -1:
             f = open(j_file, encoding = "utf8")
@@ -214,6 +261,7 @@ def read_geography_data(marker_list, geography_group):
             while i < len(js['location']):
                 spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/pawprint.png',icon_size=(45 , 48)))
                 geography_group.add_child(spec)
+                spec.add_to(cluster)
                 i+=1
             
             
