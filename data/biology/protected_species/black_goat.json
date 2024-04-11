@@ -5,8 +5,10 @@
     "status" : "Risc Scazut",
     "type" : "Animal",
     "images" : "/static/images/black_goat/1.jpg",
+    
     "german_name" : "Kaprenburch",
     "german_description" : "Die Kaprenburch ist am besten",
+
     "french_name" : "Le Caprcoise",
     "french_description" : "Le Capricoise e tu un abeli' sdaddddasdasd"
 }
