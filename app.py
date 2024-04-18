@@ -1,6 +1,7 @@
 import os, json, glob
 
 import folium
+import folium.plugins
 import data_manip
 
 from shapely.geometry import Point
@@ -24,7 +25,15 @@ rules = []
 
 @app.route('/')
 def index():
-   return iframe()
+   return iframe(lang = "ro")
+#Make german version
+@app.route('/ger')
+def index_german():
+    return iframe(lang = "ger")
+
+@app.route('/fr')
+def index_french():
+    return iframe(lang = "fr")
 
 @app.route('/about_us')
 def about_us():
@@ -46,8 +55,8 @@ def species_page():
 def nature_reserves_page():
     return area_entry()
     
-
-def iframe():
+# Define LANG continuation
+def iframe(lang):
     map.get_root().render()
     header = map.get_root().header.render()
     body_html = map.get_root().html.render()
@@ -86,7 +95,7 @@ def iframe():
         click_lon = float(args.get('click_lon'))
 
         
-        intrest_data =load_marker_info(click_lat, click_lon)
+        intrest_data = load_marker_info(click_lat, click_lon)
         
         if intrest_data is None:
             intrest_data = load_reser_info(click_lat,click_lon)
@@ -94,7 +103,7 @@ def iframe():
         if intrest_data is not None:
             div_marker = "item_first"
         
-        return data_manip.format_data(intrest_data)
+        return data_manip.format_data(intrest_data, lang)
                         
     return render_template('index.html', header = header, body_html = body_html, script = script, interest_data = intrest_data)
 
@@ -154,10 +163,12 @@ def area_entry():
 
         
     return render_template('nature_reserve.html', list=area_list)
-    
+
+
 if __name__ == '__main__':
 
     normal_layer = folium.TileLayer(name="Filters", no_wrap=True)
+    
     
     map = folium.Map(
         width = "75%",
@@ -167,6 +178,8 @@ if __name__ == '__main__':
         max_bounds = True,    
         tiles=normal_layer
     )
+    
+    marker_cluster = MarkerCluster().add_to(map)
     
     click_template = """{% macro script(this, kwargs) %}
                         var {{ this.get_name() }} = L.marker(
@@ -188,10 +201,6 @@ if __name__ == '__main__':
     folium.Polygon._template = Template(click_template_p)
 
     
-    search_group = folium.FeatureGroup(
-        control=False
-    ).add_to(map)
-    
     geography_group = folium.FeatureGroup(name="Puncte Geografice", color='green')
     animal_group = folium.FeatureGroup(name="Specii de Animale", color='brown')
     plant_group = folium.FeatureGroup(name="Specii de Plante", color='plant')
@@ -204,19 +213,19 @@ if __name__ == '__main__':
     
     
     #Read biology data + rezervations
-    data_manip.read_biology_data(marker_list, animal_group, fish_group, plant_group, reservs_group)
+    data_manip.read_biology_data(marker_list, marker_cluster,  animal_group, fish_group, plant_group, reservs_group)
     
     #Read geography data
-    data_manip.read_geography_data(marker_list, geography_group)
+    data_manip.read_geography_data(marker_list, marker_cluster,  geography_group)
     
     #Read history data
-    data_manip.read_history_data(marker_list, monuments_group, battles_group)
+    data_manip.read_history_data(marker_list, marker_cluster,  monuments_group, battles_group)
     
     #Read religion data
-    data_manip.read_religion_data(marker_list, religion_group)
+    data_manip.read_religion_data(marker_list, marker_cluster, religion_group)
     
     #Read philosophy data
-    data_manip.read_philosophy_data(marker_list, philosophy_group)
+    data_manip.read_philosophy_data(marker_list, marker_cluster,  philosophy_group)
     
     #Order groups in list
     animal_group.add_to(map)
@@ -233,25 +242,8 @@ if __name__ == '__main__':
     
     philosophy_group.add_to(map)
     
-    
-    animal_group.add_to(search_group)
-    plant_group.add_to(search_group)
-    fish_group.add_to(search_group)
-    
-    geography_group.add_to(search_group)
-    
-    monuments_group.add_to(search_group)
-    battles_group.add_to(search_group)
-    
-    religion_group.add_to(search_group)
-    
-    philosophy_group.add_to(search_group)
-    
-    
-    folium.map.LayerControl('topright', collapsed = True,).add_to(map)
-    
     searchnav = Search(
-        layer=search_group,
+        layer=marker_cluster,
         placeholder="Search a species or location",
         geom_type="Point",
         collapsed=True,
