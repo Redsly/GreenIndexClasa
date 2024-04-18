@@ -5,6 +5,20 @@ import folium, glob
 rules = json.load(open("data/biology/recommendations/recomendations.json", encoding="utf8"))
 
 
+#Icon Dictionary
+icons = {}
+
+def load_icons():
+    icons["bio"] = "green"
+    icons["rel"] = "purple"
+    icons["philo"] = "yellow"
+    icons["geo"] = "beige"
+    icons["histo"] = "gray" 
+
+
+def get_icon(icon):
+    return folium.Icon(color=icons[icon])
+
 def format_data(data, lang):
     
     name = data['name']
@@ -120,16 +134,16 @@ def read_biology_data(marker_list, cluster, animal_group, fish_group, plant_grou
             i = 0
             
             spec = None
-            
+            #change to be just biology group
             while i < len(js['location']):
                 if js['type'] == 'Animal':
-                    spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/pawprint.png',icon_size=(45 , 48)))
+                    spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = get_icon("bio"))
                     animal_group.add_child(spec)
                 elif js['type'] == 'Fish':
-                    spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/acvatic.png',icon_size=(45 , 48)))
+                    spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = get_icon("bio"))
                     fish_group.add_child(spec)
                 elif js['type'] == 'Plant':
-                    spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/frunza.png',icon_size=(45 , 48)))
+                    spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = get_icon("bio"))
                     plant_group.add_child(spec)
                 i+=1
             
@@ -158,7 +172,7 @@ def read_biology_data(marker_list, cluster, animal_group, fish_group, plant_grou
           #  js['german_name'] = jst["name"]
           #  js['german_description'] = jst["description"]
             
-            poly = folium.Marker(location= js['location'][0], tooltip=js['name'], name=js['name'],icon = folium.CustomIcon('static/images/plantation.png',icon_size=(45 , 48)))
+            poly = folium.Marker(location= js['location'][0], tooltip=js['name'], name=js['name'],icon = get_icon("bio"))
             reservs_group.add_child(poly)
             marker_list.append(js)
             spec.add_to(cluster)
@@ -176,7 +190,7 @@ def read_history_data(marker_list, cluster, monument_group, battles_group):
             spec = None
             
             while i < len(js['location']):
-                spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/history.png',icon_size=(45 , 48)))
+                spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = get_icon("histo"))
                 battles_group.add_child(spec)
                 spec.add_to(cluster)
                 i+=1
@@ -195,7 +209,7 @@ def read_history_data(marker_list, cluster, monument_group, battles_group):
             spec = None
             
             while i < len(js['location']):
-                spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/history.png',icon_size=(45 , 48)))
+                spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = get_icon("histo"))
                 monument_group.add_child(spec)
                 spec.add_to(cluster)
                 i+=1
@@ -216,7 +230,7 @@ def read_religion_data(marker_list, cluster, religion_group):
             spec = None
             
             while i < len(js['location']):
-                spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/religion.png',icon_size=(45 , 48)))
+                spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = get_icon("rel"))
                 religion_group.add_child(spec)
                 spec.add_to(cluster)
                 i+=1
@@ -238,7 +252,7 @@ def read_philosophy_data(marker_list, cluster, philosophy_group):
             spec = None
             
             while i < len(js['location']):
-                spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/pawprint.png',icon_size=(45 , 48)))
+                spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = get_icon("philo"))
                 philosophy_group.add_child(spec)
                 spec.add_to(cluster)
                 i+=1
@@ -259,7 +273,7 @@ def read_geography_data(marker_list, cluster, geography_group):
             spec = None
             
             while i < len(js['location']):
-                spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = folium.CustomIcon('static/images/pawprint.png',icon_size=(45 , 48)))
+                spec = folium.Marker(location = js['location'][i], tooltip = js['name'], name = js['name'],icon = get_icon("geo"))
                 geography_group.add_child(spec)
                 spec.add_to(cluster)
                 i+=1
