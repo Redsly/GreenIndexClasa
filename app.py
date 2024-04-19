@@ -166,6 +166,8 @@ def area_entry():
 
 
 if __name__ == '__main__':
+    
+    data_manip.load_icons()
 
     normal_layer = folium.TileLayer(name="Filters", no_wrap=True)
     
