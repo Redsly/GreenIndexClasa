@@ -4,6 +4,20 @@ import folium, glob
 
 rules = json.load(open("data/biology/recommendations/recomendations.json", encoding="utf8"))
 
+bio_beign=0
+bio_end=0
+
+geo_begin=0
+geo_end=0
+
+histo_begin=0
+histo_end=0
+
+philo_begin=0
+philo_end=0
+
+rel_begin=0
+rel_end=0
 
 #Icon Dictionary
 icons = {}
@@ -40,13 +54,13 @@ def format_data(data, lang):
   
     suggestions = ""        
     
-    if data.get('type') is not None:
-        if data['type'] == "Fish":
-            suggestions = rules['fish']
-        elif data['type'] == "Plants":
-            suggestions = rules['plants']
-        else:
-            suggestions = rules['animals']
+    #if data.get('type') is not None:
+    #    if data['type'] == "Fish":
+    #        suggestions = rules['fish']
+    #   elif data['type'] == "Plants":
+    #        suggestions = rules['plants']
+    #    else:
+    #        suggestions = rules['animals']
 
     risc = get_status(data)
     
@@ -111,6 +125,9 @@ def format_data(data, lang):
 
 # BIOLOGY
 def read_biology_data(marker_list, cluster, animal_group, fish_group, plant_group, reservs_group):
+    leng = 0
+    global bio_beign, bio_end
+    bio_beign = len(marker_list)
     for j_file in glob.glob("data/biology/protected_species/*.json"):
         if j_file.rfind('template') == -1:
             f = open(j_file, encoding = "utf8")
@@ -149,10 +166,9 @@ def read_biology_data(marker_list, cluster, animal_group, fish_group, plant_grou
             
             spec.add_to(cluster)
             marker_list.append(js)
-            
-            
+            leng+=1
             f.close()
-            
+
     for j_file in glob.glob("data/biology/reservations/*.json"):
         if j_file.rfind('template') == -1:
             f = open(j_file, encoding="utf8")
@@ -176,11 +192,15 @@ def read_biology_data(marker_list, cluster, animal_group, fish_group, plant_grou
             reservs_group.add_child(poly)
             marker_list.append(js)
             spec.add_to(cluster)
-            
+            leng+=1
             f.close()
+    bio_end = bio_beign + leng
 
 # HISTORY   
 def read_history_data(marker_list, cluster, monument_group, battles_group):
+    length = 0
+    global histo_begin, histo_end
+    histo_begin = len(marker_list)
     for j_file in glob.glob("data/history/events/*.json"):
         if j_file.rfind('template') == -1:
             f = open(j_file, encoding = "utf8")
@@ -197,7 +217,7 @@ def read_history_data(marker_list, cluster, monument_group, battles_group):
             
             
             marker_list.append(js)
-            
+            length += 1
             f.close()
             
     for j_file in glob.glob("data/history/monuments/*.json"):
@@ -216,11 +236,16 @@ def read_history_data(marker_list, cluster, monument_group, battles_group):
             
             
             marker_list.append(js)
-            
+            length += 1
             f.close()
+    histo_end = histo_begin + length
 
 # RELIGION
 def read_religion_data(marker_list, cluster, religion_group):
+    length = 0
+    global rel_begin, rel_end
+    rel_begin = len(marker_list)
+    
     for j_file in glob.glob("data/religion/*.json"):
         if j_file.rfind('template') == -1:
             f = open(j_file, encoding = "utf8")
@@ -237,12 +262,17 @@ def read_religion_data(marker_list, cluster, religion_group):
             
             
             marker_list.append(js)
-            
+            length +=1
             f.close()
+    rel_end = rel_begin + length
 
 
 # PHILOSOPHY
 def read_philosophy_data(marker_list, cluster, philosophy_group):
+    length = 0
+    global philo_begin, philo_end
+    philo_begin = len(marker_list)
+    
     for j_file in glob.glob("data/philosophy/*.json"):
         if j_file.rfind('template') == -1:
             f = open(j_file, encoding = "utf8")
@@ -259,11 +289,16 @@ def read_philosophy_data(marker_list, cluster, philosophy_group):
             
             
             marker_list.append(js)
-            
+            length+=1
             f.close()
+    philo_end = philo_begin + length
 
 # GEOGRAPHY
 def read_geography_data(marker_list, cluster, geography_group):
+    length = 0
+    global geo_begin, geo_end
+    geo_begin = len(marker_list)
+    
     for j_file in glob.glob("data/geography/*.json"):
         if j_file.rfind('template') == -1:
             f = open(j_file, encoding = "utf8")
@@ -280,8 +315,9 @@ def read_geography_data(marker_list, cluster, geography_group):
             
             
             marker_list.append(js)
-            
+            length +=1
             f.close()
+    geo_end = geo_begin + length
 
 def format_data_gallery(data):
     
@@ -347,3 +383,18 @@ def get_status(data):
         elif data['status'] == "Extint":
             return "/static/images/Ex.jpg"
     return ""
+
+def get_bio_params():
+    return (bio_beign, bio_end)
+
+def get_rel_params():
+    return (rel_begin, rel_end)
+
+def get_geo_params():
+    return (geo_begin, geo_end)
+
+def get_histo_params():
+    return (histo_begin, histo_end)
+
+def get_phil_params():
+    return (philo_begin, philo_end)
