@@ -2,5 +2,10 @@
     "name" : "Munții Măcinului",
     "location" : [[45.243601358862264, 28.19894322502434]],
     "description" : "Munții Măcinului sunt o unitate de relief situată în partea de sud-est a României, în regiunea Dobrogea. Acești munți reprezintă cea mai veche formațiune montană din țară. Cel mai înalt pisc este Vârful Ţuţuiatul, având 467 m. Aceşti munţi reprezintă martorul rezidual cel mai evident al orogenezei hercinice de la sfârşitul Paleozoicului cu aspect de munte insulă. ",
-    "images" : "/static/images/muntii_macinului/muntii_macinului.jpg"
+    "images" : "/static/images/muntii_macinului/muntii_macinului.jpg",
+    "german_name" : "Măcinului-Gebirge",
+    "german_description" : "Das Măcin-Gebirge ist eine Entlastungseinheit im südöstlichen Teil Rumäniens, in der Region Dobrogea. Diese Berge stellen die älteste Gebirgsformation des Landes dar. Der höchste Gipfel ist Vârful Ţuţuiatul mit 467 m. Diese Berge stellen mit der Erscheinung eines Inselberges den offensichtlichsten Restzeugen der hercynischen Orogenese dar.",
+
+    "french_name" : "Monts Macinului",
+    "french_description" : "Les monts Măcin sont une unité de secours située dans la partie sud-est de la Roumanie, dans la région de Dobrogea. Ces montagnes représentent la formation montagneuse la plus ancienne du pays. Le plus haut sommet est Vârful Ţuţuiatul, avec 467 m. Ces montagnes représentent le témoin résiduel le plus évident de l'orogenèse hercynienne de la fin du Paléozoïque avec l'apparence d'une montagne insulaire."
 }

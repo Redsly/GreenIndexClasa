@@ -2,5 +2,9 @@
     "name" : "Munții Călimani",
     "location" : [[47.11798037385143, 25.049527931180034]],
     "description" : "Munții Călimani sunt parte integrantă a Carpaților Orientali fiind, precum tot lanțul carpatic, munți tineri, de încrețire, formați în orogeneza alpino-carpato-himalayană. Munții Călimani sunt de origine vulcanică, cel mai înalt vârf al lor fiind Vârful Pietrosul Călimanilor, cu 2100 m. Munții Călimani reprezintă în prezent o enclavă în cadrul Parcului Național Călimani. ",
-    "images" : "/static/images/muntii_calimani/muntii_calimani.jpg"
+    "images" : "/static/images/muntii_calimani/muntii_calimani.jpg",
+    "german_name" : "Calimani-Gebirge",
+    "german_description" : "Das Călimani-Gebirge ist ein integraler Bestandteil der Ostkarpaten, da es sich wie die gesamte Karpatenkette um junge, faltige Berge handelt, die in der Gebirgsbildung Alpen-Karpaten-Himalaya entstanden sind. Das Călimani-Gebirge ist vulkanischen Ursprungs, sein höchster Gipfel ist der Pietrosul Călimanilor mit 2100 m. Das Călimani-Gebirge ist derzeit eine Enklave innerhalb des Călimani-Nationalparks.",
+    "french_name" : "Monts Calimani",
+    "french_description" : "Les monts Călimani font partie intégrante des Carpates orientales et sont, comme toute la chaîne des Carpates, des montagnes jeunes et ridées, formées dans l'orogenèse alpine-carpathique-himalayenne. Les monts Călimani sont d'origine volcanique, leur plus haut sommet est le pic Pietrosul Călimanilor, avec 2 100 m d'altitude. Les monts Călimani sont actuellement une enclave dans le parc national de Călimani."
 }

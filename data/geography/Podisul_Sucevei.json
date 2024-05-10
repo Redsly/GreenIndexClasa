@@ -2,5 +2,10 @@
     "name" : "Podișul Sucevei",
     "location" : [[47.924700037381925, 26.086559012572057]],
     "description" : "Podișul Sucevei se află în nord-vestul Podișului Moldovei. La nord este mărginit de frontiera cu Ucraina, la sud de Podișul Bârladului, la est de Câmpia Moldovei și respectiv la vest este mărginit de Subcarpații Moldovei. Podișul Sucevei este irigat în totalitate de râul Siret împreună cu afluenții lui. Podișul Sucevei s-a format în orogeneza alpină târzie. Podișul Sucevei este alcătuit din gresii, pietrișuri, nisipuri și argile. Podișul este foarte fragmentat, cu masive mici, prezentând alternanță de coline și văi largi și lungi. Relieful are interfluvii cu poduri largi ușor înclinate spre sud-est, fragmentate în general longitudinal. ",
-    "images" : "/static/images/podisul_sucevei/podisul_sucevei.jpg"
+    "images" : "/static/images/podisul_sucevei/podisul_sucevei.jpg",
+    "german_name" : "Kaprenburch",
+    "german_description" : "Die Kaprenburch ist am besten",
+
+    "french_name" : "Le Caprcoise",
+    "french_description" : "Le Capricoise e tu un abeli' sdaddddasdasd"
 }

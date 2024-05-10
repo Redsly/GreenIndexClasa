@@ -2,5 +2,10 @@
     "name" : "Podișul Mehedinți",
     "location" : [[44.83494572277265, 22.583290384622963]],
     "description" : "Podișul Mehedinți este situat în sud-vestul țării, la vest de râul Motru și la poalele Munților Mehedinți, având ca limite Valea Motrului la est, Valea Dunării la vest, Munții Mehedinți la nord și Podișul Getic la sud. Altitudinile podișului sunt cuprinse între 400 și 600 de metri. Vârfurile de peste 600 m se numesc cornete. Altitudinea maxima este de 885 metri, pe Vârful Paharnicului. ",
-    "images" : "/static/images/podisul_mehedinti/podisul_mehedinti.jpg"
+    "images" : "/static/images/podisul_mehedinti/podisul_mehedinti.jpg",
+    "german_name" : "Mehedinti-Plateau",
+    "german_description" : "Das Mehedinți-Plateau liegt im Südwesten des Landes, westlich des Flusses Motru und am Fuße des Mehedinți-Gebirges, begrenzt durch das Motrulu-Tal im Osten, das Donautal im Westen, das Mehedinți-Gebirge im Norden und das Mehedinți-Gebirge Getic-Plateau im Süden. Die Höhenlagen des Plateaus liegen zwischen 400 und 600 Metern. Gipfel über 600 m werden Kornette genannt. Die maximale Höhe beträgt 885 Meter auf Vârful Paharnicului.",
+
+    "french_name" : "Plateau Mehedinti",
+    "french_description" : "Le plateau de Mehedinți est situé au sud-ouest du pays, à l'ouest de la rivière Motru et au pied des monts Mehedinți, délimité par la vallée de Motrulu à l'est, la vallée du Danube à l'ouest, les monts Mehedinți au nord et le Plateau Gétique au sud. Les altitudes du plateau sont comprises entre 400 et 600 mètres. Les sommets dépassant 600 m sont appelés cornets. L'altitude maximale est de 885 mètres, sur Vârful Paharnicului."
 }

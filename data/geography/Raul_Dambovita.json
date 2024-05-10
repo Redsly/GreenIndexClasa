@@ -2,5 +2,10 @@
     "name" : "Râul Dâmbovița",
     "location" : [[44.90598267644658, 25.49879771197515]],
     "description" : "Raul Dambovita este un important curs de apa din Romania, avand o lungime de aproximativ 286 de kilometri.Izvoraste din Muntii Fagarasului, aproape de localitatea Nucsoara, si curge in principal in directia sud, traversand judetle Arges, Dambovita si Ilfov.Este un afluent al raului Arges si unul dintre raurile care strabat capitala Romaniei, Bucurestiul.Raul Dambovita are o importanta istorica si culturala deosebita pentru orasul Bucuresti, fiind mentionat in numeroase opere literare si fiind un element central in dezvoltarea urbana a capitalei. ",
-    "images" : "/static/images/raul_dambovita/raul_dambovita.jpg"
+    "images" : "/static/images/raul_dambovita/raul_dambovita.jpg",
+    "german_name" : "Kaprenburch",
+    "german_description" : "Die Kaprenburch ist am besten",
+
+    "french_name" : "Le Caprcoise",
+    "french_description" : "Le Capricoise e tu un abeli' sdaddddasdasd"
 }

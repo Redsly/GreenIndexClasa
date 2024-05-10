@@ -2,5 +2,10 @@
     "name" : "Munții Apuseni",
     "location" : [[46.50844989544391, 23.004039628936965]],
     "description" : "Munții Apuseni sunt un lanț muntos din Transilvania, parte a Carpaților Occidentali. Cel mai înalt vârf este Vârful Bihor, din munții Bihor cu o altitudine de 1849 de metri. Sunt delimitați la nord de Râul Barcău, la sud de Râul Mureș, la vest de Dealurile și Câmpia de Vest, iar la est de Depresiunea Colinară a Transilvaniei. În Munții Apuseni se află peste 400 de peșteri.Munții Apuseni sunt munți tineri, de încrețire, formați în orogeneza alpino-carpato-himalayana. Sunt compuși în general dintr-un mozaic de roci, predominant calcare, de aceea se explică numărul foarte mare de peșteri existente în zonă. ",
-    "images" : "/static/images/Muntii_Apuseni/m_apuseni.jpg"
+    "images" : "/static/images/Muntii_Apuseni/m_apuseni.jpg",
+    "german_name" : "Apuseni-Gebirge",
+    "german_description" : "Das Apuseni-Gebirge ist ein Gebirge in Siebenbürgen, einem Teil der Westkarpaten. Der höchste Gipfel ist Vârful Bihor im Bihor-Gebirge mit einer Höhe von 1849 Metern. Sie werden im Norden vom Fluss Barcău, im Süden vom Fluss Mureș, im Westen vom Dealurile und der Westebene und im Osten von der Siebenbürgischen Hügelsenke begrenzt. Es gibt über 400 Höhlen im Apuseni-Gebirge. Das Apuseni-Gebirge ist ein junges, faltiges Gebirge, das in der Alpen-Karpaten-Himalaya-Orogenese entstanden ist. Sie bestehen im Allgemeinen aus einem Mosaik von Felsen, überwiegend aus Kalkstein, was die sehr große Anzahl an Höhlen in der Gegend erklärt.",
+
+    "french_name" : "Montagnes Apuseni",
+    "french_description" : "Les monts Apuseni sont une chaîne de montagnes de Transylvanie, qui fait partie des Carpates occidentales. Le plus haut sommet est le Vârful Bihor, dans les montagnes du Bihor, avec une altitude de 1849 mètres. Ils sont délimités au nord par la rivière Barcău, au sud par la rivière Mureș, à l'ouest par le Dealurile et la plaine occidentale, et à l'est par la dépression vallonnée de Transylvanie. Il y a plus de 400 grottes dans les monts Apuseni. Les monts Apuseni sont de jeunes montagnes ridées, formées dans l'orogenèse alpine-carpatho-himalayenne. Elles sont généralement composées d'une mosaïque de roches à dominante calcaire, ce qui explique le très grand nombre de grottes dans la région."
 }
