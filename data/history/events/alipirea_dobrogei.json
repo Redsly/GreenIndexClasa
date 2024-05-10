@@ -2,5 +2,10 @@
     "name" : "Alipirea Dobrogei",
     "location" : [[44.5163785187516, 28.06160350260914]],
     "description" : "Alipirea Dobrogei de Nord a fost sarbatorita de romanii dobrogeni,dupa cum o demonstreaza primirea cu toata cinstea din iunie 1877 facuta de la  Macin a trupelor ruse si apoi in decembrie 1877 petitia dobrogenilor care,acoperita de nume si semnaturi,cerea unirea Dobrogei cu Romania.Unirea Dobrogei de Nord cu Romania a fost dorinta guvernului si populatiei romanesti in aceeasi masura si nu o situatie impusa de rusi,pe care oamenii politici ar fi incercat sa o evite. ",
-    "images" : "/static/images/alip_dobrogea/1.jpg"
+    "images" : "/static/images/alip_dobrogea/1.jpg",
+    "german_name" : "Die Annexion von Dobrogea",
+    "german_description" : "Die Annexion der nördlichen Dobrogea wurde von den Rumänen der Dobrogea gefeiert, was durch den ehrenvollen Empfang russischer Truppen in Macin im Juni 1877 und dann im Dezember 1877 durch die mit Namen und Unterschriften versehene Petition der Dobrogea bewiesen wurde, die die Vereinigung der Dobrogea mit Rumänien forderte Die Einigung der nördlichen Dobrudscha mit Rumänien war in gleichem Maße der Wunsch der rumänischen Regierung und der rumänischen Bevölkerung und keine von den Russen aufgezwungene Situation, die die Politiker zu vermeiden versucht hätten.",
+
+    "french_name" : "L'annexion de la Dobrogea",
+    "french_description" : "L'annexion de la Dobrogea du Nord a été célébrée par les Roumains de Dobrogea, comme en témoigne l'accueil honorable des troupes russes à Macin en juin 1877, puis en décembre 1877 la pétition de Dobrogea, couverte de noms et de signatures, exigeant l'union de la Dobrogea avec la Roumanie. La fusion de la Dobrogea du Nord avec la Roumanie était dans la même mesure le désir du gouvernement et de la population roumains et non une situation imposée par les Russes, que les politiciens auraient tenté d'éviter."
 }

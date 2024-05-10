@@ -2,5 +2,9 @@
     "name" : "Podușul Târnavelor",
     "location" : [[46.19135286604402, 24.492083360756414]],
     "description" : "Podișul Târnavelor este una dintre cele trei subunități ale Depresiunii Coliniare a Transilvaniei, se află între Mureș și Olt, are relief mai accidentat și altitudini mai înalte spre est și mai joase spre vest și sud, are două subunitați:Podișul Hârtibaciului în S-E, Podișul Secașelor în N-V.Podișul Târnavelor este situat între Văile Mureș (la nord) și Olt (la sud), străbătut de Târnava Mica si Târnava Mare. Are altitudini medii între 400-600 m.",
-    "images" : "/static/images/Podisul_Tarnavelor/Podisul_Tarnavelor.jpg"
+    "images" : "/static/images/Podisul_Tarnavelor/Podisul_Tarnavelor.jpg","german_name" : "Kaprenburch",
+    "german_description" : "Die Kaprenburch ist am besten",
+
+    "french_name" : "Le Caprcoise",
+    "french_description" : "Le Capricoise e tu un abeli' sdaddddasdasd"
 }

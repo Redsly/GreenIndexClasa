@@ -2,5 +2,10 @@
     "name" : "Râul Argeș",
     "location" : [[44.09190453826461, 26.619364229868797]],
     "description" : "Râul Argeș este un curs de apă în România, având o lungime de aproximativ 350 de kilometri. Izvorăște din Munții Făgărașului, în zona Lacului Vidraru, și curge în principal în direcția est, traversând județele Argeș și Dâmbovița. Este unul dintre afluenții importanți ai fluviului Dunărea. Râul Argeș este cunoscut pentru frumusețea peisajelor pe care le străbate, dar și pentru importanța sa în domeniul hidroenergetic, cu lacuri de acumulare precum Vidraru și Bascov. De-a lungul timpului, a avut o semnificație culturală și istorică deosebită, fiind menționat în numeroase opere literare și cântece populare românești. ",
-    "images" : "/static/images/raul_arges/raul_arges.jpg"
+    "images" : "/static/images/raul_arges/raul_arges.jpg",
+    "german_name" : "Kaprenburch",
+    "german_description" : "Die Kaprenburch ist am besten",
+
+    "french_name" : "Le Caprcoise",
+    "french_description" : "Le Capricoise e tu un abeli' sdaddddasdasd"
 }
