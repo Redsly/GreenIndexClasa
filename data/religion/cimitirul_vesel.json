@@ -2,5 +2,10 @@
     "name" : "Cimitirul Vesel",
     "location" : [[47.971481794503674, 23.69500194022682]],
     "description" : "Cimitirul Vesel din Săpânța, Maramureș, este faimos pentru crucile sale colorate și pentru mesajele amuzante pe care le au.Fiecare cruce din acest cimitir are o poveste despre persoana înmormântată și aduce un zâmbet pe fața celor care le citesc.Cimitirul Vesel are o atmosferă diferită, plină de viață și veselie, în contrast cu alte cimitire.Turiștii vin din toate colțurile lumii să vadă acest loc special, unde moartea este privită altfel, mai vesel și cu umor.",
-    "images" : "/static/images/cimitirul_vesel/cimitirul_vesel.jpg"
+    "images" : "/static/images/cimitirul_vesel/cimitirul_vesel.jpg",
+    "german_name" : "Der Fröhliche Friedhof",
+    "german_description" : "Der Fröhliche Friedhof in Săpânta, Maramureș, ist berühmt für seine farbenfrohen Kreuze und die lustigen Botschaften, die sie enthalten. Jedes Kreuz auf diesem Friedhof hat eine Geschichte über die begrabene Person und zaubert denen, die sie lesen, ein Lächeln ins Gesicht Eine andere Atmosphäre, voller Leben und Fröhlichkeit, im Gegensatz zu anderen Friedhöfen kommen Touristen aus der ganzen Welt, um diesen besonderen Ort zu sehen, an dem der Tod anders, fröhlicher und mit Humor betrachtet wird.",
+
+    "french_name" : "Le Joyeux Cimetière",
+    "french_description" : "Le Cimetière Joyeux de Săpânta, Maramureș, est célèbre pour ses croix colorées et les messages amusants qu'elles portent. Chaque croix de ce cimetière a une histoire sur la personne enterrée et fait sourire ceux qui les lisent. une atmosphère différente, pleine de vie et de gaieté, contrairement aux autres cimetières. Les touristes viennent du monde entier pour voir ce lieu particulier, où la mort est vue différemment, avec plus de gaieté et d'humour."
 }
