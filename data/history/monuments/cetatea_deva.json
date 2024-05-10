@@ -2,5 +2,10 @@
     "name" : "Cetatea Deva",
     "location" : [[45.888558248361214, 22.89679411776845]],
     "description" : "Cetatea a început să capete valoare militară de abia în secolul al XVII-lea. După ce turcii cuceresc Oradea, cetatea de la Deva rămâne singura neocupată. Cetatea regală a Devei care cuprindea un domeniu întins a intrat în 1444 în posesia lui Ioan de Hunedoara, voievodul Transilvaniei.Data finalizarii acesteia este anul 1264",
-    "images" : "/static/images/cetatea_deva/1.jpg"
+    "images" : "/static/images/cetatea_deva/1.jpg",
+    "german_name" : "Die Burg Deva",
+    "german_description" : "Die Burg begann erst im 17. Jahrhundert militärische Bedeutung zu erlangen. Nach der Eroberung von Oradea durch die Türken bleibt die Burg von Deva die einzige unbesetzte. Die königliche Burg von Deva, die ein großes Anwesen umfasste, kam 1444 in den Besitz von Ioan de Hunedoara, dem Woiwoden von Siebenbürgen. Das Baujahr wurde im Jahr 1264 abgeschlossen.",
+
+    "french_name" : "Le Château de Deva",
+    "french_description" : "La forteresse n'a commencé à prendre de la valeur militaire qu'au XVIIe siècle. Après la conquête d'Oradea par les Turcs, la forteresse de Deva reste la seule non occupée. Le château royal de Deva, qui comprenait un vaste domaine, est entré en possession de Ioan de Hunedoara, le voïvode de Transylvanie, en 1444. La date de son achèvement est l'année 1264."
 }

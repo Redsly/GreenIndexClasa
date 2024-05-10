@@ -2,5 +2,10 @@
     "name" : "Constanta",
     "location" : [[44.18234066909715, 28.649788492052355]],
     "description" : "Constanta a fost fondata in urma colonizarii grecesti a bazinului Marii Negre(greaca Pontos Euxeinos) de catre colonisti milezieni(persoane originare din Milet) in secolele VII-V i.Hr.Orasul,numit de catre Regele Carol I <<plamanul Romaniei>>,a devenit portul principal al tarii dupa ce a Anghel Saligny a construit podul de la Cernavoda(1895). ",
-    "images" : "/static/images/constanta/1.jpg"
+    "images" : "/static/images/constanta/1.jpg",
+    "german_name" : "Constanța",
+    "german_description" : "Constanța wurde durch die griechische Kolonisation des Schwarzen Meeres (Pontus Euxinus) durch milesische Siedler im 7.-5. Jahrhundert v. Chr. gegründet. Die Stadt, vom König Karl I. als Lunge Rumäniens bezeichnet, wurde zum wichtigsten Hafen des Landes, nachdem Anghel Saligny die Brücke von Cernavodă gebaut hatte (1895).",
+
+    "french_name" : "Constanța",
+    "french_description" : "Constanța a été fondée suite à la colonisation grecque de la mer Noire (Pontus Euxinus) par des colons milésiens au VIIe-Ve siècle av. J.-C. La ville, appelée par le roi Carol Ier le poumon de la Roumanie, est devenue le principal port du pays après qu'Anghel Saligny ait construit le pont de Cernavodă (1895)."
 }
