@@ -2,5 +2,10 @@
     "name" : "Mănăstirea Cocoş",
     "location" : [[45.21423625191583, 28.41647560900196]],
     "description" : "Mănăstirea Cocoş din Dobrogea este o destinație deosebită, situată într-o zonă aparte, la poalele Munților Măcinului. Construită într-un stil arhitectural românesc tradițional, mănăstirea este cunoscută pentru frumusețea sa și pentru atmosfera liniștită și lăuntrică pe care o oferă. Mănăstirea găzduiește o comunitate de călugări și călugărițe dedicată vieții religioase și servirii comunității locale. Pe lângă aspectele spirituale, mănăstirea Cocoş este și un loc de interes istoric și cultural, atrăgând numeroși turiști dornici să exploreze moștenirea religioasă și naturală a regiunii Dobrogea.",
-    "images" : "/static/images/manastirea_cocos/manastirea_cocos.jpg"
+    "images" : "/static/images/manastirea_cocos/manastirea_cocos.jpg",
+    "german_name" : "Cocos-Kloster",
+    "german_description" : "Das Cocos-Kloster in Dobrogea ist ein besonderes Reiseziel, gelegen in einer besonderen Gegend, am Fuße des Măcin-Gebirges. Das im traditionellen rumänischen Baustil erbaute Kloster ist für seine Schönheit und die ruhige, innere Atmosphäre bekannt, die es bietet. Das Kloster beherbergt eine Gemeinschaft von Mönchen und Nonnen, die sich dem religiösen Leben und dem Dienst an der örtlichen Gemeinschaft widmen. Neben den spirituellen Aspekten ist das Cocos-Kloster auch ein Ort von historischem und kulturellem Interesse und zieht viele Touristen an, die das religiöse und natürliche Erbe der Region Dobrogea erkunden möchten.",
+
+    "french_name" : "Monastère de Cocos",
+    "french_description" : "Le monastère de Cocos en Dobrogea est une destination spéciale, située dans une zone spéciale, au pied des montagnes de Măcin. Construit dans un style architectural roumain traditionnel, le monastère est connu pour sa beauté et l'atmosphère intérieure calme qu'il offre. Le monastère abrite une communauté de moines et de moniales dédiés à la vie religieuse et au service de la communauté locale. Outre les aspects spirituels, le monastère de Cocos est également un lieu d'intérêt historique et culturel, attirant de nombreux touristes désireux d'explorer le patrimoine religieux et naturel de la région de Dobrogea."
 }

@@ -2,5 +2,10 @@
     "name" : "Mănăstirea Polovragi",
     "location" : [[45.19288436654221, 23.78922392470385]],
     "description" : "Mănăstirea Polovragi este o mănăstire de maici cu hramul Adormirea Maicii Domnului, monument arhitectonic din Țara Românească (sec. al XVII-lea). Complexul mănăstiresc Polovragi este amplasat la poalele muntelui Piatra Polovragilor în apropierea Cheilor Oltețului, la marginea localității Polovragi din județul Gorj.  Mănăstirea are și o colecție muzeală, ce adăpostește o bogată colecție de icoane pe lemn și sticlă, ce provin din secolele al XVIII-lea și al XIX-lea, precum și depozitul de carte veche ce cuprinde peste 3000 de volume în limbile română, slavonă și greacă.",
-    "images" : "/static/images/manastirea_polovragi/manastirea_polovragi.jpg"
+    "images" : "/static/images/manastirea_polovragi/manastirea_polovragi.jpg",
+    "german_name" : "Polovragi-Kloster",
+    "german_description" : "Das Polovragi-Kloster ist ein Nonnenkloster, das der Entschlafung der Jungfrau Maria gewidmet ist, einem architektonischen Denkmal aus der Walachei (17. Jahrhundert). Der Klosterkomplex Polovragi liegt am Fuße des Berges Piatra Polovragilor in der Nähe der Oltețu-Schlucht, am Rande der Stadt Polovragi im Kreis Gorj. Das Kloster verfügt auch über eine Museumssammlung, die eine reiche Sammlung von Ikonen auf Holz und Glas aus dem 18. und 19. Jahrhundert beherbergt, sowie über das alte Buchdepot mit über 3000 Bänden in rumänischer, slawischer Sprache und Griechisch.",
+
+    "french_name" : "Monastère de Polovragi",
+    "french_description" : "Le monastère de Polovragi est un couvent dédié à la Dormition de la Vierge Marie, un monument architectural de Valachie (XVIIe siècle). Le complexe monastique de Polovragi est situé au pied de la montagne Piatra Polovragilor, près des gorges d'Oltețu, à la limite de la ville de Polovragi dans le département de Gorj. Le monastère possède également une collection de musée, qui abrite une riche collection d'icônes sur bois et sur verre, datant des XVIIIe et XIXe siècles, ainsi que l'ancien dépôt de livres qui comprend plus de 3000 volumes en roumain, en langues slaves et en grec."
 }

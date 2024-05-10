@@ -2,5 +2,10 @@
     "name" : "Biserica de lemn din Săpânța",
     "location" : [[47.98331606037966, 23.700217738432233]],
     "description" : "Biserica de lemn din Săpânța este o atracţie important, construită în stil tradițional maramureșean. Cu lemnul său sculptat și picturile religioase, biserica din Săpânța este o destinație turistică populară pentru cei care vizitează Maramureșul. Această biserică este cunoscută pentru frumusețea și autenticitatea sa, fiind un loc de închinare și contemplare pentru localnici și vizitatori. Situată într-un peisaj inedit, biserica de lemn din Săpânța impresionează cu simplitatea sa și cu arhitectura tradițională care păstrează vie istoria și cultura maramureșeană.",
-    "images" : "/static/images/biserica_sapanta/biserica_sapanta.jpg"
+    "images" : "/static/images/biserica_sapanta/biserica_sapanta.jpg",
+    "german_name" : "Die Holzkirche von Săpânta",
+    "german_description" : "Eine wichtige Sehenswürdigkeit ist die Holzkirche in Săpânta, die im traditionellen Maramureș-Stil erbaut wurde. Mit ihren Holzschnitzereien und religiösen Gemälden ist die Kirche in Săpânta ein beliebtes Touristenziel für Maramureș-Besucher. Diese Kirche ist für ihre Schönheit und Authentizität bekannt und ein Ort der Anbetung und Besinnung für Einheimische und Besucher gleichermaßen. In einer einzigartigen Landschaft gelegen, beeindruckt die Holzkirche in Săpânța durch ihre Einfachheit und traditionelle Architektur, die die Geschichte und Kultur von Maramureș lebendig hält.",
+
+    "french_name" : "L'église en bois de Săpânta",
+    "french_description" : "L'église en bois de Săpânta est une attraction importante, construite dans le style traditionnel du Maramureş. Avec ses bois sculptés et ses peintures religieuses, l'église de Săpânta est une destination touristique populaire pour ceux qui visitent le Maramureș. Cette église est connue pour sa beauté et son authenticité, étant un lieu de culte et de contemplation pour les habitants et les visiteurs. Située dans un paysage unique, l'église en bois de Săpânța impressionne par sa simplicité et son architecture traditionnelle qui préserve l'histoire et la culture du Maramureş."
 }

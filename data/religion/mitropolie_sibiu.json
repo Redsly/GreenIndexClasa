@@ -2,5 +2,10 @@
     "name" : "Mitropolia Ardealului",
     "location" : [[45.7947313673754, 24.148414224180524]],
     "description" : "Mănăstirea Tismana este cel mai vechi așezământ monahal din Țara Românească (Oltenia), aflat pe teritoriul orașului Tismana din județul Gorj. De la distanță, Mănăstirea Tismana dă impresia unei fortărețe așezate pe un vârf de stâncă, fiind și locul unde tezaurul României a fost ascuns. Mănăstirea Tismana este așezată pe malul râului cu același nume, pe muntele Stârmina, înconjurată de culmi împădurite și stâncoase, lângă gura Peșterii Sfântului Nicodim.",
-    "images" : "/static/images/mitropolie_sibiu/mitropolie_sibiu.jpg"
+    "images" : "/static/images/mitropolie_sibiu/mitropolie_sibiu.jpg",
+    "german_name" : "Metropole Siebenbürgen",
+    "german_description" : "Das Kloster Tismana ist die älteste Klostersiedlung in der Walachei (Oltenien) und liegt auf dem Gebiet der Stadt Tismana im Kreis Gorj. Aus der Ferne vermittelt das Tismana-Kloster den Eindruck einer Festung auf einem Felsen, in der auch der Schatz Rumäniens versteckt war. Das Tismana-Kloster liegt am Ufer des gleichnamigen Flusses auf dem Berg Stârmina, umgeben von bewaldeten und felsigen Gipfeln, nahe der Mündung der Höhle des Heiligen Nikodim.",
+
+    "french_name" : "Métropole de Transylvanie",
+    "french_description" : "Le monastère de Tismana est le plus ancien établissement monastique de Valachie (Olténie), situé sur le territoire de la ville de Tismana, dans le département de Gorj. De loin, le monastère de Tismana donne l'impression d'une forteresse perchée au sommet d'un rocher, étant aussi le lieu où était caché le trésor de la Roumanie. Le monastère de Tismana est situé au bord de la rivière du même nom, sur le mont Stârmina, entouré de pics boisés et rocheux, près de l'embouchure de la grotte de Saint Nicodim."
 }
