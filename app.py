@@ -4,6 +4,7 @@ import folium
 import folium.plugins
 import data_manip
 
+
 from shapely.geometry import Point
 from shapely.geometry.polygon import Polygon as Poly
 
@@ -18,6 +19,7 @@ from jinja2 import Template
 app = Flask(__name__)
 
 marker_list = []
+
 area_list = []
 
 rules = []
@@ -43,17 +45,25 @@ def about_us():
 def favicon():
     return send_from_directory(os.path.join(app.root_path, 'static'), 'favicon.ico')
 
-@app.route('/solutions')
-def solutions():
-    return render_template('solutions.html')
+@app.route('/bio')
+def bio_page():
+    return species_entry("bio")
 
-@app.route('/species')
-def species_page():
-    return species_entry()
+@app.route('/rel')
+def rel_page():
+    return species_entry("rel")
 
-@app.route('/nature_reserve')
-def nature_reserves_page():
-    return area_entry()
+@app.route('/geo')
+def geo_page():
+    return species_entry("geo")
+
+@app.route('/phil')
+def phil_page():
+    return species_entry("phil")
+
+@app.route('/histo')
+def histo_page():
+    return species_entry("histo")
     
 # Define LANG continuation
 def iframe(lang):
@@ -124,7 +134,7 @@ def load_reser_info(lat, lon):
     return None
 
 
-def species_entry():
+def species_entry(entry):
     
     args = request.args
     
@@ -140,9 +150,20 @@ def species_entry():
                     mrk = marker
                     
         return data_manip.format_data_gallery(mrk)
-
-        
-    return render_template('species.html', list=marker_list)
+    
+    params = (0, len(marker_list))
+    if entry == 'bio':
+        params = data_manip.get_bio_params()
+    elif entry == 'geo':
+        params = data_manip.get_geo_params()
+    elif entry == 'rel':
+        params = data_manip.get_rel_params()
+    elif entry == 'phil':
+        params = data_manip.get_phil_params()
+    elif entry == 'histo':
+        params = data_manip.get_histo_params()
+    
+    return render_template('species.html', list=marker_list[params[0]:params[1]])
 
 def area_entry():
     
@@ -166,6 +187,8 @@ def area_entry():
 
 
 if __name__ == '__main__':
+    
+    data_manip.load_icons()
 
     normal_layer = folium.TileLayer(name="Filters", no_wrap=True)
     
