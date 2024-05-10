@@ -2,5 +2,10 @@
     "name" : "Mănăstirea Moldovița",
     "location" : [[47.657163869884826, 25.57105687884034]],
     "description" : "Mănăstirea Moldovița este una din vechile așezări călugărești, cu un important și glorios trecut istoric, situată în comuna Vatra Moldoviței din județul Suceava. Mănăstirea Moldovița a fost inclusă pe Lista monumentelor istorice din județul Suceava din anul 2015. Originea acestei mănăstiri rămâne învăluită în negura vremii, tradiția amintind de existența ei încă din timpul voievozilor Mușatini, care au ocrotit-o. Aici au loc evenimente politice consemnate de Starețul Agato: în anul 1621 este înscăunat Ștefan Tomșa iar în 1628 Miron Barnovschi. ",
-    "images" : "/static/images/manastirea_moldovita/manastirea_moldovita.jpg"
+    "images" : "/static/images/manastirea_moldovita/manastirea_moldovita.jpg",
+    "german_name" : "Moldovita-Kloster",
+    "german_description" : "Das Kloster Moldovița ist eine der alten Klostersiedlungen mit einer wichtigen und glorreichen historischen Vergangenheit und liegt in der Gemeinde Vatra Moldoviței im Kreis Suceava. Das Moldovița-Kloster wurde 2015 in die Liste der historischen Denkmäler im Kreis Suceava aufgenommen. Der Ursprung dieses Klosters bleibt im Nebel der Zeit verborgen, eine Tradition erinnert an seine Existenz seit der Zeit der Woiwoden Musatini, die es beschützten. Hier fanden politische Ereignisse statt, die von Elder Agato aufgezeichnet wurden: 1621 wurde Ștefan Tomșa inthronisiert und 1628 Miron Barnovschi.",
+
+    "french_name" : "Monastère de Moldovita",
+    "french_description" : "Le monastère de Moldovița est l'une des anciennes colonies monastiques, avec un passé historique important et glorieux, située dans la commune de Vatra Moldoviței, dans le département de Suceava. Le monastère de Moldovița a été inscrit sur la Liste des monuments historiques du département de Suceava en 2015. L'origine de ce monastère reste enveloppée dans la nuit des temps, la tradition rappelant son existence depuis l'époque des voïvodes Musatini qui le protégeaient. Des événements politiques enregistrés par frère Agato ont eu lieu ici : en 1621, Ștefan Tomșa fut intronisé et en 1628, Miron Barnovschi."
 }

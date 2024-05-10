@@ -2,5 +2,10 @@
     "name" : "Depresiunea Târgu Jiu",
     "location" : [[44.9535059891583, 23.286159286059068]],
     "description" : "Depresiunea Târgu Jiu - Câmpu Mare, situată în partea de vest a Subcarpaților Getici, este mărginită la nord de Dealurile Gorjului (dealuri subcarpatice interne), iar la sud de Dealul Bran (333 m, deal extern). Spre est se întinde până la Gilort, iar spre vest până la Motru. Depresiunea are altitudini reduse pentru o regiune subcarpatică (sub 300 m), este străbătută de Jiu, și are aspectul unui câmp mare (de unde și denumirea de Câmpu Mare). ",
-    "images" : "/static/images/depresiunea_targu_jiu/depresiunea_targu_jiu.jpg"
+    "images" : "/static/images/depresiunea_targu_jiu/depresiunea_targu_jiu.jpg",
+    "german_name" : "Târgu-Jiu-Depression",
+    "german_description" : "Die Senke Târgu Jiu – Câmpu Mare liegt im westlichen Teil des getischen Vorkarpatenvorlandes und wird im Norden von den Gorjului-Hügeln (innere Vorkarpatenhügel) und im Süden vom Bran-Hügel (333 m, äußerer Hügel) begrenzt. Im Osten erstreckt es sich bis Gilort und im Westen bis Motru. Die Senke hat für eine Subkarpatenregion niedrige Höhen (unter 300 m), wird vom Jiu durchflossen und hat das Aussehen eines großen Feldes (daher der Name Câmpu Mare).",
+
+    "french_name" : "Dépression de Târgu Jiu",
+    "french_description" : "La dépression de Târgu Jiu - Câmpu Mare, située dans la partie occidentale des Basses-Carpates gétiques, est bordée au nord par les collines de Gorjului (collines internes des Basses-Carpates) et au sud par la colline de Bran (333 m, colline externe). À l'est, il s'étend jusqu'à Gilort et à l'ouest jusqu'à Motru. La dépression a des altitudes basses pour une région subcarpatique (en dessous de 300 m), est traversée par le Jiu et a l'apparence d'un grand champ (d'où le nom de Câmpu Mare)."
 }

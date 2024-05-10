@@ -2,5 +2,10 @@
     "name" : "Vulcanul stins Piatra Roșie",
     "location" : [[45.81862076404599, 21.719725043706216]],
     "description" : "Piatra Roșie este un vulcan stins (altitudine 211 metri) aflat în Banat, în apropiere de Lucareț, județul Timiș. Este situat pe falia Șanovița - Denta pe versantul sudic al dealurilor Lipovei. Este format din roci bazaltice, erupte în neozoic.Din craterul vulcanului se exploatează bazalt. ",
-    "images" : "/static/images/Piatra_Rosie/Piatra_Rosie.jpg"
+    "images" : "/static/images/Piatra_Rosie/Piatra_Rosie.jpg",
+    "german_name" : "Kaprenburch",
+    "german_description" : "Die Kaprenburch ist am besten",
+
+    "french_name" : "Le Caprcoise",
+    "french_description" : "Le Capricoise e tu un abeli' sdaddddasdasd"
 }

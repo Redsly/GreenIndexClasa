@@ -2,5 +2,10 @@
     "name" : "Râul Târnava Mare",
     "location" : [[46.21021776705159, 24.318093546452793]],
     "description" : "Târnava Mare este cel mai important râu al Ţinutului Odorheiului. Izvorăşte de la poalele muntelui Şumuleu Mare, de la o altitudine de 1455m, are o lungime de 221 km. În comuna Blaj se uneşte cu Târnava Mică, apoi împreună cu numele comun de Târnava, îşi continuă drumul până la râul Mureş. ",
-    "images" : "/static/images/Raul_Tarnava_Mare/Raul_Tarnava_Mare.jpg"
+    "images" : "/static/images/Raul_Tarnava_Mare/Raul_Tarnava_Mare.jpg",
+    "german_name" : "Kaprenburch",
+    "german_description" : "Die Kaprenburch ist am besten",
+
+    "french_name" : "Le Caprcoise",
+    "french_description" : "Le Capricoise e tu un abeli' sdaddddasdasd"
 }

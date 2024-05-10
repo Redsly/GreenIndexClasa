@@ -1,6 +1,12 @@
 {
-    "name" : "Podușul Târnavelor",
+    "name" : "Podișul Târnavelor",
     "location" : [[46.19135286604402, 24.492083360756414]],
     "description" : "Podișul Târnavelor este una dintre cele trei subunități ale Depresiunii Coliniare a Transilvaniei, se află între Mureș și Olt, are relief mai accidentat și altitudini mai înalte spre est și mai joase spre vest și sud, are două subunitați:Podișul Hârtibaciului în S-E, Podișul Secașelor în N-V.Podișul Târnavelor este situat între Văile Mureș (la nord) și Olt (la sud), străbătut de Târnava Mica si Târnava Mare. Are altitudini medii între 400-600 m.",
-    "images" : "/static/images/Podisul_Tarnavelor/Podisul_Tarnavelor.jpg"
+    "images" : "/static/images/Podisul_Tarnavelor/Podisul_Tarnavelor.jpg",
+    "german_name" : "Das Târnavel-Plateau",
+    "german_description" : "Das Târnavelor-Plateau ist eine der drei Untereinheiten der Siebenbürgischen Hügelsenke, es liegt zwischen Mureș und Olt, es hat ein raueres Relief und höhere Höhen im Osten und niedrigere im Westen und Süden, es hat zwei Untereinheiten: die Hârtibaciului Plateau im Südosten, das Secașelor-Plateau im Nordwesten Das Târnavelor-Plateau liegt zwischen den Mureș-Tälern (im Norden) und Olt (im Süden), durchquert von Târnava Mica und Târnava Mare. Die durchschnittliche Höhenlage liegt zwischen 400 und 600 m.",
+
+    "french_name" : "Le plateau de Tarnavel",
+    "french_description" : "Le plateau de Târnavelor est l'une des trois sous-unités de la dépression vallonnée de Transylvanie, il est situé entre Mureș et Olt, il a un relief plus accidenté et des altitudes plus élevées à l'est et plus basses à l'ouest et au sud, il comprend deux sous-unités : le Hârtibaciului Plateau au S-E, plateau de Secașelor au N-W. Le plateau de Târnavelor est situé entre les vallées de Mureș (au nord) et d'Olt (au sud), traversé par Târnava Mica et Târnava Mare. Il a des altitudes moyennes comprises entre 400 et 600 m."
+
 }

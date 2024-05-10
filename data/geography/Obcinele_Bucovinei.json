@@ -2,5 +2,10 @@
     "name" : "Obcinele Bucovinei",
     "location" : [[47.7121118091847, 25.666025592178368]],
     "description" : "Obcinele Bucovinei este o subunitate a Carpaților Orientali românești, localizată în nordul Moldovei, pe teritoriul județului Suceava. Este compusă din: Obcina Mare, Obcina Feredeu, Obcina Mestecăniș, Obcina Brodinei. Vârful Lucina din nordul Obcinei Mestecănișului este cel mai înalt din Obcinele Bucovinei, având 1588 m altitudine. Între Obcina Mestecăniș și Obcina Feredeului, râul Moldova, venind din nord, formează câteva chei mici: Cheile Lucavei, Cheile Brezei, Cheile Botusului. ",
-    "images" : "/static/images/obcinele_bucovinei/obcinele_bucovinei.jpg"
+    "images" : "/static/images/obcinele_bucovinei/obcinele_bucovinei.jpg",
+    "german_name" : "Die Gemeinden der Bukowina",
+    "german_description" : "Obcinele Bucovina ist eine Untereinheit der rumänischen Ostkarpaten und liegt im Norden Moldawiens auf dem Gebiet des Kreises Suceava. Es besteht aus: Obcina Mare, Obcina Feredeu, Obcina Mestecăniș, Obcina Brodinei. Der Lucina-Gipfel im Norden von Mestecănișului ist mit einer Höhe von 1588 m der höchste der Bukowina-Gemeinden. Zwischen der Gemeinde Mestecăniș und der Gemeinde Feredeului bildet der von Norden kommende Fluss Moldau mehrere kleine Schluchten: Cheile Lucavei, Cheile Brezei, Cheile Botusului.",
+
+    "french_name" : "Les communes de Bucovine",
+    "french_description" : "L'Obcinele Bucovina est une sous-unité des Carpates orientales roumaines, située au nord de la Moldavie, sur le territoire du comté de Suceava. Il est composé de : Obcina Mare, Obcina Feredeu, Obcina Mestecăniș, Obcina Brodinei. Le sommet Lucina au nord de Mestecănișului est le plus haut des communes de Bucovine, avec une altitude de 1588 m. Entre la commune de Mestecăniș et la commune de Feredeului, la rivière Moldavie, venant du nord, forme plusieurs petites gorges : Cheile Lucavei, Cheile Brezei, Cheile Botusului."
 }
