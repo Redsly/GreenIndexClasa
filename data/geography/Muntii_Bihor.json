@@ -2,5 +2,10 @@
     "name" : "Munții Bihor",
     "location" : [[46.668661372005936, 22.749483656836162]],
     "description" : "Munții Bihorului sunt o grupă montană a Munților Apuseni, aparținând de lanțul muntos al Carpaților Occidentali. Cel mai înalt vârf este Vârful Bihor(Curcubăta Mare), cu 1.849 metri. Munții Bihor, fiind cei mai înalți din Apuseni, pot fi văzuți de la distanțe mari. Munții Bihor se învecinează cu următoarele grupe montane: Munții Vlădeasa (uneori prezentați ca Munții Bihor-Vlădeasa) spre nord, Munții Gilăului spre nord-est, Muntele Mare spre est, Munții Metaliferi și Muntele Găina (considerat uneori parte a Munților Bihorului) spre sud-est și sud, Munții Codru-Moma spre vest și Depresiunea Beiușului spre nord-vest. ",
-    "images" : "/static/images/muntii_bihor/muntii_bihor.jpg"
+    "images" : "/static/images/muntii_bihor/muntii_bihor.jpg",
+    "german_name" : "Bihor-Gebirge",
+    "german_description" : "Das Bihor-Gebirge ist eine Gebirgsgruppe des Apuseni-Gebirges und gehört zum Gebirgszug der Westkarpaten. Der höchste Gipfel ist Vârful Bihor (Curcubăta Mare) mit 1.849 Metern. Das Bihor-Gebirge ist das höchste im Apuseni-Gebirge und kann aus großer Entfernung gesehen werden. Das Bihor-Gebirge wird von den folgenden Gebirgsgruppen begrenzt: dem Vlădeasa-Gebirge (manchmal auch als Bihor-Vlădeasa-Gebirge bezeichnet) im Norden, dem Gilăului-Gebirge im Nordosten, dem Mare-Gebirge im Osten, dem Metaliferi-Gebirge und dem Găina-Gebirge ( (manchmal als Teil des Bihor-Gebirges betrachtet) im Südosten und Süden, das Codru-Moma-Gebirge im Westen und die Beiușului-Senke im Nordwesten.",
+
+    "french_name" : "Monts Bihor",
+    "french_description" : "Les monts Bihor sont un groupe montagneux des monts Apuseni, appartenant à la chaîne de montagnes des Carpates occidentales. Le plus haut sommet est Vârful Bihor (Curcubăta Mare), avec 1 849 mètres. Les monts Bihor, étant les plus hauts des Apuseni, peuvent être vus de très loin. Les monts Bihor sont bordés par les groupes montagneux suivants : les monts Vlădeasa (parfois présentés comme les monts Bihor-Vlădeasa) au nord, les monts Gilăului au nord-est, les monts Mare à l'est, les monts Metaliferi et les monts Găina ( parfois considérée comme faisant partie des monts Bihor) au sud-est et au sud, les monts Codru-Moma à l'ouest et la dépression de Beiușului au nord-ouest."
 }

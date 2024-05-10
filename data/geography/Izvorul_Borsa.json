@@ -2,5 +2,10 @@
     "name" : "Izvorul Borșa",
     "location" : [[47.65066447272235, 24.64969950900848]],
     "description" : "Izvorul Borșa este situat în Munții Rodnei, în partea de nord-vest a României, în județul Maramureș. Este amplasat în apropierea localității Borșa. Este renumit pentru apele sale minerale de înaltă calitate.  ",
-    "images" : "/static/images/izvorul_borsa/izvorul_borsa.jpg"
+    "images" : "/static/images/izvorul_borsa/izvorul_borsa.jpg",
+    "german_name" : "Borșa-Quelle",
+    "german_description" : "Izvorul Borșa liegt im Rodnei-Gebirge im Nordwesten Rumäniens im Kreis Maramureș. Es liegt in der Nähe der Stadt Borșa. Es ist berühmt für sein hochwertiges Mineralwasser.",
+
+    "french_name" : "La source de Borșa",
+    "french_description" : "Izvorul Borșa est situé dans les monts Rodnei, dans la partie nord-ouest de la Roumanie, dans le comté de Maramureș. Il est situé près de la ville de Borșa. Elle est célèbre pour ses eaux minérales de haute qualité."
 }
