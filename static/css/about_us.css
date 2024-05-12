@@ -78,11 +78,16 @@ p {
   position: fixed;
   z-index: 1; 
   top: 0;
-  background-color: #34252F; 
+  background-color: #214a86; 
   overflow-x: hidden;
   padding-top: 60px; 
   transition: 0.5s;
-  left:0;
+  left: 0;
+  border-right: none;
+}
+
+.sidenav.open {
+  border-right: 3px solid black;
 }
 
 
@@ -116,20 +121,16 @@ p {
 }
 
 .openbtn {
-    font-size: 20px;
-    cursor: pointer;
-    background-color: #34252F;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    position:absolute;
-    top:0;
-    left:0;
-
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #214a86;
+  color: white;
+  padding: 10px 15px;
+  border: none;
 }
-  
+
 .openbtn:hover {
-    background-color: #444;
+  background-color: #1f384e;
 }
 
 
