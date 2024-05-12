@@ -30,8 +30,8 @@
   }
 
 .accordion {
-    background-color: #04364A;
-    color: #64CCC5;
+    background-color: #1f384e;
+    color: #ffffff;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -41,21 +41,25 @@
     transition: 0.4s;
     font-size: xx-large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    margin-bottom: 10px;
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .accordion:hover {
-    background-color: #176B87;
+    background-color: #077faf;
   }
   
   /* Style the accordion panel. Note: hidden by default */
   .panel {
     padding: 0 18px;
-    background-color: #04364A;
+    background-color: #1f384e;
     display: none;
     overflow: hidden;
     font-size:larger;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    margin-bottom: 10px;
   }
 
 .sidenav a:visited {
@@ -63,12 +67,12 @@
   }
 
 h1 {
-    color: #64CCC5;
+    color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 p {
     font-size: larger;
-    color: #64CCC5;
+    color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
