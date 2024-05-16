@@ -2,6 +2,10 @@
     "name" : "Lucian Blaga",
     "location" : [[45.984629, 23.557184]],
     "description" : "Lucian Blaga (n. 9/21 mai 1895, Lancrăm, Alba, România - d. 6 mai 1961, Cluj, România) a fost un eseist, filozof, poet, dramaturg, traducător, jurnalist, profesor universitar, academician și diplomat român. ",
-    "type" : "Animal",
-    "images" : "/static/images/lucian_blaga/1.jpg"
+    "images" : "/static/images/lucian_blaga/1.jpg",
+    "german_name" : "Lucian Blaga",
+    "german_description" : "Lucian Blaga (geb. 9./21. Mai 1895, Lancram, Alba, Rumänien – gest. 6. Mai 1961, Cluj, Rumänien) war ein rumänischer Essayist, Philosoph, Dichter, Dramatiker, Übersetzer, Journalist, Universitätsprofessor, Akademiker und Diplomat.",
+
+    "french_name" : "Lucian Blaga",
+    "french_description" : "Lucian Blaga (né le 9/21 mai 1895 à Lancram, Alba, Roumanie - décédé le 6 mai 1961 à Cluj, Roumanie) était un essayiste, philosophe, poète, dramaturge, traducteur, journaliste, professeur d'université, universitaire et diplomate roumain."
 }

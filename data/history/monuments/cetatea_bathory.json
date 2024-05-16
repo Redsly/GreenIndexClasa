@@ -1,0 +1,11 @@
+{
+    "name" : "Cetatea Báthory",
+    "location" : [[47.23073529139425, 22.799192924790162]],
+    "description" : "Prima mențiune a conacului din oraș datează din anul 1520.În a doua jumătate a sec. XVI se confirmă existența acesteia, documentele menționând o curie fortificată, denumită castellum.Transformarea renascentistă a castelului fortificat,din care provin și ruinele existente în ziua de azi,se leagă de nepotul voievodului și regelui Poloniei, Báthori István (Ștefan Báthori), cu același nume. Acesta reușește să termine construcția în anul 1592. ",
+    "images" : "/static/images/cet_bathory/1.jpg",
+    "german_name" : "Die Burg Báthory",
+    "german_description" : "Die erste Erwähnung des Herrenhauses in der Stadt stammt aus dem Jahr 1520. In der zweiten Hälfte des 16. Jahrhunderts wird seine Existenz bestätigt, wobei die Dokumente einen befestigten Hof erwähnen, der als castellum bezeichnet wird. Die Renaissance-Transformation des befestigten Schlosses, aus dem auch die heute existierenden Ruinen stammen, ist mit dem Neffen des Fürsten und Königs von Polen, Báthori István (Ștefan Báthori), desselben Namens verbunden. Er gelang es, den Bau im Jahr 1592 abzuschließen.",
+
+    "french_name" : "Le Château Báthory",
+    "french_description" : "La première mention du manoir de la ville date de l'année 1520. Dans la seconde moitié du XVIe siècle, son existence est confirmée, les documents mentionnant une cour fortifiée appelée castellum. La transformation Renaissance du château fortifié, dont proviennent aussi les ruines existantes aujourd'hui, est associée au neveu du prince et roi de Pologne, Báthori István (Ștefan Báthori), du même nom. Il réussit à achever la construction en 1592."
+}

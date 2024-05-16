@@ -2,5 +2,10 @@
     "name" : "Câmpia Olteiniei",
     "location" : [[44.21075234059287, 23.229784853559593]],
     "description" : "Câmpia Olteniei este o subdiviziune a Câmpiei Române. câmpie pe cursul inferior al Dunării ocupând o bună parte din jumătatea sudică și sud-estică a țării, fiind cea mai întinsă unitate de relief a României. Câmpia Olteniei reprezintă vestul extrem al acesteia. Este formată din câmpii tabulare, cu numeroase dune de nisip: Câmpia Blahniței, Câmpia Băileștilor și Câmpia Romanaților. ",
-    "images" : "/static/images/campia_olteniei/campia_olteniei.jpg"
+    "images" : "/static/images/campia_olteniei/campia_olteniei.jpg",
+    "german_name" : "Olteinien-Ebene",
+    "german_description" : "Die Oltenia-Ebene ist eine Unterteilung der Rumänischen Ebene. Ebene am Unterlauf der Donau, die einen Großteil der südlichen und südöstlichen Hälfte des Landes einnimmt und die größte Entlastungseinheit Rumäniens darstellt. Die Oltenia-Ebene stellt den äußersten Westen dar. Es besteht aus tafelförmigen Ebenen mit zahlreichen Sanddünen: Blahniței-Ebene, Băileștilor-Ebene und Romanatil-Ebene.",
+
+    "french_name" : "Plaine d'Olteinia",
+    "french_description" : "La plaine d'Olténie est une subdivision de la plaine roumaine. plaine du cours inférieur du Danube occupant une bonne partie de la moitié sud et sud-est du pays, constituant la plus grande unité de relief de la Roumanie. La plaine d'Olténie représente son extrême ouest. Il se compose de plaines tabulaires, avec de nombreuses dunes de sable : la plaine de Blahniței, la plaine de Băileștilor et la plaine de Romanatil."
 }

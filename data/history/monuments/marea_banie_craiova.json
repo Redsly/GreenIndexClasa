@@ -1,0 +1,13 @@
+{
+    "name" : "Marea Bănie de Craiova",
+    "location" : [[44.33309, 23.81649]],
+    "description" : "Apărută in ultimele decenii ale secolului al XV-lea, Marea Bănie de Craiova a devenit într-un timp relativ scurt cea de-a doua instituție politică a țării ca importanță, după domnie. Este o instituție preluată din mediul unguresc. Odată cu ridicarea lui Mircea cel Bătrân ca domn, Marele Ban preia pentru teritoriul Olteniei atribuțiile domniei, dispunând și de o cancelarie în cadrul căreia se redactează acte după forma celor domnești. ",
+    "images" : "/static/images/marea_banie/1.jpg",
+    "german_name" : "Die Große Herrschaft von Craiova",
+    "german_description" : "Die Große Herrschaft von Craiova, die in den letzten Jahrzehnten des 15. Jahrhunderts entstand, wurde in relativ kurzer Zeit zur zweitwichtigsten politischen Institution des Landes nach der Herrschaft. Es handelt sich um eine Institution, die aus dem ungarischen Umfeld übernommen wurde. Mit der Erhebung von Mircea cel Bătrân zum Herrscher übernimmt der Große Ban die Aufgaben der Herrschaft für das Gebiet der Walachei und verfügt über ein Kanzlei, in der Akte nach dem Vorbild der Fürsten verfasst werden.",
+
+    "french_name" : "La Grande Domination de Craiova",
+    "french_description" : "La Grande Domination de Craiova, apparue dans les dernières décennies du XVe siècle, est devenue en relativement peu de temps la deuxième institution politique la plus importante du pays après la domination. Il s'agit d'une institution importée de l'environnement hongrois. Avec l'élévation de Mircea cel Bătrân au rang de souverain, le Grand Ban assume les fonctions de la souveraineté pour le territoire de l'Oltenie et dispose d'un chancelier où des actes sont rédigés selon le modèle des actes princiers."
+}
+
+

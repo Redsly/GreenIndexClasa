@@ -1,0 +1,11 @@
+{
+    "name" : "Experimentul Pitesti",
+    "location" : [[44.944715, 24.918436]],
+    "description" : "Experimentul Pitești (sau Fenomenul Pitești) a fost pus în practică la Penitenciarul Pitești, în scopul „reeducării” deținuților politici.Experimentul s-a desfășurat în perioada anilor 1949-1952. Experimentul Pitești a fost terminat în septembrie 1951 imediat după înlăturarea din fruntea Partidului Muncitoresc Român a comuniștilor extremiști.",
+    "images" : "/static/images/exp_pitesti/1.jpg",
+    "german_name" : "Das Experiment von Pitești",
+    "german_description" : "Das Pitești-Experiment (oder das Phänomen von Pitești) wurde im Gefängnis von Pitești durchgeführt, um politische Gefangene umzuerziehen. Das Experiment fand zwischen 1949 und 1952 statt. Das Pitești-Experiment wurde im September 1951 beendet, kurz nachdem die extremistischen Kommunisten aus der Führung der Rumänischen Arbeiterpartei entfernt worden waren.",
+
+    "french_name" : "L'Expérience de Pitești",
+    "french_description" : "L'Expérience de Pitești (ou le Phénomène de Pitești) a été mise en œuvre à la prison de Pitești dans le but de rééduquer les détenus politiques. L'expérience s'est déroulée entre 1949 et 1952. L'Expérience de Pitești a pris fin en septembre 1951, juste après l'éviction des communistes extrémistes de la direction du Parti des travailleurs roumains."
+}

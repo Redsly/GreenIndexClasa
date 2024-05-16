@@ -2,5 +2,10 @@
     "name" : "Munții Rodnei",
     "location" : [[47.571896706181995, 24.549270347247752]],
     "description" : "Munţii Rodnei fac parte din grupul de nord al Carpaţilor Orientali. Cu înălţimea maximă de 2.303 de metri, atinsă de vârful Pietrosul, Munţii Rodnei sunt cei mai înalţi şi mai greu de străbătut din lanţul Carpaţilor Orientali. În partea sudică a munţilor apar roci vulcanice neogene, sub forma unor măguri dispuse în lungul Someşului Mare.  ",
-    "images" : "/static/images/muntii_rodnei/muntii_rodnei.jpg"
+    "images" : "/static/images/muntii_rodnei/muntii_rodnei.jpg",
+    "german_name" : "Rodna-Gebirge",
+    "german_description" : "Das Rodna-Gebirge gehört zur nördlichen Gruppe der Ostkarpaten. Mit einer maximalen Höhe von 2.303 Metern, die der Gipfel des Pietrosul erreicht, ist das Rodna-Gebirge das höchste und am schwierigsten zu überquerende in der Kette der Ostkarpaten. Im südlichen Teil des Gebirges erscheinen neogene Vulkangesteine ​​in Form von Magules, die entlang des Großen Someşului angeordnet sind.",
+
+    "french_name" : "Monts Rodna",
+    "french_description" : "Les monts Rodna font partie du groupe nord des Carpates orientales. Avec une hauteur maximale de 2 303 mètres, atteinte par le sommet du Pietrosul, les monts Rodna sont les plus hauts et les plus difficiles à traverser de la chaîne des Carpates orientales. Dans la partie sud des montagnes apparaissent des roches volcaniques néogènes, sous forme de magules disposées le long du Grand Someşului."
 }

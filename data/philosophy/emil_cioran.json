@@ -2,6 +2,10 @@
     "name" : "Emil Cioran",
     "location" : [[45.703723, 24.068103]],
     "description" : "Emil Cioran (n. 8 aprilie 1911, Rășinari - d. 20 iunie 1995, Paris) a fost un filozof și scriitor român, devenit apatrid și stabilit în Franța, unde a trăit până la moarte fără să ceară cetățenia franceză. ",
-    "type" : "Animal",
-    "images" : "/static/images/emil_cioran/1.jpg"
+    "images" : "/static/images/emil_cioran/1.jpg",
+    "german_name" : "Emil Cioran",
+    "german_description" : "Emil Cioran (geb. 8. April 1911, Rășinari – gest. 20. Juni 1995, Paris) war ein rumänischer Philosoph und Schriftsteller, der staatenlos wurde und sich in Frankreich niederließ, wo er bis zu seinem Tod lebte, ohne die französische Staatsbürgerschaft zu beantragen.",
+
+    "french_name" : "Emil Cioran",
+    "french_description" : "Emil Cioran (né le 8 avril 1911 à Rășinari - décédé le 20 juin 1995 à Paris) était un philosophe et écrivain roumain, devenu apatride et installé en France, où il vécut jusqu'à sa mort sans demander la nationalité française."
 }

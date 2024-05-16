@@ -1,0 +1,11 @@
+{
+    "name" : "Cetatea Șoimoș",
+    "location" : [[46.10856166019992, 21.723139520506397]],
+    "description" : "Cetatea a fost construită către sfârșitul secolului al XIII-lea de către o familie nobiliară. Prima atestare documentară datează din anul 1278, când banul Pál donează „Castrum Somos” fiilor fratelui său. După 1315 ajunge domeniu regal, fiind reședința comiților și vicecomiților de Arad. În anul 1456 a intrat în posesia lui Iancu de Hunedoara, care apoi a dăruit-o căpitanului husit ceh Jan Giskra în 1471.",
+    "images" : "/static/images/cet_soimos/1.jpg",
+    "german_name" : "Die Burg Șoimoș",
+    "german_description" : "Die Burg wurde gegen Ende des 13. Jahrhunderts von einer Adelsfamilie erbaut. Die erste urkundliche Erwähnung stammt aus dem Jahr 1278, als der Ban Pál das Castrum Somos an die Söhne seines Bruders spendete. Nach 1315 wurde sie königliches Gut und war die Residenz der Grafen und Vizegrafen von Arad. Im Jahr 1456 gelangte sie in den Besitz von Iancu de Hunedoara, der sie dann 1471 dem tschechischen Hussitenkapitän Jan Giskra schenkte.",
+
+    "french_name" : "Le Château de Șoimoș",
+    "french_description" : "Le château a été construit vers la fin du XIIIe siècle par une famille noble. La première mention documentaire date de 1278, lorsque le ban Pál a donné le Castrum Somos aux fils de son frère. Après 1315, il devient domaine royal et était la résidence des comtes et vice-comtes d'Arad. En 1456, il est passé entre les mains de Iancu de Hunedoara, qui l'a ensuite offert au capitaine hussite tchèque Jan Giskra en 1471."
+}

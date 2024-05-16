@@ -1,0 +1,11 @@
+{
+    "name" : "Includerea Dobrogei in Regatul Romaniei",
+    "location" : [[44.80808012077292, 28.486546185556357]],
+    "description" : "Includerea Dobrogei in Regatul Romaniei in urma Tratatului de la San Stefano a sporit importanta provinciei,deoarece asigura iesirea directa la mare a statului roman.Podul de la Cernavoda pentru asigurarea legaturii feroviare directe cu restul tarii,iar orasul Constanta devine principalul port la Marea Neagra.",
+    "images" : "/static/images/includ_dobrogea/1.jpg",
+    "german_name" : " Die Eingliederung der Dobrudscha in das Königreich Rumänien",
+    "german_description" : "Die Eingliederung der Dobrudscha in das Königreich Rumänien infolge des Vertrags von San Stefano erhöhte die Bedeutung der Provinz, da sie dem rumänischen Staat einen direkten Zugang zum Meer ermöglichte. Die Brücke von Cernavodă wurde gebaut, um eine direkte Eisenbahnverbindung zum Rest des Landes zu gewährleisten, und die Stadt Constanța wurde zum wichtigsten Hafen am Schwarzen Meer.",
+
+    "french_name" : "L'inclusion de la Dobroudja dans le Royaume de Roumanie",
+    "french_description" : "L'inclusion de la Dobroudja dans le Royaume de Roumanie suite au Traité de San Stefano a accru l'importance de la province, car elle assurait un accès direct à la mer pour l'État roumain. Le pont de Cernavodă a été construit pour assurer une liaison ferroviaire directe avec le reste du pays, et la ville de Constanța est devenue le principal port de la mer Noire."
+}

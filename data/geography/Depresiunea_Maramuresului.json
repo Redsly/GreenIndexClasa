@@ -2,5 +2,10 @@
     "name" : "Depresiunea Maramureșului",
     "location" : [[47.79272811485256, 24.774896041725636]],
     "description" : "Depresiunea Maramureşului este străbătută de râurile Vişeu, Iza şi Mara, cu înălţimi medii de 800 de metri. Are un relief ce coboară în trepte către văile râurilor care o străbat. Depresiunea Maramureşului este mărginită de Munţii Maramureşului la nord, Munţii Rodnei, Munţii Ţibleş şi Munţii Gutâi la sud şi vest, continuându-se dincolo de hotarele ţării.  Depresiunea Maramureşului a fost un vechi golf terţiar. Din aceasta cauză, regiunea e bogată în sare şi chiar în petrol.  ",
-    "images" : "/static/images/depresiunea_maramuresului/depresiunea_maramuresului.jpg"
+    "images" : "/static/images/depresiunea_maramuresului/depresiunea_maramuresului.jpg",
+    "german_name" : "Die Depression von Maramureș",
+    "german_description" : "Die Maramureș-Senke wird von den Flüssen Vișeu, Iza und Mara durchzogen, deren durchschnittliche Höhe 800 Meter beträgt. Es verfügt über ein Relief, das stufenweise in Richtung der Täler der Flüsse abfällt, die es durchqueren. Die Maramureș-Senke wird im Norden vom Maramureș-Gebirge, im Süden und Westen vom Rodnei-Gebirge, dem Ţibleș-Gebirge und dem Gutâi-Gebirge begrenzt und setzt sich über die Landesgrenzen hinaus fort. Die Senke von Maramureș war ein alter tertiärer Golf. Aus diesem Grund ist die Region reich an Salz und sogar Öl.",
+
+    "french_name" : "La dépression du Maramureș",
+    "french_description" : "La dépression du Maramureş est traversée par les rivières Vişeu, Iza et Mara, avec des hauteurs moyennes de 800 mètres. Il présente un relief qui descend par étapes vers les vallées des rivières qui le traversent. La dépression du Maramureş est bordée par les monts Maramureş au nord, les monts Rodnei, les monts Ţibleş et les monts Gutâi au sud et à l'ouest, s'étendant au-delà des frontières du pays. La dépression du Maramureş était un ancien golfe tertiaire. Pour cette raison, la région est riche en sel et même en huile."
 }

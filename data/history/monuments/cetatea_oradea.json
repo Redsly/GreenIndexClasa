@@ -1,0 +1,11 @@
+{
+    "name" : "Cetatea Oradea",
+    "location" : [[47.0518627556812, 21.94379037486732]],
+    "description" : "Cetatea Oradiei a stat în atenția Curții de la Viena în special după cucerirea de către turci a Timișoarei.Intrarea armatelor austriece, în iunie 1692, în cetatea Oradea, a reprezentat, fără îndoială, începutul unei noi ere în viața orașului, o revenire din punct de vedere administrativ la lumea creștină a Europei.",
+    "images" : "/static/images/cet_oradea/1.jpg",
+    "german_name" : "Die Burg Oradea",
+    "german_description" : "Die Burg von Oradea stand besonders im Fokus des Wiener Hofes, insbesondere nach der Eroberung von Temeswar durch die Türken. Der Einmarsch der österreichischen Armeen in die Burg von Oradea im Juni 1692 markierte zweifellos den Beginn einer neuen Ära im Leben der Stadt, eine administrative Rückkehr zur christlichen Welt Europas.",
+
+    "french_name" : "Le Château d'Oradea",
+    "french_description" : "Le château d'Oradea était particulièrement sous l'attention de la Cour de Vienne, surtout après la conquête de Timișoara par les Turcs. L'entrée des armées autrichiennes dans le château d'Oradea en juin 1692 a sans aucun doute marqué le début d'une nouvelle ère dans la vie de la ville, un retour administratif au monde chrétien de l'Europe."
+}

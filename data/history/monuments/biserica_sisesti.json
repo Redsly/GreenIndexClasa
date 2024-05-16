@@ -1,0 +1,11 @@
+{
+    "name" : "Biserica de lemn din Șișești ",
+    "location" : [[47.58936071397624, 26.518564590777686]],
+    "description" : "Biserica de lemn din Șișești, județul Maramureș, a fost construită în anul 1672, modificată în 1763 și înlocuită în 1890 de biserica unirii ridicată de Vasile Lucaciu.Biserica a fost datată peste intrarea veche din anul 1672. Intrarea de pe apus înregistra o schimbare în planul bisericii și în structura de sprijin a turnului din 1763.",
+    "images" : "/static/images/biserica_sisesti/1.jpg",
+    "german_name" : "Die Holzkirche in Șișești",
+    "german_description" : "Die Holzkirche in Șișești, Kreis Maramureș, wurde im Jahr 1672 erbaut, im Jahr 1763 umgebaut und 1890 durch die Vereinigungskirche ersetzt, die von Vasile Lucaciu errichtet wurde. Das Datum 1672 wurde über dem alten Eingang eingraviert. Der Eingang von Westen verzeichnete eine Änderung im Plan der Kirche und in der Tragstruktur des Turms aus dem Jahr 1763.",
+
+    "french_name" : "L'église en bois de Șișești",
+    "french_description" : "L'église en bois de Șișești, dans le județ (département) de Maramureș, a été construite en 1672, modifiée en 1763 et remplacée en 1890 par l'église de l'union érigée par Vasile Lucaciu. La date de 1672 a été inscrite au-dessus de l'ancienne entrée. L'entrée de l'ouest enregistrait un changement dans le plan de l'église et dans la structure de soutien de la tour datant de 1763."
+}

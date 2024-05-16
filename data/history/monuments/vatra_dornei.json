@@ -1,0 +1,11 @@
+{
+    "name" : "Vatra Dornei",
+    "location" : [[47.34458723654315, 25.352174574054242]],
+    "description" : "Existența Dornei este atestată încă de pe vremea întemeierii statului Moldova, conform unei legende care leagă numele localității de o dragoste tragică a întemeietorului Dragoș Vodă. Acesta s-ar fi îndrăgostit de păstorița localnică Dorina, pe care a ucis-o dintr-o greșeală și, în amintirea ei, a decis ca apa lângă care s-a petrecut drama să poarte numele ei. ",
+    "images" : "/static/images/vatra_dornei/1.jpg",
+    "german_name" : "Vatra Dornei",
+    "german_description" : "Die Existenz von Dorna wird bereits seit der Gründung des Staates Moldau belegt, gemäß einer Legende, die den Namen der Ortschaft mit einer tragischen Liebesgeschichte des Gründers Dragoș Vodă verbindet. Dieser soll sich in die örtliche Schäferin Dorina verliebt haben, die er versehentlich tötete, und zu ihrer Erinnerung beschloss er, das Wasser, an dem sich das Drama ereignete, nach ihr zu benennen.",
+
+    "french_name" : "Vatra Dornei",
+    "french_description" : "L'existence de Dorna est attestée depuis la fondation de l'État moldave, selon une légende qui lie le nom de la localité à une tragique histoire d'amour du fondateur Dragoș Vodă. Celui-ci aurait été amoureux de la bergère locale Dorina, qu'il aurait accidentellement tuée, et en sa mémoire, il décida de donner le nom de Dorina à l'eau près de laquelle s'est déroulé le drame."
+}

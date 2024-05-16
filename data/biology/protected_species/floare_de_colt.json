@@ -4,5 +4,10 @@
     "description" : "(Leontopodium alpinum Cass.), numită și floarea-de-colț, este o specie de plantă erbacee, perenă, din genul Leontopodium Cass., familia Asteraceae.",
     "status" : "Risc Scazut",
     "type" : "Plant",
-    "images" : "static/images/floare_de_colt/1.jpg"
+    "images" : "static/images/floare_de_colt/1.jpg",
+    "german_name" : "Edelweiß",
+    "german_description" : "(Leontopodium alpinum Cass.), auch Kornblume genannt, ist eine krautige, mehrjährige Pflanzenart der Gattung Leontopodium Cass., Familie Asteraceae.",
+
+    "french_name" : "Edelweiss",
+    "french_description" : "(Leontopodium alpinum Cass.), également appelé bleuet, est une espèce de plante herbacée vivace du genre Leontopodium Cass., famille des Astéracées."
 }

@@ -1,0 +1,11 @@
+{
+    "name" : "Podișul Casimcei",
+    "location" : [[44.703425392983, 28.392654581976576]],
+    "description" : "Podişul Casimcei este delimitat la Nord de falia Peceneaga-Camena şi falia Capidava -Ovidiu la Sud şi s-a format în orogeneza caledoniană prin încreţirea scoarţei terestre. Face parte din Podişul Dobrogei, este cel mai vechi pământ al ţării şi este alcătuit din şisturi verzi şi fonte vechi, dure, acest podiş având cele mai vechi roci din ţară. Are înălţimi cuprinse între 100 şi 300 de metri şi are aspect aproape plat.  ",
+    "images" : "/static/images/podisul_casimcei/podisul_casimcei.jpg",
+    "german_name" : "Casimca-Plateau",
+    "german_description" : "Das Casimcei-Plateau wird im Norden durch die Peceneaga-Camena-Verwerfung und im Süden durch die Capidava-Ovidiu-Verwerfung begrenzt und entstand während der kaledonischen Orogenese durch die Faltenbildung der Erdkruste. Es ist Teil des Dobrogea-Plateaus, das älteste Land des Landes und besteht aus grünem Schiefer und altem, hartem Gusseisen. Dieses Plateau verfügt über die ältesten Felsen des Landes. Er hat Höhen zwischen 100 und 300 Metern und wirkt nahezu flach.",
+
+    "french_name" : "Plateau de Casimca",
+    "french_description" : "Le plateau de Casimcei est délimité au nord par la faille Peceneaga-Camena et la faille Capidava-Ovidiu au sud et s'est formé au cours de l'orogenèse calédonienne par le plissement de la croûte terrestre. Il fait partie du plateau de Dobrogea, c'est la terre la plus ancienne du pays et est composée de schiste vert et de vieille fonte dure, ce plateau possédant les roches les plus anciennes du pays. Il a des hauteurs comprises entre 100 et 300 mètres et a un aspect presque plat."
+}

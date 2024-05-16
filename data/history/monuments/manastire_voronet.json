@@ -1,0 +1,11 @@
+{
+    "name" : "Mănăstirea Voroneț",
+    "location" : [[47.51707423173107, 25.864123301560596]],
+    "description" : "Mănăstirea Voroneț a fost înălțată pe locul unde se afla o biserică de lemn. Când lucrările de construcție se apropiau de final, Ștefan cel Mare dăruiește mănăstirii prin actul de la 17 august 1488, moșia Știlbicani.Încă de pe timpul domniei lui Ștefan cel Mare, dar mai ales după 1488, mănăstirea devine un important centru de credință și cultură din Moldova medievală.",
+    "images" : "/static/images/manast_voronet/1.jpg",
+    "german_name" : "Das Kloster Voroneț",
+    "german_description" : "Das Kloster Voroneț wurde an der Stelle einer hölzernen Kirche errichtet. Als die Bauarbeiten fast abgeschlossen waren, schenkte Ștefan cel Mare dem Kloster durch die Urkunde vom 17. August 1488 das Anwesen von Știlbicani. Schon während der Herrschaft von Ștefan cel Mare, aber besonders nach 1488, wurde das Kloster zu einem wichtigen Zentrum des Glaubens und der Kultur im mittelalterlichen Moldawien.",
+
+    "french_name" : "Le Monastère de Voroneț",
+    "french_description" : "Le monastère de Voroneț a été érigé à l'emplacement d'une église en bois. Lorsque les travaux de construction touchaient à leur fin, Ștefan cel Mare fit don au monastère, par l'acte du 17 août 1488, de la seigneurie de Știlbicani. Déjà sous le règne de Ștefan cel Mare, mais surtout après 1488, le monastère est devenu un important centre de foi et de culture dans la Moldavie médiévale."
+}

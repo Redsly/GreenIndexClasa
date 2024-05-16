@@ -1,0 +1,11 @@
+{
+    "name" : "Bucuresti",
+    "location" : [[44.4267674, 26.1025384]],
+    "description" : "București este capitala României, cel mai populat oraș și cel mai important centru industrial și comercial al țării. Populația stabilă de 1.883.425 de locuitori face ca Bucureștiul să fie printre marile orașe din Uniunea Europeană. Conform unor estimări ce iau în considerare persoanele fără domiciliu în oraș, sau în tranzit, Bucureștiul adună zilnic peste trei milioane de oameni.",
+    "images" : "/static/images/bucuresti/1.jpg",
+    "german_name" : "Bukarest",
+    "german_description" : "Bukarest ist die Hauptstadt Rumäniens, die bevölkerungsreichste Stadt und das wichtigste Industrie- und Handelszentrum des Landes. Die ständige Bevölkerung von 1.883.425 Einwohnern macht Bukarest zu einer der großen Städte der Europäischen Union. Nach Schätzungen, die Personen ohne festen Wohnsitz oder im Transit in der Stadt berücksichtigen, versammelt Bukarest täglich über drei Millionen Menschen.",
+
+    "french_name" : "Bucarest",
+    "french_description" : "Bucarest est la capitale de la Roumanie, la ville la plus peuplée et le principal centre industriel et commercial du pays. Sa population permanente de 1 883 425 habitants en fait l'une des grandes villes de l'Union européenne. Selon des estimations prenant en compte les personnes sans domicile fixe dans la ville ou en transit, Bucarest rassemble quotidiennement plus de trois millions de personnes."
+}

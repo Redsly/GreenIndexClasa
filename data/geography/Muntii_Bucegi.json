@@ -2,5 +2,10 @@
     "name" : "Munții Bucegi",
     "location" : [[45.399357399814534, 25.493582822392256]],
     "description" : "Munții Bucegi sunt o parte importantă a lanțului muntos al Carpaților Meridionali din România. Acești munți impresionanți sunt cunoscuți pentru peisajele lor spectaculoase, vârfurile impunătoare, cheile adânci și numeroasele cascade. Înălțându-se până la altitudinea maximă de aproximativ 2505 metri în vârful Omu, acești munți oferă oportunități excelente pentru drumeții, alpinism, schi și alte activități în aer liber. Munții Bucegi sunt, de asemenea, încărcați de legende și mituri, inclusiv cele despre Babele și Sfinxul din Munții Bucegi, formări rocioase care atrag numeroși vizitatori. ",
-    "images" : "/static/images/muntii_bucegi/muntii_bucegi.jpg"
+    "images" : "/static/images/muntii_bucegi/muntii_bucegi.jpg",
+    "german_name" : "Bucegi-Gebirge",
+    "german_description" : "Das Bucegi-Gebirge ist ein wichtiger Teil der Südkarpaten in Rumänien. Diese beeindruckenden Berge sind für ihre spektakuläre Landschaft, imposanten Gipfel, tiefen Schluchten und zahlreichen Wasserfälle bekannt. Mit einer maximalen Höhe von etwa 2505 Metern am Omu Peak bieten diese Berge hervorragende Möglichkeiten zum Wandern, Klettern, Skifahren und für andere Outdoor-Aktivitäten. Auch das Bucegi-Gebirge ist voller Legenden und Mythen, darunter jene über Babel und die Sphinx des Bucegi-Gebirges, Felsformationen, die viele Besucher anziehen.",
+
+    "french_name" : "Monts Bucegi",
+    "french_description" : "Les monts Bucegi constituent une partie importante de la chaîne de montagnes des Carpates méridionales en Roumanie. Ces montagnes impressionnantes sont connues pour leurs paysages spectaculaires, leurs sommets imposants, leurs gorges profondes et leurs nombreuses cascades. S'élevant à une altitude maximale d'environ 2 505 mètres au pic Omu, ces montagnes offrent d'excellentes opportunités pour la randonnée, l'escalade, le ski et d'autres activités de plein air. Les monts Bucegi sont également imprégnés de légendes et de mythes, notamment ceux sur Babel et le Sphinx des monts Bucegi, des formations rocheuses qui attirent de nombreux visiteurs."
 }

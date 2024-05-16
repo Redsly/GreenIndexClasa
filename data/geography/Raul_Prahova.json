@@ -2,5 +2,10 @@
     "name" : "Râul Prahova",
     "location" : [[44.71761405139919, 26.472247102248875]],
     "description" : "Râul Prahova este un curs de apă important din România, având o lungime de aproximativ 193 de kilometri. Izvorăște din Munții Bucegi, din zona lacului glaciar Tătaru, și curge în principal în direcția sud-est, traversând județele Prahova și Ilfov. Este un afluent al râului Ialomița și este cunoscut pentru frumusețea peisajelor naturale pe care le străbate, precum și pentru importanța sa în domeniul turistic și al hidroenergiei, având lacuri de acumulare importante precum Lacul Bolboci și Lacul Paltinu. Râul Prahova este, de asemenea, legat de istoria și cultura zonei, fiind menționat în diverse opere literare și fiind unul dintre principalele obiective turistice din Munții Carpați. ",
-    "images" : "/static/images/raul_prahova/raul_prahova.jpg"
+    "images" : "/static/images/raul_prahova/raul_prahova.jpg",
+    "german_name" : "Kaprenburch",
+    "german_description" : "Die Kaprenburch ist am besten",
+
+    "french_name" : "Le Caprcoise",
+    "french_description" : "Le Capricoise e tu un abeli' sdaddddasdasd"
 }

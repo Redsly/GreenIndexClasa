@@ -2,5 +2,10 @@
     "name" : "Mănăstirea Celic Dere",
     "location" : [[45.12620260480577, 28.582083397711703]],
     "description" : "Mănăstirea Celic Dere este un loc de alinare pentru credincioșii ortodocşi, unde se săvârșesc slujbe și rugăciuni în fiecare zi. În cadrul mănăstirii, oamenii găsesc un refugiu, un loc de pace și liniște în care să se roage și să mediteze. Mănăstirea este locuită de călugări și maici care își dedică viața rugăciunii, meditației și slujirii comunității. Mulți pelerini vin la mănăstire pentru a căuta alinare în fața problemelor lor și pentru a găsi încredere și putere în credința lor religioasă.",
-    "images" : "/static/images/manastirea_celic/manastirea_celic.jpg"
+    "images" : "/static/images/manastirea_celic/manastirea_celic.jpg",
+    "german_name" : "Celic Dere-Kloster",
+    "german_description" : "Das Kloster Celic Dere ist ein Ort des Trostes für orthodoxe Gläubige, wo täglich Gottesdienste und Gebete abgehalten werden. Im Kloster finden die Menschen einen Zufluchtsort, einen Ort der Ruhe und Stille zum Beten und Meditieren. Das Kloster wird von Mönchen und Nonnen bewohnt, die ihr Leben dem Gebet, der Meditation und dem Dienst an der Gemeinschaft widmen. Viele Pilger kommen ins Kloster, um Linderung ihrer Probleme zu suchen und Vertrauen und Stärke in ihrem religiösen Glauben zu finden.",
+
+    "french_name" : "Monastère de Celic Dere",
+    "french_description" : "Le monastère de Celic Dere est un lieu de réconfort pour les croyants orthodoxes, où des services et des prières ont lieu chaque jour. Au sein du monastère, les gens trouvent un refuge, un lieu de paix et de tranquillité pour prier et méditer. Le monastère est habité par des moines et des moniales qui consacrent leur vie à la prière, à la méditation et au service de la communauté. De nombreux pèlerins viennent au monastère pour chercher un soulagement à leurs problèmes et trouver confiance et force dans leur foi religieuse."
 }

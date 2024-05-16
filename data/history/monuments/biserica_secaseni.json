@@ -1,0 +1,11 @@
+{
+    "name" : "Biserica Sfinții Arhangheli din Secășeni",
+    "location" : [[45.14235053934993, 21.6451743264217]],
+    "description" : "Biserica ortodoxă din Secășeni, ce poartă hramul(patronul unei biserici) „Sfinții Arhangheli Mihail și Gavriil”, este cea mai veche din zona Oraviței, fiind construită în anul 1664. A fost resfințită în anul 1792 de episcopul Vârsețului, Iosif Ioaninovici Șakabent (1786-1805), cel care în anul 1790 a dispus celebrarea serviciilor divine în limba română.",
+    "images" : "/static/images/biserica_secaseni/1.jpg",
+    "german_name" : "Die Kirche der Erzengel in Secășeni",
+    "german_description" : "Die orthodoxe Kirche in Secășeni, geweiht den Erzengeln Michael und Gabriel, ist die älteste Kirche in der Gegend von Oravița und wurde im Jahr 1664 erbaut. Sie wurde im Jahr 1792 von dem Bischof von Vârset, Iosif Ioaninovici Șakabent (1786-1805), wieder geweiht. Er ordnete 1790 an, dass die Gottesdienste in rumänischer Sprache gefeiert werden.",
+
+    "french_name" : "L'Église des Saints Archanges à Secășeni",
+    "french_description" : "L'église orthodoxe de Secășeni, dédiée aux Archanges Michel et Gabriel, est la plus ancienne église de la région d'Oravița, construite en 1664. Elle a été réconsacrée en 1792 par l'évêque de Vârset, Iosif Ioaninovici Șakabent (1786-1805), qui a également ordonné en 1790 que les services religieux soient célébrés en langue roumaine."
+}

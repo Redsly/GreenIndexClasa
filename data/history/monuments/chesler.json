@@ -1,0 +1,11 @@
+{
+    "name" : "Satul Chesler",
+    "location" : [[46.144560256482016, 24.187152058143823]],
+    "description" : "Prima atestare găsită despre Chesler este abia la 1439, situația fiind similară pentru mai toate satele din zona Târnavelor, pentru ca ungurii și sașii nu prezentau un interes economic pentru aceste localități.Alte dovezi ale existenței satului sunt două fragmente de topoare preistorice cu brațe în cruce găsite in Chesler și expuse din 1871 la un muzeu din Sibiu.",
+    "images" : "/static/images/chesler/1.jpg",
+    "german_name" : "Das Dorf Chesler",
+    "german_description" : "Die erste Erwähnung von Chesler stammt erst aus dem Jahr 1439, eine Situation, die für die meisten Dörfer in der Târnava-Region ähnlich ist, da Ungarn und Siebenbürger Sachsen kein wirtschaftliches Interesse an diesen Ortschaften zeigten. Weitere Beweise für die Existenz des Dorfes sind zwei Fragmente prähistorischer Äxte mit gekreuzten Armen, die in Chesler gefunden und seit 1871 in einem Museum in Hermannstadt ausgestellt wurden.",
+
+    "french_name" : "Le village de Chesler",
+    "french_description" : "La première mention de Chesler ne remonte qu'à 1439, une situation similaire pour la plupart des villages de la région de la Târnava, car les Hongrois et les Saxons de Transylvanie ne montraient aucun intérêt économique pour ces localités. D'autres preuves de l'existence du village sont deux fragments de haches préhistoriques à bras croisés trouvés à Chesler et exposés depuis 1871 dans un musée de Sibiu."
+}

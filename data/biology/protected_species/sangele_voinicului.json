@@ -4,5 +4,11 @@
     "description" : "(Nigritella rubra) este o plantă din familia Orchidaceae. Are tulpina dreaptă, înaltă de 8–14 cm",
     "status" : "Risc Scazut",
     "type" : "Plant",
-    "images" : "static/images/sangele_voinicului/1.jpg"
+    "images" : "static/images/sangele_voinicului/1.jpg",
+
+    "german_name" : "Der Ritterblut",
+    "german_description" : "(Nigritella rubra) ist eine Pflanze aus der Familie der Orchidaceae. Sie hat einen geraden Stängel, der 8–14 cm hoch ist.",
+
+    "french_name" : "De pois de senteur",
+    "french_description" : "(Nigritella rubra) est une plante de la famille des Orchidaceae. Elle a une tige droite, mesurant de 8 à 14 cm de hauteur."
 }
