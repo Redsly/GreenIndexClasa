@@ -2,5 +2,11 @@
     "name" : "Alipirea Dobrogei",
     "location" : [[44.5163785187516, 28.06160350260914]],
     "description" : "Alipirea Dobrogei de Nord a fost sarbatorita de romanii dobrogeni,dupa cum o demonstreaza primirea cu toata cinstea din iunie 1877 facuta de la  Macin a trupelor ruse si apoi in decembrie 1877 petitia dobrogenilor care,acoperita de nume si semnaturi,cerea unirea Dobrogei cu Romania.Unirea Dobrogei de Nord cu Romania a fost dorinta guvernului si populatiei romanesti in aceeasi masura si nu o situatie impusa de rusi,pe care oamenii politici ar fi incercat sa o evite. ",
-    "images" : "/static/images/alip_dobrogea/1.jpg"
+    "images" : "/static/images/alip_dobrogea/1.jpg",
+  
+    "german_name" : "Die Vereinigung der Dobrudscha",
+    "german_description" : "Die Vereinigung Nord-Dobrudscha wurde von den Dobrudscha-Rumänen gefeiert, wie die herzliche Begrüßung im Juni 1877 am Măcin der russischen Truppen zeigt, und dann im Dezember 1877 durch die Petition der Dobrudscha-Rumänen, die unterzeichnet und mit Namen versehen war und die Vereinigung der Dobrudscha mit Rumänien forderte. Die Vereinigung der Nord-Dobrudscha mit Rumänien war gleichermaßen der Wunsch der rumänischen Regierung und Bevölkerung und keine von den Russen aufgezwungene Situation, die von Politikern vermieden werden sollte.",
+
+    "french_name" : "L'annexion de la Dobroudja",
+    "french_description" : "L'annexion de la Dobroudja du Nord a été célébrée par les Dobrogiens, comme en témoigne l'accueil chaleureux réservé aux troupes russes en juin 1877 à Măcin, suivi en décembre 1877 par la pétition des Dobrogiens, couverte de noms et de signatures, demandant l'union de la Dobroudja avec la Roumanie. L'union de la Dobroudja du Nord avec la Roumanie était autant le souhait du gouvernement roumain que de la population, et non une situation imposée par les Russes que les hommes politiques auraient cherché à éviter."
 }

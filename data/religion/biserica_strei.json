@@ -2,5 +2,10 @@
     "name" : "Biserica de piatra din Strei",
     "location" : [[45.71660760847263, 22.98876448056066]],
     "description" : "Biserica Adormirea Maicii Domnului din Strei este o biserică ortodoxă aflată în localitatea Strei, în vecinătatea orașului Călan, județul Hunedoara. De mici dimensiuni, construită din piatră brută, prezintă un turn-clopotniță pe fațada vestică, o navă scurtă cu boltă de scânduri și un altar dreptunghiular, boltit în cruce pe ogive masive de piatră. Odinioară pictată și la exterior, ea păstrează un valoros ansamblu de picturi murale la interior executate de maestrul Grozie: în altar Iisus în glorie și cortegiul apostolilor, în navă Buna Vestire, Sfântul Nicolae și sfinți.",
-    "images" : "/static/images/biserica_strei/biserica_strei.jpg"
+    "images" : "/static/images/biserica_strei/biserica_strei.jpg",
+    "german_name" : "Die Steinkirche von Strei",
+    "german_description" : "Die Mariä-Entschlafens-Kirche in Strei ist eine orthodoxe Kirche in Strei, in der Nähe von Călan, Kreis Hunedoara. Sie ist klein, aus rohem Stein gebaut und verfügt über einen Glockenturm an der Westfassade, ein kurzes Kirchenschiff mit einem Brettergewölbe und einen rechteckigen Altar mit Kreuzgewölbe auf massiven Steinspitzen. Einst auch außen bemalt, bewahrt es eine wertvolle Gruppe von Innenwandgemälden des Meisters Grozie: im Altar Jesus in Herrlichkeit und die Prozession der Apostel, im Kirchenschiff die Verkündigung, der Heilige Nikolaus und die Heiligen.",
+
+    "french_name" : "L'église en pierre de Strei",
+    "french_description" : "L'église de la Dormition de la Mère de Dieu de Strei est une église orthodoxe située à Strei, près de Călan, dans le département de Hunedoara. De petite taille, construite en pierre brute, elle présente un clocher sur la façade ouest, une nef courte voûtée en planches et un autel rectangulaire, voûté en croix sur des ogives massives en pierre. Autrefois peint à l'extérieur également, il conserve un précieux groupe de peintures murales intérieures exécutées par le maître Grozie : dans l'autel Jésus en gloire et la procession des apôtres, dans la nef l'Annonciation, Saint Nicolas et les saints."
 }

@@ -2,5 +2,11 @@
     "name" : "Poiana Largului",
     "location" : [[47.093586508872825, 25.978395971572112]],
     "description" : "Poiana Largului este o localitate situată în județul Neamț din România, în zona Munților Ceahlău și a Munților Bicazului. Această zonă se remarcă prin peisajele sale pitorești și prin faptul că este o bază de plecare pentru numeroase trasee montane și drumeții către atracțiile din împrejurimi, precum Lacul Izvorul Muntelui și Munții Ceahlău. Poiana Largului este cunoscută și pentru că se află în apropierea celebrului Defileu Bicazului, oferind acces ușor către această atracție turistică deosebită. Oamenii vizitează Poiana Largului pentru a se bucura de natură și pentru activitățile în aer liber, precum drumețiile, ciclismul și observarea faunei sălbatice. ",
-    "images" : "/static/images/poiana_largului/poiana_largului.jpg"
+    "images" : "/static/images/poiana_largului/poiana_largului.jpg",
+  
+    "german_name" : "Poiana Larglui",
+    "german_description" : "Poiana Largului ist ein Ort im Kreis Neamț in Rumänien, im Gebiet des Ceahlău-Gebirges und des Bicazului-Gebirges. Dieses Gebiet zeichnet sich durch seine malerischen Landschaften aus und ist Ausgangspunkt für zahlreiche Bergwege und Wanderungen zu den umliegenden Sehenswürdigkeiten wie dem Izvorul-Muntelui-See und dem Ceahlău-Gebirge. Poiana Largului ist auch für seine Nähe zur berühmten Bicazului-Schlucht bekannt und bietet einfachen Zugang zu dieser besonderen Touristenattraktion. Menschen besuchen Poiana Largului, um die Natur und Outdoor-Aktivitäten wie Wandern, Radfahren und Tierbeobachtungen zu genießen.",
+
+    "french_name" : "Poiana Larglui",
+    "french_description" : "Poiana Largului est une localité située dans le département de Neamț en Roumanie, dans la région des monts Ceahlău et des monts Bicazului. Cette région se distingue par ses paysages pittoresques et par le fait qu'elle constitue le point de départ de nombreux sentiers de montagne et randonnées vers les attractions environnantes, telles que le lac Izvorul Muntelui et les montagnes Ceahlău. Poiana Largului est également connue pour sa proximité avec les célèbres gorges de Bicazului, offrant un accès facile à cette attraction touristique particulière. Les gens visitent Poiana Largului pour profiter de la nature et des activités de plein air telles que la randonnée, le vélo et l'observation de la faune."
 }

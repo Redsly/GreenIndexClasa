@@ -1,6 +1,11 @@
 {
     "name" : "Episcopia Caransebeșului",
-    "location" : [[46.772198, 26.073237]],
+    "location" : [[45.4126342, 22.21641]],
     "description" : "În anul 1861, după moartea patriarhului Iosif Raiacici, românii ortodocși din Banat și Transilvania au obținut trecerea Episcopiei Aradului sub jurisdicția mitropolitului Andrei Șaguna și, totodată, înființarea Episcopiei Caransebeșului. Primul cârmuitor a fost Ioan Popazu (1865-1889), un colaborator apropiat al mitropolitului Andrei Șaguna. Episcopia Caransebeșului a fost desființată în 1949 și episcopul Veniamin Nistor scos la pensie. În 1994 Episcopia Caranebeșului a fost reînființată.",
-    "images" : "/static/images/episcopie_carans/1.jpg"
+    "images" : "/static/images/episcopie_carans/1.jpg",
+    "german_name" : "Die Eparchie Caransebeșului",
+    "german_description" : "Im Jahr 1861, nach dem Tod des Patriarchen Iosif Raiacici, erlangten die orthodoxen Rumänen aus dem Banat und Siebenbürgen die Unterstellung der Eparchie Arad unter die Jurisdiktion des Metropoliten Andrei Șaguna und gleichzeitig die Gründung der Eparchie Caransebeșului. Der erste Vorsteher war Ioan Popazu (1865-1889), ein enger Mitarbeiter von Metropolit Andrei Șaguna. Die Eparchie Caransebeșului wurde 1949 aufgelöst und Bischof Veniamin Nistor in den Ruhestand versetzt. Im Jahr 1994 wurde die Eparchie Caransebeșului wiedererrichtet.",
+
+    "french_name" : "L'éparchie de Caransebeș",
+    "french_description" : "En 1861, après la mort du patriarche Iosif Raiacici, les Roumains orthodoxes de la Banat et de la Transylvanie obtinrent le transfert de l'Éparchie d'Arad sous la juridiction du métropolite Andrei Șaguna et, simultanément, la création de l'Éparchie de Caransebeșului. Le premier prélat fut Ioan Popazu (1865-1889), un collaborateur proche du métropolite Andrei Șaguna. L'Éparchie de Caransebeșului a été supprimée en 1949 et l'évêque Veniamin Nistor mis à la retraite. En 1994, l'Éparchie de Caranebeșului a été rétablie."
 }

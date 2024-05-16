@@ -2,5 +2,10 @@
     "name" : "Cetatea de Scaun a Sucevei",
     "location" : [[47.64500213202963, 26.270627892488502]],
     "description" :"Cetatea Sucevei este menționată pentru prima dată într-un document din 10 februarie 1388 al voievodului moldovean Petru I.Voievodul Ștefan cel Mare  (1457-1504) a înțeles cel mai bine necesitățile construirii de clădiri fortificate pentru a apăra Principatul Moldovei de atacurile turcilor, tătarilor, ungurilor sau polonilor." ,
-    "images" : "/static/images/cetate_suceava/1.jpg"
+    "images" : "/static/images/cetate_suceava/1.jpg",
+    "german_name" : "Die Königsburg von Suceava",
+    "german_description" : "Die Burg von Suceava wird erstmals in einem Dokument vom 10. Februar 1388 des moldauischen Woiwoden Petru I. erwähnt. Der Woiwode Ștefan cel Mare (1457-1504) verstand am besten die Notwendigkeit, befestigte Gebäude zu errichten, um das Fürstentum Moldau vor Angriffen der Türken, Tataren, Ungarn oder Polen zu verteidigen.",
+
+    "french_name" : "Le Château de Suceava",
+    "french_description" : "Le château de Suceava est mentionné pour la première fois dans un document du 10 février 1388 du voïvode moldave Petru I. Le voïvode Ștefan cel Mare (1457-1504) a le mieux compris la nécessité de construire des bâtiments fortifiés pour défendre la Principauté de Moldavie contre les attaques des Turcs, des Tatars, des Hongrois ou des Polonais."
 }

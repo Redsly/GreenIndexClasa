@@ -2,5 +2,10 @@
     "name" : "Pasul Cârlibaba",
     "location" : [[47.707439073845116, 25.105105465877067]],
     "description" : "Pasul Cârlibaba (numit și Pasul Bobeica) este o trecătoare situată în Carpații Orientali la 1225 m altitudine, care traversează Obcina Mestecănișului legând valea Bistriței Aurii de cea a Sucevei. Trecătoarea unește comunele sucevene Cârlibaba și Izvoarele Sucevei, fiind situată pe culmea dintre vârfurile Bobeica (1382 m altitudine, spre nord-vest) și Hrobi (1507 m altitudine, spre sud-est. ",
-    "images" : "/static/images/pasul_carlibaba/pasul_carlibaba.jpg"
+    "images" : "/static/images/pasul_carlibaba/pasul_carlibaba.jpg",
+    "german_name" : "Cârlibaba-Pass",
+    "german_description" : "Der Cârlibaba-Pass (auch Bobeica-Pass genannt) ist ein Pass in den Ostkarpaten auf einer Höhe von 1225 m, der die Gemeinde Mestecănişului durchquert und das Bistrița Aurii-Tal mit dem von Suceva verbindet. Der Pass verbindet die sucevianischen Gemeinden Cârlibaba und Izvoarele Sucevei und liegt auf dem Gipfel zwischen den Gipfeln Bobeica (1382 m Höhe im Nordwesten) und Hrobi (1507 m Höhe im Südosten).",
+
+    "french_name" : "Col de Cârlibaba",
+    "french_description" : "Le col de Cârlibaba (également appelé col de Bobeica) est un col situé dans les Carpates orientales à 1225 m d'altitude, qui traverse la commune de Mestecănişului reliant la vallée de Bistrița Aurii à celle de Suceva. Le col relie les communes suédoises de Cârlibaba et Izvoarele Sucevei, étant situé au sommet entre les sommets de Bobeica (1382 m d'altitude, au nord-ouest) et de Hrobi (1507 m d'altitude, au sud-est)."
 }

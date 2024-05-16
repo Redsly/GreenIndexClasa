@@ -2,5 +2,10 @@
     "name" : "Mănăstirea Putna",
     "location" : [[47.86627493264797, 25.597684254520853]],
     "description" : "Mănăstirea Putna, cu hramul Adormirea Maicii Domnului, este un lăcaș monahal creștin ortodox, important centru cultural, religios și artistic. Mănăstirea se află la 33 km nord-vest de orașul Rădăuți, în județul Suceava. Lăcașul deține un bogat muzeu mănăstiresc, cu broderii, manuscrise, obiecte de cult și icoane. Biserica originală a suferit mari modificări în perioada 1653-1662. S-au păstrat liniile arhitectonice inițiale specifice stilului moldovenesc, fiind alcătuită din cinci încăperi: pridvor, pronaos, gropniță, naos și altar.  ",
-    "images" : "/static/images/manastirea_putna/manastirea_putna.jpg"
+    "images" : "/static/images/manastirea_putna/manastirea_putna.jpg",
+    "german_name" : "Kloster Putna",
+    "german_description" : "Das Kloster Putna, das der Himmelfahrt der Jungfrau Maria gewidmet ist, ist ein orthodox-christlicher Klosterort und ein wichtiges kulturelles, religiöses und künstlerisches Zentrum. Das Kloster liegt 33 km nordwestlich der Stadt Rădăuți im Kreis Suceava. Der Ort verfügt über ein reichhaltiges Klostermuseum mit Stickereien, Manuskripten, Kultgegenständen und Ikonen. Die ursprüngliche Kirche erfuhr im Zeitraum 1653–1662 große Veränderungen. Die ursprünglichen architektonischen Linien des moldauischen Stils sind erhalten geblieben und bestehen aus fünf Räumen: Vorhalle, Vorhalle, Krypta, Kirchenschiff und Altar.",
+
+    "french_name" : "Monastère de Putna",
+    "french_description" : "Le monastère de Putna, dédié à l'Assomption de la Vierge Marie, est un lieu monastique chrétien orthodoxe, un important centre culturel, religieux et artistique. Le monastère est situé à 33 km au nord-ouest de la ville de Rădăuți, dans le département de Suceava. Le lieu possède un riche musée monastique, avec des broderies, des manuscrits, des objets de culte et des icônes. L'église d'origine a subi d'importants changements au cours de la période 1653-1662. Les lignes architecturales originales propres au style moldave ont été conservées, étant composées de cinq pièces : porche, porche, crypte, nef et autel."
 }

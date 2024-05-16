@@ -2,5 +2,10 @@
     "name" : "Munții Poiana Ruscă",
     "location" : [[45.67453131241577, 22.335167950810035]],
     "description" : "Munții Poiana Ruscă sunt o grupă montană extinsă aparținând Carpaților Occidentali făcând tranziția între grupa majoră nordică a acestora, Munții Apuseni și grupa majoră sudică, Munții Banatului sau la vest de Muntii Țarcu (care aparțin de Carpații Meridionali). Se întind pe o suprafață de cca 2.640 km2, având altitudini medii în jur de 700 – 1000 m.Cel mai înalt vârf al Munților Poiana Ruscă, având 1.382 m, este vârful Padeș.",
-    "images" : "/static/images/Muntii_Poiana_Rusca/m_poiana_rusca.jpg"
+    "images" : "/static/images/Muntii_Poiana_Rusca/m_poiana_rusca.jpg",
+    "german_name" : "Poiana Ruscă-Gebirge",
+    "german_description" : "Das Poiana-Ruscă-Gebirge ist eine ausgedehnte Gebirgsgruppe der Westkarpaten, die den Übergang zwischen ihrer nördlichen Hauptgruppe, dem Apuseni-Gebirge, und der südlichen Hauptgruppe, dem Banat-Gebirge bzw. westlich des Țarcu-Gebirges (das zu den Südkarpaten gehört) bildet ). Sie erstrecken sich über eine Fläche von ca. 2.640 km2, mit einer durchschnittlichen Höhe von etwa 700 – 1.000 m. Der höchste Gipfel des Poiana Ruscă-Gebirges ist mit 1.382 m der Padeș-Gipfel.",
+
+    "french_name" : "Montagnes Poiana Ruscă",
+    "french_description" : "Les monts Poiana Ruscă sont un vaste groupe montagneux appartenant aux Carpates occidentales faisant la transition entre leur grand groupe nord, les monts Apuseni et le grand groupe sud, les monts Banat ou à l'ouest des monts Țarcu (qui appartiennent aux Carpates du sud). ). Ils s'étendent sur une superficie d'environ 2 640 km2, avec des altitudes moyennes d'environ 700 à 1 000 m. Le plus haut sommet des montagnes Poiana Ruscă, à 1 382 m, est le pic Padeș."
 }
