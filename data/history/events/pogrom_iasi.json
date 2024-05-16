@@ -2,5 +2,10 @@
     "name" : "Pogromul de la Iași",
     "location" : [[47.158229896418256, 27.60138319144545]],
     "description" : "Pogromul de la Iași din 27-30 iunie 1941 a fost unul dintre cele mai violente pogromuri(masacru) din istoria evreilor din România, inițiat de generalul Ion Antonescu, secondat de autoritățile publice locale, împotriva cetățenilor de etnie evreiască din orașul Iași.Evenimentul dateaza din dupa amiaza zilei de vineri, 27 iunie 1941.Acțiunea urma să fie mascată ca făcând parte din ordinul anterior al conducatorului: <<Evacuarea tuturor evreilor, între 18 și 60 de ani, din zona cuprinsă între Siret și Prut>> ",
-    "images" : "/static/images/pogrom_iasi/1.jpg"
+    "images" : "/static/images/pogrom_iasi/1.jpg",
+    "german_name" : "Das Pogrom von Iași",
+    "german_description" : "Das Pogrom von Iași vom 27. bis 30. Juni 1941 war eines der gewalttätigsten Pogrome in der Geschichte der Juden in Rumänien, initiiert von General Ion Antonescu und unterstützt von den örtlichen Behörden, gegen jüdische Bürger der Stadt Iași. Das Ereignis begann am Nachmittag des Freitag, dem 27. Juni 1941. Die Aktion sollte als Teil eines früheren Befehls des Führers maskiert sein: Evakuierung aller Juden im Alter von 18 bis 60 Jahren aus dem Gebiet zwischen Siret und Pruth.",
+
+    "french_name" : "Le Pogrom de Iași",
+    "french_description" : "Le Pogrom de Iași du 27 au 30 juin 1941 a été l'un des pogroms les plus violents de l'histoire des Juifs de Roumanie, initié par le général Ion Antonescu et soutenu par les autorités locales, contre les citoyens juifs de la ville de Iași. L'événement a commencé dans l'après-midi du vendredi 27 juin 1941. L'action devait être masquée comme faisant partie d'un ordre antérieur du chef : Évacuation de tous les Juifs âgés de 18 à 60 ans de la zone entre le Siret et le Prout."
 }

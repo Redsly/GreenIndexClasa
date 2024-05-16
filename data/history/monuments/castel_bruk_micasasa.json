@@ -2,5 +2,10 @@
     "name" : "Castelul Brukenthal din Micasasa",
     "location" : [[46.08724543209322, 24.10722077360355]],
     "description" : "Construit în secolul al XVI-lea, castelul a fost initial locuința lui Adam Rodac, un om înstărit. În secolul al XVIII-lea acesta a devenit proprietatea guvernatorului Transilvaniei, baronul Samuel von Brukenthal.Castelul Brukenthal din Micăsasa se află în paragină de aproximativ două decenii.Potrivit autorităților locale, o renovare completă a monumentului ar costa circa două milioane de euro.",
-    "images" : "/static/images/castel_bruk_m/1.jpg"
+    "images" : "/static/images/castel_bruk_m/1.jpg",
+    "german_name" : "Kunde Schloss Brukenthal in Micasasa",
+    "german_description" : "Das Schloss Brukenthal in Micasasa, erbaut im 16. Jahrhundert, war ursprünglich die Residenz von Adam Rodac, einem wohlhabenden Mann. Im 18. Jahrhundert ging es in den Besitz des Gouverneurs von Siebenbürgen, Baron Samuel von Brukenthal, über. Das Schloss Brukenthal in Micăsasa verfällt seit etwa zwei Jahrzehnten. Nach Angaben der örtlichen Behörden würde eine vollständige Renovierung des Denkmals etwa zwei Millionen Euro kosten.",
+
+    "french_name" : "Client Château de Brukenthal à Micasa",
+    "french_description" : "Le château de Brukenthal à Micăsasa, construit au XVIe siècle, était initialement la résidence d'Adam Rodac, un homme riche. Au XVIIIe siècle, il est devenu la propriété du gouverneur de Transylvanie, le baron Samuel von Brukenthal. Le château de Brukenthal à Micăsasa est à l'abandon depuis environ deux décennies. Selon les autorités locales, une rénovation complète du monument coûterait environ deux millions d'euros."
 }

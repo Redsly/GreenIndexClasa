@@ -2,5 +2,10 @@
     "name" : "Biserica Adormirea Maicii Domnului din Moisei ",
     "location" : [[47.63521624659016, 24.545726740887517]],
     "description" : "Biserica Adormirea Maicii Domnului din Moisei este un ansamblu de monumente istorice aflat pe teritoriul satului Moisei, comuna Moisei.Datele din arhiva vicariatului(resedinta preot) plasează zidirea mânăstirii la 1600. La 1672 este sfințită de Mitropolitul Transilvaniei Sava Brancovici, ocazie cu care este înființată și o fundație, menită să instruiască deieci ,cantori și docenți (învățători). Actul a fost întărit de Congresul Comitetului Sighet, la 10 august 1694. ",
-    "images" : "/static/images/biserica_moisei/1.jpg"
+    "images" : "/static/images/biserica_moisei/1.jpg",
+    "german_name" : "Die Kirche der Entschlafung der Heiligen Jungfrau Maria in Moisei",
+    "german_description" : "Die Weiße Kirche wurde nach der Schlacht von Baia am 14.-15. Dezember 1467 zwischen den moldauischen Truppen unter der Führung von Fürst Ștefan cel Mare und den ungarischen Truppen unter der Führung von König Matthias Corvinus errichtet. In der Nacht vom 14. auf den 15. Dezember 1467 griff das Heer von Ștefan überraschend die Stadt Baia an und setzte die hölzernen Palisaden der Stadt in Brand, was die königliche Armee überraschte. ",
+
+    "french_name" : "L'Église de la Dormition de la Sainte Vierge Marie à Moisei",
+    "french_description" : "L'Église Blanche a été construite après la bataille de Baia les 14 et 15 décembre 1467 entre les troupes moldaves sous la direction du prince Ștefan cel Mare et les troupes hongroises sous la direction du roi Matthias Corvinus. Dans la nuit du 14 au 15 décembre 1467, l'armée de Ștefan a attaqué la ville de Baia de manière inattendue, mettant le feu aux palissades en bois de la ville, ce qui a pris l'armée royale par surprise."
 }

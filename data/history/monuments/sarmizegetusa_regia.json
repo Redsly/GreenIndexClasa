@@ -2,5 +2,10 @@
     "name" : "Sarmizegetusa Regia",
     "location" : [[45.62367440276416, 23.307911664516055]],
     "description" : "Sarmizegetusa Regia a fost capitala și cel mai important centru militar, religios și politic al statului dac înainte de războaiele cu Imperiul Roman. A fost nucleul unui sistem defensiv strategic format din șase fortărețe dacice din Munții Orăștiei, folosit de Decebal pentru apărare contra cuceririi romane.Toponimul Sarmizegetusa a apărut în inscripțiile antice și la autorii antici (până în sec. al VII-lea). ",
-    "images" : "/static/images/sarmizegetusa/1.jpg"
+    "images" : "/static/images/sarmizegetusa/1.jpg",
+    "german_name" : "Sarmizegetusa Regia",
+    "german_description" : "Sarmizegetusa Regia war die Hauptstadt und das wichtigste militärische, religiöse und politische Zentrum des Dakerstaates vor den Kriegen mit dem Römischen Reich. Es bildete den Kern eines strategischen Verteidigungssystems aus sechs dakischen Festungen in den Orăștie-Bergen, das von Decebal zur Abwehr der römischen Eroberung genutzt wurde. Der Toponym Sarmizegetusa erschien in antiken Inschriften und bei antiken Autoren (bis zum 7. Jahrhundert).",
+
+    "french_name" : "Sarmizegetusa Regia",
+    "french_description" : "Sarmizegetusa Regia était la capitale et le centre militaire, religieux et politique le plus important de l'État dac avant les guerres avec l'Empire romain. Elle constituait le noyau d'un système défensif stratégique composé de six forteresses daces dans les monts Orăștie, utilisé par Decebal pour se défendre contre la conquête romaine. Le toponyme Sarmizegetusa est apparu dans les inscriptions antiques et chez les auteurs anciens (jusqu'au VIIe siècle)."
 }

@@ -2,5 +2,10 @@
     "name" : "Universitatea „Alexandru Ioan Cuza” din Iași",
     "location" : [[47.174181666023095, 27.571401283611486]],
     "description" : "Fondată în 1860, la scurt timp după formarea Principatelor Unite, Universitatea din Iași, așa cum s-a numit la început, este prima universitate modernă a României.În mod direct, Universitatea din Iași provine din Academia Mihăileană, fondată în 1834 de Gheorghe Asachi(poet, prozator și dramaturg român).Încă de la întemeiere, instituția a reprezentat un simbol național, transilvănenii Simion Bărnuțiu, Petre Suciu, Ștefan Micle și alții aflându-se printre primii profesori ai universității ieșene.",
-    "images" : "/static/images/univ_iasi/1.jpg"
+    "images" : "/static/images/univ_iasi/1.jpg",
+    "german_name" : "Die Universität „Alexandru Ioan Cuza” in Iași",
+    "german_description" : "Gegründet im Jahr 1860, kurz nach der Bildung der Vereinigten Fürstentümer, ist die Universität von Iași, wie sie zu Beginn genannt wurde, die erste moderne Universität Rumäniens. Die Universität von Iași geht direkt auf die Mihăileană-Akademie zurück, die 1834 von Gheorghe Asachi (rumänischer Dichter, Prosaiker und Dramatiker) gegründet wurde. Seit ihrer Gründung war die Institution ein nationales Symbol, wobei Transylvanier wie Simion Bărnuțiu, Petre Suciu, Ștefan Micle und andere zu den ersten Professoren der Universität Iași gehörten.",
+
+    "french_name" : "L'Université „Alexandru Ioan Cuza” de Iași",
+    "french_description" : "Fondée en 1860, peu de temps après la formation des Principautés Unies, l'Université de Iași, telle qu'elle était appelée au début, est la première université moderne de la Roumanie. L'Université de Iași trouve ses origines directes dans l'Académie Mihăileană, fondée en 1834 par Gheorghe Asachi (poète, prosateur et dramaturge roumain). Dès sa fondation, l'institution a été un symbole national, avec des Transylvaniens tels que Simion Bărnuțiu, Petre Suciu, Ștefan Micle et d'autres parmi les premiers professeurs de l'université de Iași."
 }
