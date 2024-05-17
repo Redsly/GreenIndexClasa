@@ -12,13 +12,13 @@ Species
 <body style = "background-color: #214a86" >
     <div id="SideNav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn prevent-select" onclick="closeNav()">&times;</a>
-        <a href="/" class="prevent-select"; style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Home</a>
-        <a href="/bio" class="prevent-select"; style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Biology</a>
-        <a href="/histo" class="prevent-select"; style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">History</a>
-        <a href="/geo" class="prevent-select"; style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Geography</a>
-        <a href="/phil" class="prevent-select"; style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Philosophy</a>
-        <a href="/rel" class="prevent-select"; style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Religion</a>  
-        <a href="/about_us" class="prevent-select"; style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">About us</a>
+        <a href="/" class="prevent-select"; style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white;">Home</a>
+        <a href="/bio" class="prevent-select"; style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white;">Biology</a>
+        <a href="/histo" class="prevent-select"; style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white;">History</a>
+        <a href="/geo" class="prevent-select"; style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white;">Geography</a>
+        <a href="/phil" class="prevent-select"; style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white;">Philosophy</a>
+        <a href="/rel" class="prevent-select"; style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white;">Religion</a>  
+        <a href="/about_us" class="prevent-select"; style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white;">About us</a>
     </div>
       <button class="openbtn prevent-select" onclick="openNav()" style="cursor:pointer;">&#9776;</button>
       <div id="main";>
@@ -28,7 +28,7 @@ Species
         <div class="grid-container">
         {% for item in list %}
         <div class="card" style="  border-radius:15px; background-color: #4791c2; width: 85%">
-          <img src="{{item['images']}}" alt="Avatar" style="width:100%; height:300px;" onmouseover="hoverAnimation(this)" onmouseout="resetAnimation(this)" onclick="onClick(this)">
+          <img src="{{item['images']}}" alt="Avatar" style="cursor:pointer; border-radius:15px; width:100%; height:300px;" onmouseover="hoverAnimation(this)" onmouseout="resetAnimation(this)" onclick="onClick(this)">
           <div class="container">
             <h4 id="name"><b>{{item['name']}}</b></h4>
             <p style="color: #04364A; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">{{item['status']}}</p>
