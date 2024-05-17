@@ -1,0 +1,15 @@
+{ 
+
+    "name" : "Cerbul (Cervus elaphus)" ,
+
+    "location" : [[45.90936397096759, 26.665226416606878]], 
+
+    "description" : "Cerbul este un mamifer erbivor din categoria rumegătoare. Cerbul se adăpostește în zonele cu păduri întinse, care cuprind porțiuni de poieni sau luminișuri cu izvoare, care le oferă liniște și posedă surse de hrană. Este întâlnit și la câmpie, destul de des, acoperind, cel puțin teoretic, întreg arealul dintre zona alpină și malul mării.", 
+
+    "status" : "Risc Scăzut", 
+
+    "type" : "Animals", 
+
+    "images" : "static/images/cerb.jpg" 
+
+} 

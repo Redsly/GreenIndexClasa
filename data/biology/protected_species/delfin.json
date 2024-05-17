@@ -1,0 +1,15 @@
+{ 
+
+    "name" : "Delfin (Tursiops truncatus)" ,
+
+    "location" : [[44.495988362583134, 29.758892638901717]], 
+
+    "description" : "Delfinii sunt răspândiți în întreaga lume, în special în apele puțin adânci din zonele de coastă. Sunt animale carnivore, hrănindu-se cu pește și calmari. Singurele trei specii de delfin care pătrund în Marea Neagră sunt marsuinul, focena sau porcul de mare, afalinul sau delfinul mare sau delfinul cu bot gros și delfinul comun.", 
+
+    "status" : "Risc Scăzut", 
+
+    "type" : "Animals", 
+
+    "images" : "static/images/delfin.jpg" 
+
+} 

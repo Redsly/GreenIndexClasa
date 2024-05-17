@@ -1,0 +1,9 @@
+{
+    "name" : "Crinul de pădure (Lilium martagon)",
+   "location" : [[45.382039699074745, 22.882207269148136]],
+   "description" : "Deoarece este o specie mezofilă, crinul de pădure crește doar în zona pădurilor de stejar și fag. La origini, crinul de pădure este o plantă sălbatică specifică vestului Europei, dar odată ajunsă în România a fost trecut pe lista cu plante protejate de lege. Crinul de pădure înflorește între lunile mai – iunie, iar dintr-un singur fir apar, de obicei, între 20 – 50 de flori roșii, roz sau violet.",
+    "status" : "Risc Scăzut",
+    "type" : "Plants",
+    "images" : "static/images/crin_de_padure1.jpeg"
+  }
+  

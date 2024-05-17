@@ -1,0 +1,17 @@
+ 
+
+{ 
+
+"name" : "Popândău european (Spermophilus citellus)",
+
+"location" : [[44.048875430280816, 25.67680761590575]], 
+
+"description" : "Popândăul este o specie endemică a continentului, și un element stepic al faunei europene de mamifere. Trăiește în Palearctica de Vest, fiind singura specie din cele 13 al acestui gen care populează regiuni aflate la vest de Marea Neagră. În secolul 20, limitele arealului popândăului erau: la vest Boemia, la est Marea Neagră, la nord estul Germaniei și sudul Poloniei iar la sud Salonic și Grecia. Specia prezintă o distribuție disjunctă, separată de către Carpați și Canionul Djerdap al Dunării. În România, ca și în majoritatea țărilor din arealul său, popândăul beneficiază de statut legal de protecție favorabil.", 
+
+"status" : "Vulnerabil", 
+
+"type" : "Animals", 
+
+"images" : "static/images/popandau.jpg" 
+
+} 

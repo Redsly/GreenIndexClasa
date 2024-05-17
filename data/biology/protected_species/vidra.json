@@ -1,0 +1,17 @@
+{ 
+
+    "name" : "Vidra (Lutra lutra)",
+
+    "location" : [[45.26926382604862, 29.240631223604538]], 
+
+    "description" : "Are corpul lung și suplu, adaptat la viața acvatică, cu blana de culoare cafeniu-întunecat, cu peri moi, mătăsoși și strălucitori. Au mod de viaţă terestru şi acvatic, crepusculari şi nocturni. Pe sol se mişcă greoi, prin salturi pe distanţe scurte. Este excelentă înotătoare, iar pe sub apă înoată cu viteza de 10 -12 km/h, iar când este speriată, se scufundă pentru 3 – 4 minute. Preferă ţărmurile împădurite ale lacurilor, heleşteelor, râurilor şi ale oricăror cursuri de apă. Este activă noaptea, tot timpul anului. Este obiectiv de conservare în ROSCI0201 Podișul Nord Dobrogean și specie strict protejată.", 
+
+    "status" : "Vulnerabil", 
+
+    "type" : "Animals", 
+
+    "images" : "static/images/vidra.jpg" 
+
+} 
+
+ 
