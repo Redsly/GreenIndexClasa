@@ -1,0 +1,15 @@
+{ 
+
+    "name" : " Jderul (Martes martes)" ,
+
+    "location" : [[46.618100506633674, 22.144703173337707]], 
+
+    "description" : "Jderul de copac sau jderul de scorbură este un mamifer carnivor nocturn din familia mustelidelor, cu blană brună-roșcată și puf ce bate spre galben și cu o pată alb-gălbuie la gât și o coada neagră. Are greutatea de până la 1,0–1,5 kg. Trăiește 10–12 ani. Vânează în timpul nopții animale mici (șoareci, șobolani, iepuri), păsări (fazani etc.), culege fructe de pădure și semințe. Hrana preferată o constituie veverițele și pârșii. Este răspândit în Europa (inclusiv în România și Republica Moldova), Asia Mică, nordul Irakului și Iranului, Caucaz, Siberia de Vest. În România este răspândit în toate pădurile țării, este mai frecvent întâlnit la munte, până la limita vegetației forestiere; este găsit însă și în câmpie în păduri. Trăiește în scorburi și cuiburi pe copaci. ", 
+
+    "status" : "Risc Scăzut", 
+
+    "type" : "Animals", 
+
+    "images" : "static/images/jder.jpg" 
+
+} 

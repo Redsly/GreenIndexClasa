@@ -1,0 +1,15 @@
+{ 
+
+    "name" : "Broasca țestoasă dobrogeană (Testudo graeca)" ,
+
+    "location" : [[44.765609787240145, 28.753136734286088]], 
+
+    "description" : "Broasca țestoasă dobrogeană este specifică pădurilor și zonei litorale din Dobrogea. Poate să ajungă la 20-30 centimetri lungime, cu carapacea bombată, ceva mai lată în partea posterioară, colorată în galben-maroniu, cu plăcile delimitate de pete negre. Vara caută locurile uscate, calduroase, cu hrană suficientă (frunze de păpădie, măcriș, rădăcini, rame etc.), iar iarna hibernează. Trăiește în jur de o sută de ani.", 
+
+    "status" : "Risc Scăzut", 
+
+    "type" : "Animals", 
+
+    "images" : "static/images/broasca_testoasa.jpg" 
+
+} 

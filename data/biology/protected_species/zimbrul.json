@@ -1,0 +1,15 @@
+{ 
+
+    "name" : "Zimbrul (Bison bonasus)",
+
+    "location" : [[44.871223034349136, 25.729384638483914]], 
+
+    "description" : "Zimbrul (Bison bonasus) este o specie de bizon care se găsește în Europa. În 1996 a fost clasificat ca specie în pericol. Zimbrul este cel mai greu animal european de pe uscat. Un zimbru are o lungime de 2,9 – 3 metri și o înălțime de 1,9 metri, cântărind de la 300 la 920 kg.", 
+
+    "status" : "In pericol", 
+
+    "type" : "Animals", 
+
+    "images" : "static/images/zimbru.jpg" 
+
+} 

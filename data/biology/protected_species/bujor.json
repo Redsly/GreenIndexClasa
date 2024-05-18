@@ -1,0 +1,9 @@
+{
+    "name" : "Bujorul românesc (Paeonia peregrina)",
+   "location" : [[44.13773701440106, 26.158893806550328]],
+   "description" : "Bujorul românesc este o specie de floare unică în Europa, care se găsește numai în România. Este roșie, dar cu mai puține petale decât bujorul de grădină. În țară există cinci rezervații naturale de bujori românești. ",
+    "status" : "Risc Scăzut",
+    "type" : "Plants",
+    "images" : "static/images/bujor1.jpeg"
+  }
+  

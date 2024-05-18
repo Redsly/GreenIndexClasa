@@ -1,0 +1,17 @@
+ 
+
+{ 
+
+"name" : "Mistrețul (Sus scrofa)" ,
+
+"location" : [[44.877434420620354, 29.559953961107134]], 
+
+"description" : " Mistrețul este un mamifer sălbatic omnivor, în general nocturn. Aria sa de răspândire cuprinde întreaga Europă. În România populează pădurile, începând cu Delta și Lunca Dunării, până în desișurile Carpaților. Este colorat negru - cafeniu. Scoate sunete foarte asemănătoare celor ale porcilor domestici. Colindă în turmă pădurile și culturile agricole de la marginea acestora. Animal robust, poate avea lungime de maximum doi metri masculul, respectiv 1,5 m femela. Greutatea vierilor (solitari, masculi bătrâni) este, în general, între 200-300 kg. În timpul perioadei de împerechere poate pierde până la 20% din greutate. După o iarnă deosebit de grea, un individ determinat ar putea cântări doar 50-70% din greutatea avută în toamnă.", 
+
+"status" : "Risc Scăzut", 
+
+"type" : "Animals", 
+
+"images" : "static/images/mistret.jpg" 
+
+} 

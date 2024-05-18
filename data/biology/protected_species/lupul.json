@@ -1,0 +1,17 @@
+{ 
+
+    "name" : "Lupul (Canis lupus)" ,
+
+    "location" : [[45.5748981323917, 24.484447716292372]], 
+
+    "description" : "Lupul (Canis lupus) este un cosmopolit al lumii animalelor: specia a avut în trecut cea mai largă răspândire a vreunui mamifer pe glob. Lupul reprezintă o specie cheie, care joacă un rol esențial în reglarea structurii ecosistemului. În ciuda importanței lor, lupii au fost exterminați din majoritatea regiunilor europene în ultimele două secole, ajungând la un număr minim la mijlocul secolului XX. În ciuda unei populații destul de mari de care se bucură țara noastră, specia este amenințată de invadarea habitatului, de defrișările și lucrările de infrastructură care fragmentează pădurile, de braconaj.", 
+
+    "status" : "Risc Scăzut", 
+
+    "type" : "Animals", 
+
+    "images" : "static/images/lup.jpg" 
+
+} 
+
+ 

@@ -1,0 +1,15 @@
+{ 
+
+    "name" : "Aspretele (Romanichtys valsanicola)" ,
+
+    "location" : [[45.09351929013525, 24.790632821251453]], 
+
+    "description" : "Aspretele este un pește descoperit în 1957 și care mai trăiește astăzi doar într-o zonă foarte restrânsă, pe râul Vâlsan (județul Argeș), în amonte de stațiune Brăduleț. Cu zeci de ani în urmă, în perioada de construcție a hidorcentralei de pe Argeș, peștele aproape a dispărut. Atenția deosebită care i s-a acordat de către specialiști a făcut ca, treptat, după stabilizarea apelor Argeșului, această specie foarte rară de pește românesc să se refacă.", 
+
+    "status" : "Vulnerabil", 
+
+    "type" : "Fish", 
+
+    "images" : "static/images/aspretele.jpg" 
+
+} 

@@ -1,14 +1,9 @@
 {
-    "name" : "Sângele Voinicului",
-    "location" : [[47.5476760501309, 26.378315603736034]],
-    "description" : "(Nigritella rubra) este o plantă din familia Orchidaceae. Are tulpina dreaptă, înaltă de 8–14 cm",
-    "status" : "Risc Scazut",
-    "type" : "Plant",
-    "images" : "static/images/sangele_voinicului/1.jpg",
-
-    "german_name" : "Der Ritterblut",
-    "german_description" : "(Nigritella rubra) ist eine Pflanze aus der Familie der Orchidaceae. Sie hat einen geraden Stängel, der 8–14 cm hoch ist.",
-
-    "french_name" : "De pois de senteur",
-    "french_description" : "(Nigritella rubra) est une plante de la famille des Orchidaceae. Elle a une tige droite, mesurant de 8 à 14 cm de hauteur."
-}
+    "name" : "Sângele voinicului (Nigretella ruba)",
+   "location" : [[45.374095163615884, 25.45028106431335]],
+   "description" : " Face parte din familia orhideelor, fiind întâlnită pe pajiștile alpine și subalpine din Europa. Pe de altă parte, Sângele Voinicului este în categoria de plante pe cale de dispariție din România, din cauza culesului abuziv. Tulpina florii are între 8 – 20 de cm, iar floarea din vârf este mică având culori de roz, roșu sau purpuriu. Sângele Voinicului se poate admira între lunile iunie – august în Parcul Natural Bucegi sau Parcul Național Munții Rodnei.",
+    "status" : "Aproape de pericol",
+    "type" : "Plants",
+    "images" : ""
+  }
+  
