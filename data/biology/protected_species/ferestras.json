@@ -1,0 +1,13 @@
+{ 
+
+"name": "Ferestrașul mic (Mergellus albellus)", 
+
+"location": [[45.229136, 28.844024]], 
+
+"description": "Este o specie de ferestraș de talie mică ce prezintă dimorfism sexual accentuat. Masculul are penajul alb pe cap, creastă, gât și partea ventrală, cu o mască contrastantă de culoare neagră, un \"v\" de culoare neagră pe ceafă și două dungi negre, subțiri, care pornesc de pe lateralele pieptului și se unesc cu spatele închis la culoare.", 
+
+"status": "Risc Crescut", 
+
+"images": "static/images/Ferestras_Mic.jpg" 
+
+}

@@ -1,0 +1,15 @@
+{ 
+
+    "name" : "Cal Sălbatic (Equus ferus)" ,
+
+    "location" : [[45.3000470393606, 29.510898115115474]], 
+
+    "description" : "Caii sălbatici de la Letea sunt un grup de cai sălbatici care trăiesc în zona pădurilor Letea si Caraorman din Delta Dunarii, in România. Acești cai sunt cunoscuți pentru aspectul lor unic, cu blana de culoare neagră si coada lungă. Sunt considerați o specie protejată din cauza dimensiunilor reduse ale populației lor. În general, caii sălbatici sunt animale puternice și agile, care se adaptează bine la diverse medii. Sunt animale sociale, care trăiesc în grupuri, și se hrănesc cu iarbă, frunze si fructe.", 
+
+    "status" : "În pericol", 
+
+    "type" : "Animals", 
+
+    "images" : "static/images/cal_salbatic.jpg" 
+
+} 

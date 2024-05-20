@@ -1,0 +1,17 @@
+{ 
+
+    "name" : "Ariciul (Erinaceus europaeus)", 
+
+    "location" : [[45.01449026071637, 23.809792168884755]], 
+
+    "description" : "Ariciul este un mamifer mic care aparține ordinului insectivorelor, având o lungime a corpului de până la 33 de cm. Greutatea variază de la 800-1200g, în dependență de specie. Au niște ochi mici și o ureche externă slab dezvoltată. Au un bot mic și ascuțit, cu o acuitate olfactivă foarte dezvoltată. Partea dorsală și laterală a corpului este acoperită cu niște ace lungi și ascuțite, alcătuite din cheratină și având o lungime de 10-20 de mm. Pe corpul unui arici pot fi până la 15.000 de astfel de ace.", 
+
+    "status" : "Risc Scăzut", 
+
+    "type" : "Animals", 
+
+    "images" : "static/images/arici.jpg" 
+
+} 
+
+ 

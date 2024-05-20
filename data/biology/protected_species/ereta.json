@@ -1,0 +1,13 @@
+{ 
+
+        "name": "Eretele de stuf (Circus aeruginosus)", 
+
+        "location": [[46.548023, 21.719917]], 
+
+        "description": "Pasăre răpitoare de talie medie, cu coadă lungă, aripi înguste cu 5 remige primare \"digitale\" și corp suplu. Prezintă dimorfism sexual accentuat. Masculul are coada și aripile deschise la culoare, cu vârful aripilor negru și penajul de corp de culoare ruginie, ușor pestriț pe piept. Femela are penajul general maroniu închis, cu creștetul, gâtul și coada deschise la culoare.", 
+
+        "status": "Risc Scăzut", 
+
+        "images": "static/images/Erete_De_Stuf.jpg" 
+
+    }

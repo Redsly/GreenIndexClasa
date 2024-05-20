@@ -1,0 +1,8 @@
+{
+    "name" : "Garofița (Dianthus callizonus)",
+   "location" : [[45.50603270786415, 25.23332268494753]],
+   "description" : "Garofița se întâlnește doar în Parcul Național Piatra Craiului, fiind o floare pe cale de dispariție. Ea înflorește cu precădere în zonele cu iarbă dintre stâncile din zona alpină inferioară. Garofița nu are mai mult de 3 – 4 cm, dar petalele de un roz aprins o fac să fie ușor observată. Perioada de înflorire a garofiței este între iulie și finalul lunii august.",
+    "status" : "Risc Scăzut",
+    "type" : "Plants",
+    "images" : "static/images/garofita1.jpeg"
+  }  

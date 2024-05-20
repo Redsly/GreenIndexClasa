@@ -1,0 +1,15 @@
+{ 
+
+    "name" : "Liliacul (Corynorhinus townsendii)" ,
+
+    "location" : [[45.507657872030244, 25.292325865955252]], 
+
+    "description" : "Liliecii sunt mamifere din ordinul Chiroptera; cu membrele anterioare adaptate ca aripi, acestea sunt singurele mamifere capabile în mod natural de zbor real și susținut. Liliecii manevrează mai abil decât păsările, zburând cu degetele lor foarte larg desfăcute, acoperite cu o membrană subțire, sau patagiu.", 
+
+    "status" : "Risc Scăzut", 
+
+    "type" : "Animals", 
+
+    "images" : "static/images/liliac.jpg" 
+
+} 

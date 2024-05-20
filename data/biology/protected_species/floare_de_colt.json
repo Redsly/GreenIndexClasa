@@ -1,13 +1,9 @@
 {
-    "name" : "Floare de Colț",
-    "location" : [[47.5341593100891, 24.5559820401039]],
-    "description" : "(Leontopodium alpinum Cass.), numită și floarea-de-colț, este o specie de plantă erbacee, perenă, din genul Leontopodium Cass., familia Asteraceae.",
-    "status" : "Risc Scazut",
-    "type" : "Plant",
-    "images" : "static/images/floare_de_colt/1.jpg",
-    "german_name" : "Edelweiß",
-    "german_description" : "(Leontopodium alpinum Cass.), auch Kornblume genannt, ist eine krautige, mehrjährige Pflanzenart der Gattung Leontopodium Cass., Familie Asteraceae.",
-
-    "french_name" : "Edelweiss",
-    "french_description" : "(Leontopodium alpinum Cass.), également appelé bleuet, est une espèce de plante herbacée vivace du genre Leontopodium Cass., famille des Astéracées."
-}
+    "name" : "Floarea-de-colț (Leontopodium alpinum Cass)",
+   "location" : [[45.583782813659866, 24.749699430561186]],
+   "description" : "Floarea de colț (Leontopodium alpinum) este o plantă erbacee reprezentativă pentru vegetația alpină. Tulpina neramificată măsoară între 15 și 30 cm și are dispuse în vârf mici inflorescențe rotunde, galbene, înconjurate de niște frunze albe cu aspect lânos numite bractee, ce au o dispunere stelată. Frunzele, puține la număr, au formă alungită, iar întreaga plantă este acoperită de perișori fini, de culoare argintie, cu rol de protecție. O putem găsi înflorită între lunile iulie și septembrie, în zonele stâncoase din Carpați, în locuri greu accesibile la altitudini de peste 1600 m.",
+  "status" : "Aproape de pericol",
+  "type" : "Plants",
+  "images" : "static/images/floare_de_colț1.jpg"
+  }
+  

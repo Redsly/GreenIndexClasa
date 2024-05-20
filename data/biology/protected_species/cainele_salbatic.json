@@ -1,0 +1,14 @@
+{ 
+
+    "name" : "Câinele sălbatic  (Canis aureus)" ,
+    "location" : [[43.98714920416078, 24.746214543767277]], 
+
+    "description" : "Șacalul auriu este un mamifer carnivor sălbatic, din familia canidelor, asemănător cu vulpea și lupul, de culoare galben-aurie, spre roșcat, cu coada scurtă, ciuntită la vârf, urechi relativ mari, ascuțite, îndreptate în sus și bot ascuțit. Lungimea corpului este de 0,70-1,05 m, iar greutatea poate atinge 15 kg. Trăiește în nordul Africii, sudul Asiei și în sudul Europei, inclusiv în România (subspecia Canis aureus moreoticus în sudul Olteniei, Munteniei și Dobrogei). Este un animal gregar, trăind în haite, fiind activ noaptea.", 
+
+    "status" : " Risc Scăzut", 
+
+    "type" : "Animals", 
+
+    "images" : "static/images/caine_salbatic.jpg" 
+
+} 
