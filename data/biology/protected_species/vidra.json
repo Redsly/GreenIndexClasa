@@ -10,7 +10,12 @@
 
     "type" : "Animals", 
 
-    "images" : "static/images/vidra.jpg" 
+    "images" : "static/images/vidra.jpg",
+    "german_name" : "",
+    "german_description" : "",
+
+    "french_name" : "",
+    "french_description" : "" 
 
 } 
 

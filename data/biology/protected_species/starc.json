@@ -8,6 +8,11 @@
 
 "status": "Risc Scăzut", 
 
-"images": "static/images/Starcul_Galben.jpg" 
+"images": "static/images/Starcul_Galben.jpg",
+"german_name" : "",
+"german_description" : "",
+
+"french_name" : "",
+"french_description" : "" 
 
 }

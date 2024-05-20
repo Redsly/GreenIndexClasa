@@ -4,5 +4,10 @@
 "description" : "Roua cerului se află ascunsă în Rezervația Molhașul Mare de la Izbuc, din extremitatea vestică a județului Cluj. Roua cerului este una dintre puținele specii de plante carnivore din România. Ea și-a căpătat numele de la secreția lipicioasă pe care o are, asemănătoare cu roua. De asemenea, Roua Cerului mai are mici perișori, cu aspect de tentacule. Deși pare inofensivă la prima vedere, Roua Cerului are un mecanism bine pus la punct prin care atrage insectele. Acestea ajung în seva lipicioasă, tentaculele se închid, iar insecta este dizolvată în câteva minute.",
  "status" : "Risc Scăzut",
  "type" : "Plants",
- "images" : "static/images/roua_cerului1.jpg"
+ "images" : "static/images/roua_cerului1.jpg",
+ "german_name" : "",
+ "german_description" : "",
+
+ "french_name" : "",
+ "french_description" : ""
 }

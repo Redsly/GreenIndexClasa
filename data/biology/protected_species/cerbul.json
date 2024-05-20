@@ -10,6 +10,11 @@
 
     "type" : "Animals", 
 
-    "images" : "static/images/cerb.jpg" 
+    "images" : "static/images/cerb.jpg",
+    "german_name" : "Hirsch (Cervus elaphus)",
+    "german_description" : "Der Hirsch ist ein pflanzenfressendes Säugetier aus der Kategorie der Wiederkäuer. Der Hirsch sucht Schutz in Gebieten mit ausgedehnten Wäldern, die Abschnitte von Lichtungen oder Quellgebiete umfassen, die Ruhe bieten und Nahrungsquellen besitzen. Er wird auch häufig in Tieflandgebieten angetroffen und deckt zumindest theoretisch das gesamte Gebiet zwischen der alpinen Zone und dem Meeresufer ab.",
+
+    "french_name" : "Cerf (Cervus elaphus)",
+    "french_description" : "Le cerf est un mammifère herbivore de la catégorie des ruminants. Le cerf se réfugie dans les zones boisées étendues, comprenant des clairières ou des clairières avec des sources, qui leur offrent tranquillité et possèdent des sources de nourriture. On le rencontre également en plaine, assez fréquemment, couvrant au moins théoriquement toute la zone entre la zone alpine et le littoral marin."
 
 } 

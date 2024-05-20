@@ -8,6 +8,11 @@
 
 "status": "Risc Crescut", 
 
-"images": "static/images/Ferestras_Mic.jpg" 
+"images": "static/images/Ferestras_Mic.jpg",
+"german_name" : "Der Zwergsäger (Mergellus albellus)",
+"german_description" : "Es ist eine Art von kleiner Schellente mit ausgeprägtem Sexualdimorphismus. Das Männchen hat weißes Gefieder auf Kopf, Scheitel, Hals und Bauch, mit einer kontrastierenden schwarzen Maske, einem schwarzen 'V' auf dem Nacken und zwei dünnen schwarzen Streifen, die von den Seiten der Brust ausgehen und sich mit dem dunklen Rücken vereinen.",
+
+"french_name" : "Le Harle piette (Mergellus albellus)",
+"french_description" : "C'est une espèce de petit garrot avec un dimorphisme sexuel prononcé. Le mâle a un plumage blanc sur la tête, le sommet de la tête, le cou et le ventre, avec un masque contrastant de couleur noire, un 'V' noir sur la nuque et deux fines rayures noires partant des côtés de la poitrine et se rejoignant sur le dos sombre." 
 
 }

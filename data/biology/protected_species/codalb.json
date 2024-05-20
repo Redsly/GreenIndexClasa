@@ -8,6 +8,11 @@
 
 "status": "Risc Scăzut", 
 
-"images": "static/images/Coldalb.jpg" 
+"images": "static/images/Coldalb.jpg",
+"german_name" : "Seeadler (Haliaeetus albicilla)",
+"german_description" : "Es ist eine Art von Raubvogel von großer Größe, leicht zu erkennen an der imposanten Silhouette, mit langen und abgerundeten Flügeln, gut definierten 'digitalen' Handschwingen, leicht rhombischem Schwanz und massivem Schnabel. Die Geschlechter sind ähnlich, wobei das Weibchen relativ größer ist. Das Erwachsenengefieder wird ab dem fünften Lebensjahr erreicht. Erwachsene haben braunes Körpergefieder und Flügel, gelb-braunen Hals und Kopf, komplett weißen Schwanz und gelben Schnabel.",
+
+"french_name" : "Pygargue à queue blanche (Haliaeetus albicilla)",
+"french_description" : "C'est une espèce de grand rapace, facilement reconnaissable par sa silhouette imposante, avec de longues ailes arrondies à l'intérieur, des primaires bien définies, une queue légèrement en losange et un bec massif. Les sexes sont similaires, la femelle étant relativement plus grande. Il atteint le plumage adulte à partir de sa cinquième année de vie. Les adultes ont un plumage corporel et des ailes brunâtres, un cou et une tête jaune-brun, une queue entièrement blanche et un bec jaune." 
 
 }

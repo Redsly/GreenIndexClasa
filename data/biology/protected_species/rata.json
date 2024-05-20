@@ -8,6 +8,11 @@
 
 "status": "Risc Scăzut", 
 
-"images": "static/images/Rata_Rosie.jpg" 
+"images": "static/images/Rata_Rosie.jpg",
+"german_name" : "",
+"german_description" : "",
+
+"french_name" : "",
+"french_description" : "" 
 
 }

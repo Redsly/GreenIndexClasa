@@ -10,6 +10,11 @@
 
     "type" : "Animals", 
 
-    "images" : "static/images/liliac.jpg" 
+    "images" : "static/images/liliac.jpg",
+    "german_name" : "Die Townsend Fledermaus (Corynorhinus townsendii)",
+    "german_description" : "Die Fledermäuse sind Säugetiere aus der Ordnung der Fledertiere; mit den vorderen Gliedmaßen, die als Flügel angepasst sind, sind sie die einzigen Säugetiere, die natürlich zu echtem und anhaltendem Flug fähig sind. Fledermäuse manövrieren geschickter als Vögel, indem sie mit ihren sehr weit geöffneten Fingern fliegen, die mit einer dünnen Membran oder einem Flughaut bedeckt sind.",
+
+    "french_name" : "L'Oreillard de Townsend (Corynorhinus townsendii)",
+    "french_description" : "Les chauves-souris sont des mammifères de l'ordre des Chiroptères ; avec les membres antérieurs adaptés en ailes, ce sont les seuls mammifères capables de vol réel et soutenu naturellement. Les chauves-souris manœuvrent plus habilement que les oiseaux, volant avec leurs doigts très largement ouverts, couverts d'une membrane mince ou patagium." 
 
 } 

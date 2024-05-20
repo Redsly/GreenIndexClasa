@@ -10,6 +10,11 @@
 
     "type" : "Animals", 
 
-    "images" : "static/images/zimbru.jpg" 
+    "images" : "static/images/zimbru.jpg",
+    "german_name" : "",
+    "german_description" : "",
+
+    "french_name" : "",
+    "french_description" : "" 
 
 } 

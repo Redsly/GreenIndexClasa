@@ -10,6 +10,11 @@
 
     "type" : "Animals", 
 
-    "images" : "static/images/ras.jpg" 
+    "images" : "static/images/ras.jpg",
+    "german_name" : "",
+    "german_description" : "",
+
+    "french_name" : "",
+    "french_description" : "" 
 
 } 
