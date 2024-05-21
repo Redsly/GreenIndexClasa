@@ -9,6 +9,11 @@
 
 "type" : "Animals", 
 
-"images" : "static/images/urs_brun.jpg" 
+"images" : "static/images/urs_brun.jpg",
+"german_name" : "Der Braunbär",
+"german_description" : "Der Braunbär ist eines der größten lebenden Landtiere aus der Ordnung Carnivora. Die erwachsenen Tiere der verschiedenen Unterarten wiegen zwischen 80 und 600 kg, wobei die Männchen schwerer als die Weibchen sind. Trotz ihres Namens sind Braunbären nicht vollständig braun; ihr Fell kann von rötlich über braun-gelblich bis dunkelbraun oder cremefarben sein.",
+
+"french_name" : "Ours brun (Ursus arctos)",
+"french_description" : "L'ours brun est l'un des plus grands membres terrestres vivants de l'ordre des Carnivora. Les adultes des différentes sous-espèces varient en poids de 80 à 600 kg, les mâles étant plus lourds que les femelles. Malgré leur nom, les ours bruns ne sont pas entièrement bruns ; leur pelage peut être de couleur rougeâtre à brun jaunâtre et brun foncé à crème." 
 
 } 

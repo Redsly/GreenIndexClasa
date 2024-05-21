@@ -10,6 +10,11 @@
 
     "type" : "Fish", 
 
-    "images" : "static/images/lostrita.jpg" 
+    "images" : "static/images/lostrita.jpg",
+    "german_name" : "Huchen",
+    "german_description" : "Die Huchen ist ein Raubfisch aus der Familie der Lachsfische (Salmonidae), der in den schnell fließenden Berggewässern des Donaueinzugsgebiets mit steinigem Grund lebt. Es ist eine endemische Art im Donaubecken. In Rumänien ist sie vom Aussterben bedroht, hauptsächlich aufgrund übermäßiger Fischerei, weshalb der Huchen gesetzlich geschützt ist und nur mit spezieller Erlaubnis gefischt werden darf. Sie hat einen hohen wirtschaftlichen Wert.",
+
+    "french_name" : "Huchon",
+    "french_description" : "Le Huchon est un poisson prédateur d'eau douce de la famille des salmonidés (Salmonidae), vivant dans les eaux vives des montagnes avec un fond pierreux du bassin hydrographique du Danube. C'est une espèce endémique du bassin du Danube. En Roumanie, il est en voie de disparition en raison de la pêche excessive, ce qui le place sous la protection de la loi et ne peut être pêché qu'avec une autorisation spéciale. Il a une valeur économique élevée." 
 
 } 

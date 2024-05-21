@@ -10,7 +10,12 @@
 
     "type" : "Animals", 
 
-    "images" : "static/images/capra_neagra.jpg" 
+    "images" : "static/images/capra_neagra.jpg",
+    "german_name" : "Die Gämse (Rupicapra rupicapra)",
+    "german_description" : "Die Gämse hat ihren Lebensraum in den felsigen Gebirgsregionen Europas. Dank ihrer sehr gut entwickelten Muskulatur und ihrer gespaltenen Hufe kann sich die Gämse leicht in felsigen, für andere Arten unzugänglichen Gebieten bewegen, wo sie Nahrung findet und vor Raubtieren Zuflucht sucht.",
+
+    "french_name" : "Le chamois (Rupicapra rupicapra) ",
+    "french_description" : "Le chamois a son habitat dans les zones rocheuses des montagnes d'Europe. Grâce à sa musculature très développée et à ses sabots fendus, le chamois peut se déplacer facilement dans des zones rocheuses, inaccessibles à d'autres espèces, où il se nourrit et se réfugie pour échapper aux prédateurs." 
 
 } 
 

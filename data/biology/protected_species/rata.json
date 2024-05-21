@@ -8,6 +8,11 @@
 
 "status": "Risc Scăzut", 
 
-"images": "static/images/Rata_Rosie.jpg" 
+"images": "static/images/Rata_Rosie.jpg",
+"german_name" : "Rotkopfente",
+"german_description" : "Die Rotkopfente ist eine mittelgroße Entenart. Beide Geschlechter haben eine allgemeine braune Färbung, wobei der Rücken im Vergleich zu den Flanken oder dem Bauch dunkler ist. Das Männchen hat eine hellere Kopffärbung und eine braune Färbung mit rötlichen Nuancen, und die Iris ist hell gefärbt.",
+
+"french_name" : "Fuligule nyroca",
+"french_description" : "Le fuligule nyroca est une espèce de canard de taille moyenne. Les deux sexes ont une coloration générale brune, avec le dos contrastant plus sombre que les flancs ou l'abdomen. Le mâle a une coloration de la tête plus claire et un brun avec des nuances rougeâtres, et l'iris est de couleur claire." 
 
 }
