@@ -7,6 +7,7 @@
 "description": "Este o specie de pasăre răpitoare de talie mare, ușor de recunoscut după silueta impunătoare, cu aripi lungi și rotunjite interior, primare \"digitale\" bine definite, coada ușor romboidală și ciocul masiv. Sexele sunt asemănătoare, femela fiind relativ mai mare. Ajunge la penajul de adult începând cu al cincilea an din viață. Adulții au penajul de corp și aripile de culoare maronie, gâtul și capul de culoare galben-maronie, coada complet albă și ciocul galben.", 
 
 "status": "Risc Scăzut", 
+"type":"Animal",
 
 "images": "static/images/Coldalb.jpg",
 "german_name" : "Seeadler (Haliaeetus albicilla)",

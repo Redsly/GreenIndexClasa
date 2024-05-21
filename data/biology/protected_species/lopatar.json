@@ -7,6 +7,7 @@
         "description": "Este o specie de pasăre de talie mare. Sexele au colorit identic. Penajul este alb, iar în perioada de reproducere, la baza gâtului (un inel) și sub bărbie capătă nuanțe galbene intens. Ciocul este lung, negru și lat, cu aspect inconfundabil (de lingură/lopată). Vârful ciocului este de asemenea gălbui, intens în perioada de reproducere.", 
 
         "status": "Risc Scăzut", 
+        "type":"Animal",
 
         "images": "static/images/Lopatar.jpg",
         "german_name" : "Löffler (Platalea leucorodia)",

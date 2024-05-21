@@ -7,8 +7,9 @@
 "description": "Este o specie de rață de talie medie. Ambele sexe au colorit general maroniu, cu spatele contrastant mai închis la culoare decât flancurile sau abdomenul. Masculul are coloritul capului mai deschis și maroniul cu nuanțe roșcate, iar irisul deschis la culoare.", 
 
 "status": "Risc Scăzut", 
+"type":"Animal",
 
-"images": "static/images/Rata_Rosie.jpg",
+"images": "static/images/Rata_Rosie.jpeg",
 "german_name" : "Rotkopfente",
 "german_description" : "Die Rotkopfente ist eine mittelgroße Entenart. Beide Geschlechter haben eine allgemeine braune Färbung, wobei der Rücken im Vergleich zu den Flanken oder dem Bauch dunkler ist. Das Männchen hat eine hellere Kopffärbung und eine braune Färbung mit rötlichen Nuancen, und die Iris ist hell gefärbt.",
 

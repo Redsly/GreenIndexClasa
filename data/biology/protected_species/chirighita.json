@@ -7,6 +7,7 @@
 "description": "Este o specie de chiră de talie mică - medie, cu aripile mai rotunjite și coada scurtă și ușor bifurcată. Penajul general este de culoare alb-cenușiu cu pieptul și abdomenul cenușiu închis, în contrast cu aripile și coada care sunt mai deschise la culoare. La adulții în penaj de vară, partea dorsală a capului este neagră, contrastând cu obrajii de culoare albă.", 
 
 "status": "Risc Scăzut", 
+"type":"Animal",
 
 "images": "static/images/Chirighita_Cu_Obraz_Alb.jpg",
 "german_name" : "Weißbart-Seeschwalbe (Chlidonias hybrida)",

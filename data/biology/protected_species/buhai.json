@@ -6,7 +6,8 @@
 
         "description": "Este una din păsările cel mai greu de observat. Sosește în zonă din luna aprilie și poate fi văzut foarte greu, deoarece preferă să stea ascuns în stuful din apropierea lacurilor. Penajul seamănă foarte mult cu dungile firelor de stuf, iar la apropierea cuiva, își îndreaptă capul spre cer, iar dungile de pe piept și de pe gât se confundă cu stuful. În luna august pleacă în migrația de toamnă.", 
 
-        "status": "Risc Scăzut", 
+        "status": "Risc Scăzut",
+        "type": "Animal",
 
         "images": "static/images/Buhaiul_De_Balta.jpg",
         "german_name" : "Die Rohrdommel (Botaurus stellaris)",

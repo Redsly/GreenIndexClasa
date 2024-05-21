@@ -7,9 +7,9 @@
 
 "status" : "Risc Scăzut", 
 
-"type" : "Animals", 
+"type" : "Animal", 
 
-"images" : "static/images/urs_brun.jpg",
+"images" : "static/images/ursul_brun.jpg",
 "german_name" : "Der Braunbär",
 "german_description" : "Der Braunbär ist eines der größten lebenden Landtiere aus der Ordnung Carnivora. Die erwachsenen Tiere der verschiedenen Unterarten wiegen zwischen 80 und 600 kg, wobei die Männchen schwerer als die Weibchen sind. Trotz ihres Namens sind Braunbären nicht vollständig braun; ihr Fell kann von rötlich über braun-gelblich bis dunkelbraun oder cremefarben sein.",
 

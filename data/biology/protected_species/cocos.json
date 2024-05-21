@@ -7,6 +7,7 @@
 "description": "Este o specie de pasăre de talie mare, cu dimorfism sexual accentuat. Masculul este cu aproape o treime mai mare decât femela; acesta are un colorit general închis, penaj cu irizații metalice, cu o pată rotundă și albă pe umăr. Ciocul este masiv, galben și încovoiat; sprânceană roșie, gâtul lung și coada lungă. Femela are penajul maroniu cu dungi negre; gâtul și partea superioară a pieptului maro-portocaliu fără striații, pe aripi are pete albe, mari și evidente, având aspect de bretele.", 
 
 "status": "Risc Crescut", 
+"type":"Animal",
 
 "images": "static/images/Cocos_De_Munte.jpg",
 "german_name" : "Auerhuhn (Tetrao urogallus)",

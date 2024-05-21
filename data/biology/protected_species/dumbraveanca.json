@@ -7,6 +7,7 @@
 "description": "Specie de pasăre de talie medie, cu un colorit spectaculos, inconfundabil. Sexele sunt asemănătoare. Capul, aripile și abdomenul sunt albastru deschis, cu tentă verzuie. Spatele este maroniu-roșiatic.", 
 
 "status": "Risc Scăzut", 
+"type":"Animal",
 
 "images": "static/images/Dumbraveanca.jpg",
 "german_name" : "Die Scharlachspint (Coracias garrulus)",

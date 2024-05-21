@@ -6,7 +6,8 @@
         "description": "Pasăre răpitoare de talie medie, cu coadă lungă, aripi înguste cu 5 remige primare \"digitale\" și corp suplu. Prezintă dimorfism sexual accentuat. Masculul are coada și aripile deschise la culoare, cu vârful aripilor negru și penajul de corp de culoare ruginie, ușor pestriț pe piept. Femela are penajul general maroniu închis, cu creștetul, gâtul și coada deschise la culoare.", 
 
         "status": "Risc Scăzut", 
-
+        "type":"Animal",
+        
         "images": "static/images/Erete_De_Stuf.jpg",
         "german_name" : "Rohrweihe (Circus aeruginosus)",
         "german_description" : "Ein mittelgroßer Raubvogel mit langem Schwanz, schmalen Flügeln mit 5 primären 'digitalen' Handschwingen und einem schlanken Körper. Es gibt einen ausgeprägten Sexualdimorphismus. Das Männchen hat einen offenen farbigen Schwanz und Flügel, mit schwarzen Spitzen der Flügel und einem rötlichen, leicht gefleckten Körpergefieder. Das Weibchen hat ein allgemein dunkelbraunes Gefieder mit hellerem Kopf, Hals und Schwanz.",
