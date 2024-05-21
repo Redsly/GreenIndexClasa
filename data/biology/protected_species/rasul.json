@@ -11,10 +11,10 @@
     "type" : "Animals", 
 
     "images" : "static/images/ras.jpg",
-    "german_name" : "",
-    "german_description" : "",
+    "german_name" : "der Luchs",
+    "german_description" : "Der Luchs ist ein äußerst diskreter Fleischfresser, der isoliert lebt und den Kontakt mit Menschen meidet. Er kommt entlang der Gebirgsketten des Südostens und Zentrums Europas vor, sowie im Norden oder Osten des Kontinents, bis hin zu den borealen Wäldern Russlands, dann in Zentralasien und auf dem tibetischen Plateau. In Europa gibt es etwa 9.000 bis 10.000 Luchse, von denen etwa 1.200 bis 1.500 in den Wäldern Rumäniens leben und auf der Liste der streng geschützten Tiere stehen.",
 
-    "french_name" : "",
-    "french_description" : "" 
+    "french_name" : "le lynx (lynx)",
+    "french_description" : "Le lynx est un carnivore extrêmement discret, qui vit isolé et évite le contact avec les humains. On le trouve le long des chaînes de montagnes du sud-est et du centre de l'Europe, ainsi que dans le nord ou l'est du continent, jusqu'aux forêts boréales de Russie, puis en Asie centrale et sur le plateau tibétain. En Europe, il y a environ 9 000 à 10 000 lynx, dont environ 1 200 à 1 500 individus vivent dans les forêts de Roumanie, figurant sur la liste des animaux strictement protégés." 
 
 } 

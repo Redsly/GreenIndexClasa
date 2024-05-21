@@ -11,10 +11,10 @@
     "type" : "Animals", 
 
     "images" : "static/images/zimbru.jpg",
-    "german_name" : "",
-    "german_description" : "",
+    "german_name" : "Der Wisent",
+    "german_description" : "Der Wisent (Bison bonasus) ist eine Bisonspezies, die in Europa vorkommt. Im Jahr 1996 wurde sie als gefährdete Art eingestuft. Der Wisent ist das schwerste europäische Landsäugetier. Ein Wisent hat eine Länge von 2,9 bis 3 Metern und eine Höhe von 1,9 Metern und wiegt zwischen 300 und 920 kg.",
 
-    "french_name" : "",
-    "french_description" : "" 
+    "french_name" : "Le bison d'Europe",
+    "french_description" : "Le bison d'Europe (Bison bonasus) est une espèce de bison qui se trouve en Europe. En 1996, il a été classé comme espèce en danger. Le bison d'Europe est le plus lourd animal terrestre européen. Un bison d'Europe mesure entre 2,9 et 3 mètres de longueur et a une hauteur de 1,9 mètre, pesant de 300 à 920 kg." 
 
 } 
